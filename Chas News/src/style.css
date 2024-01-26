@@ -13,11 +13,3 @@ header {
 h1 {
   font-family: "Chomsky";
 }
-
-.nav-item {
-  color: black;
-}
-
-a.nav-link.active {
-  color: #DE667B;
-}
