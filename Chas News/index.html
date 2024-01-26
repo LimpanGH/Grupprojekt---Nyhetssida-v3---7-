@@ -1,16 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + TS</title>
-    <link rel="stylesheet" href="/Chas News/src/style.css">
-    <script type="module" src="/src/main.ts" defer> </script>    
+    <link rel="stylesheet" href="/Chas News/src/style.css" />
+    <script type="module" src="/src/main.js" defer></script>
   </head>
   <body>
     <div id="app">
-      <ul id="ul"></ul>
+      <form>
+        <input class="search-value" name="searchValue" type="text" />
+
+        <input type="date" name="fromDate" class="from-date" id="" />
+        <input type="date" name="toDate" class="to-date" id="" />
+        <button>submit</button>
+      </form>
+      <ul id="ul">
+        ul
+      </ul>
+      <section class="displayContent"></section>
     </div>
   </body>
 </html>
