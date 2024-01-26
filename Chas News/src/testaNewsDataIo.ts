@@ -7,20 +7,20 @@
 
 
 // @ts-nocheck
-import mockData from './mockNewsData.json';
+// import mockData from './mockNewsData.json';
 
-import axios from 'axios'; // Importerar via browser
-console.log(mockData);
-async function getUser(data) {
-  return mockData;
-  try {
-    const response = await axios.get(data);
+// import axios from 'axios'; // Importerar via browser
+// console.log(mockData);
+// async function getUser(data) {
+//   return mockData;
+//   try {
+//     const response = await axios.get(data);
     
-    // console.log(response);
-    const data = response.data;
-    console.log(data.data.data);
-  } catch (error) {
-    console.error(error);
-  }
-}
-getUser();
+//     // console.log(response);
+//     const data = response.data;
+//     console.log(data.data.data);
+//   } catch (error) {
+//     console.error(error);
+//   }
+// }
+// getUser();

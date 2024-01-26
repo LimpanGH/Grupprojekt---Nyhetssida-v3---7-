@@ -1,6 +1,6 @@
 const apiKey = '';
 // const url = `https://newsapi.org/v2/everything?q=Apple&from=2024-01-25&sortBy=popularity&apiKey=${apiKey}`;
-const url = `https://newsapi.org/v2/everything?q=apple&from=2024-01-24&to=2024-01-24&sortBy=popularity&apiKey=${apiKey}`;
+// const url = `https://newsapi.org/v2/everything?q=apple&from=2024-01-24&to=2024-01-24&sortBy=popularity&apiKey=${apiKey}`;
 
 
 
