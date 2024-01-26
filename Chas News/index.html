@@ -7,10 +7,83 @@
     <title>Vite + TS</title>
     <script type="module" src="/src/main.ts" defer> </script>
     <script type="module" src="/src/request.js" defer> </script>
-    <link rel="stylesheet" href="/Chas News/src/style.css">
-    
-  </head>
+
+    <script src="https://kit.fontawesome.com/14fab5134a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="src/main.css">
+    </head>
   <body>
-    <div id="app"></div>
+    <header>
+      <h1 class="display-1 text-center">Chas News</h1>
+      <nav>
+        <ul id="mobileNav" class="container-fluid list-unstyled justify-content-around nav nav-underline">
+          <li class="nav-item ">
+            <a href="#" class="nav-link">Top News</a>
+          </li>
+          <li class="nav-item ">
+            <a href="#" class="nav-link">Senast</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <nav class="navba bg-body-tertiary pt-2  w-100 fixed-bottom">
+        <div >
+          <div class="nav">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <i class="fa-solid fa-house w-100 text-center"></i>
+                  <h6>Home</h6>
+                  
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-bars w-100 text-center"></i>
+                  <h6>Innehåll</h6>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Sverige</a></li>
+                  <li><a class="dropdown-item" href="#">Världen</a></li>
+                  <li><a class="dropdown-item" href="#">Klimatet</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa-solid fa-podcast w-100 text-center"></i>
+                  <h6>Podd</h6>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa-solid fa-magnifying-glass w-100 text-center"></i>
+                  <h6>Sök</h6>
+
+                </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="#">
+                  <i class="fa-solid fa-user w-100 text-center"></i>
+                  <h6>Konto</h6>
+
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+    <main>
+
+    </main>
+
+    <footer></footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
   </body>
 </html>
