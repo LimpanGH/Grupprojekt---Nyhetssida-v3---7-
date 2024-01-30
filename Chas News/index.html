@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/style.css">
     <link rel="stylesheet" href="src/main.css">
-    <title>Vite + TS</title>
+    <script src="https://kit.fontawesome.com/14fab5134a.js" crossorigin="anonymous"></script>
+    <title>Chas News</title>
   </head>
   <body>
     <header class="d-md-flex justify-content-between align-items-center">
@@ -18,7 +19,7 @@
     </header>
 
     <!-- Skapa Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg  bg-white">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Nyheter</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,8 +51,32 @@
     </nav>
 
 
-    <main>
+    <main class="mx-2  bg-light">
 
+      <article class="border-start border-5 border-danger">
+        <div class="category center p-0">
+          <button class="btn w-100 px-0 py-1 m-0">
+            <a href="#" class="btn rounded-0  bg-white d-flex justify-content-between w-100 align-content-center">
+              <h6 class="m-0 p-0 align-self-center">Sverige</h6>
+              <i class="fa-solid fa-arrow-right m-0"></i>
+            </a>
+          </button>
+        </div>
+        <div class="content bg-white">
+          <img class="w-100" src="src/font/vecteezy_wooden-news-sign-on-a-table-in-an-office_9585169.jpg" alt="">
+          <div class="text ps-2">
+            <h5 class="pt-3 text-primary">Sports</h5>
+            <h2 class="pb-2 pt-1">Ipsum dolor</h2>
+            <p class="pb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit beatae dolore doloribus tempora blanditiis 
+              facilis iure consequatur error amet voluptatem iste saepe dolorum ea ut ex quidem repellat, maxime molestias numquam 
+              aperiam corrupti magnam! <a class="text-danger" href="">Mer...</a>
+            </p>
+          
+
+          </div>
+        </div>
+      </article>
+ 
     </main>
 
     <footer></footer>
