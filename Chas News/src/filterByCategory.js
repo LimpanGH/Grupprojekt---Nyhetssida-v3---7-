@@ -46,7 +46,7 @@
 // Kommentera in första apiKey för att att rendera ut från objektet i localStorage.
 // const apiKey = '';
 // Kommentera in andra apiKey för att att göra en request och rendera ut färsk data.
-// const apiKey = 'klistra in din api-nyckel'
+// const apiKey = 'Skriv in din api-nyckel'
 
 import axios from 'axios';
 
