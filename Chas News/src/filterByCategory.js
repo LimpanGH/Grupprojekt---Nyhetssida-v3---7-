@@ -1,9 +1,4 @@
-const apiKey = 'x';
-const searchKeyword = 'bitcoin';
-const language = 'sv';
-const from = '2024-01-24';
-const to = '2024-01-24';
-const sortBy = 'popularity';
+// API documentaion --*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*
 /**
  * 
   sortBy
@@ -23,76 +18,101 @@ const sortBy = 'popularity';
  * This should be in ISO 8601 format (e.g. 2024-01-26 or 2024-01-26T11:24:26
  */
 
-// const url = `https://newsapi.org/v2/everything?q=Apple&from=2024-01-25&sortBy=popularity&apiKey=${apiKey}`;
-
 // Language The 2-letter ISO-639-1 code of the language you want to get headlines for,
 // possible options: ar de en es fr he it nl no pt ru sv ud zh,
 // default: all languages returned.
 
+// Code --*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*
+
+// Example endpoints: -------------------------------------------------------
+// const url = `https://newsapi.org/v2/everything?q=Apple&from=2024-01-25&sortBy=popularity&apiKey=${apiKey}`;
+// URl för sökord: //const urlSearchForBitcoin = `https://newsapi.org/v2/everything?q=${searchKeyword}&apiKey=${apiKey}`;
+
+// Variables ----------------------------------------------------------------
+
+// let searchKeyword = 'bitcoin';
+// let language = 'sv';
+// let from = '2024-01-24';
+// let to = '2024-01-24';
+// let sortBy = 'popularity';
+
+// Url with variables ---------------------------------------------------------
 // const url = `https://newsapi.org/v2/everything?q=${searchKeyword}&language=${language}&from=${from}&to=${to}&sortBy=${sortBy}&apiKey=${apiKey}`;
 
-// URl för sökord:
-//const urlSearchForBitcoin = `https://newsapi.org/v2/everything?q=${searchKeyword}&apiKey=${apiKey}`;
+// Kommentera in första apiKey för att att rendera ut från objektet i localStorage.
+// const apiKey = '';
+// Kommentera in andra apiKey för att att göra en request och rendera ut färsk data.
+// const apiKey = 'klistra in din api-nyckel'
 
 import axios from 'axios';
-import mockData from './mockNewsApi.org.json';
 
-export const requestDataToFilter = async () => {
-  return mockData.data.articles;
+const storedData = localStorage.getItem('data');
 
-  const newUrl = `https://newsapi.org/v2/everything?q=${searchValue}&language=${language}&from=${fromDate}&to=${toDate}&sortBy=${sortBy}&apiKey=${apiKey}`;
+if (apiKey) {
+  requestDataToFilter(apiKey); // API key is provided, fetch data from the API
+} else if (storedData) {
+  const articles = JSON.parse(storedData); // No API key, but data found in localStorage, render it directly
+  renderContent(articles);
+} else {
+  console.log('No API key and no data available in localStorage');
+}
 
+async function requestDataToFilter(apiKey) {
+  const url = `https://newsapi.org/v2/everything?q=Apple&from=2024-01-25&sortBy=popularity&apiKey=${apiKey}`;
   try {
-    const response = await axios.get(mockData); // Assuming mockData is a URL
-
-    const responseData = response.data;
-    // console.log(responseData.data); // Log or do something with the fetched data
-    return responseData.articles; // Return the fetched data if needed
+    const response = await axios.get(url);
+    const data = response.data.articles;
+    console.log(data);
+    renderContent(data);
+    window.localStorage.setItem('data', JSON.stringify(data));
   } catch (error) {
-    console.error(error);
-    return null; // Return null or handle the error as appropriate
+    console.error('Error fetching data:', error);
   }
-};
+}
 
-export const filterFunction = async () => {
-  try {
-    const data = await requestDataToFilter(); // Fetch data using the previously defined function
-    // Implement your filtering logic here
-    const filtered = data.filter((item) => {
-      // Assuming your data structure, modify the condition as per your data
-      return item.articles.description !== `${searchKeyword}`; // Filter out items with non-empty descriptions
-    });
+function renderContent(articles) {
+  const container = document.getElementById('news-container');
 
-    const items = filtered.map((item) => {
-      return `<li>${item.articles.description}</li>`; // Assuming you want to create an HTML list of descriptions
-    });
-
-    const html = `<ul>${items.join('')}</ul>`;
-    // Do something with the filtered data or HTML here
-    console.log(html); // Log the generated HTML
-    return filtered; // Return the filtered data if needed
-  } catch (error) {
-    console.error(error);
-    return null; // Return null or handle the error as appropriate
+  // Check if there are articles
+  if (articles.length === 0) {
+    container.innerHTML = 'No articles available';
+    return;
   }
-};
 
-// ______________________________________________________
+  // Iterate over the articles and create HTML elements
+  articles.forEach((article) => {
+    const articleDiv = document.createElement('div');
+    articleDiv.classList.add('article');
 
-// Example endpoints//
-// All articles about Bitcoin: https://newsapi.org/v2/everything?q=bitcoin&apiKey=API_KEY
-// All articles mentioning Apple from yesterday, sorted by popular publishers first:
-// https://newsapi.org/v2/everything?q=apple&from=2024-01-24&to=2024-01-24&sortBy=popularity&apiKey=API_KEY
+    const h2 = document.createElement('h2');
+    h2.textContent = article.title;
 
-// import axios from 'axios'; // Importerar via browser
-// async function getUser(url) {
+    const p = document.createElement('p');
+    p.textContent = article.description;
+
+    const img = document.createElement('img');
+    img.src = article.urlToImage;
+
+    articleDiv.appendChild(h2);
+    articleDiv.appendChild(p);
+    articleDiv.appendChild(img);
+
+    container.appendChild(articleDiv);
+  });
+}
+
+// Working code---------------------------------------------
+// import axios from 'axios';
+// const requestDataToFilter = async () => {
+//   const url = `https://newsapi.org/v2/everything?q=Apple&from=2024-01-25&sortBy=popularity&apiKey=${apiKey}`;
 //   try {
 //     const response = await axios.get(url);
-//     const data = response.data
-//     console.log(response);
-
+//     console.log(response.data.articles);
+//     return response.data.articles;
 //   } catch (error) {
-//     console.error(error);
+//     console.error('Error fetching data:', error);
+//     return null;
 //   }
-// }
-// getUser(url);
+// };
+// await requestDataToFilter();
+// --------------------------------------------------------
