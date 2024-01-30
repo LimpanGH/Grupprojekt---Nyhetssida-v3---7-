@@ -7,9 +7,24 @@
 
 header {
   border-top: solid 4px #DE667B;
+  border-bottom:solid 2px #DE667B; ;
 
 }
 
 h1 {
   font-family: "Chomsky";
+}
+button.btn.btn-light.text-green {
+  border: 1px solid green;
+  color: green;
+
+}
+h1.display-1.text-left {
+  margin-left: 1rem;
+}
+header.d-md-flex.justify-content-between.align-items-center {
+  margin: 0 3rem;
+}
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+  margin: 0 3rem;
 }
