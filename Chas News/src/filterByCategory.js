@@ -39,6 +39,10 @@
 // Url with variables ---------------------------------------------------------
 // const url = `https://newsapi.org/v2/everything?q=${searchKeyword}&language=${language}&from=${from}&to=${to}&sortBy=${sortBy}&apiKey=${apiKey}`;
 
+
+
+
+
 // Kommentera in första apiKey för att att rendera ut från objektet i localStorage.
 // const apiKey = '';
 // Kommentera in andra apiKey för att att göra en request och rendera ut färsk data.
@@ -101,18 +105,4 @@ function renderContent(articles) {
   });
 }
 
-// Working code---------------------------------------------
-// import axios from 'axios';
-// const requestDataToFilter = async () => {
-//   const url = `https://newsapi.org/v2/everything?q=Apple&from=2024-01-25&sortBy=popularity&apiKey=${apiKey}`;
-//   try {
-//     const response = await axios.get(url);
-//     console.log(response.data.articles);
-//     return response.data.articles;
-//   } catch (error) {
-//     console.error('Error fetching data:', error);
-//     return null;
-//   }
-// };
-// await requestDataToFilter();
-// --------------------------------------------------------
+
