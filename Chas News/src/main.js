@@ -37,3 +37,10 @@
   
 //   ul.innerHTML = html;
 // }
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+
+})
+

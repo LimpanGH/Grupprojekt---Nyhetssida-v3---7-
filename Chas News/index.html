@@ -53,7 +53,7 @@
 
     <main class="mx-2  bg-light">
 
-      <article class="border-start border-5 border-danger">
+      <article class="article-source border-start border-5 border-danger">
         <div class="category center p-0">
           <button class="btn w-100 px-0 py-1 m-0">
             <a href="#" class="btn rounded-0  bg-white d-flex justify-content-between w-100 align-content-center">
@@ -66,7 +66,12 @@
           <img class="w-100" src="src/font/vecteezy_wooden-news-sign-on-a-table-in-an-office_9585169.jpg" alt="">
           <div class="text ps-2">
             <h5 class="pt-3 text-primary">Sports</h5>
-            <h2 class="pb-2 pt-1">Ipsum dolor</h2>
+            <div class="newsTitle d-flex pb-2 pt-1 align-content-center gap-2">
+              <h2 class="m-0 p-0">Ipsum dolor</h2>
+              <button id="favorite" class="m-0 p-0 bg-white border-0">
+                <i id="starIcon" class="fa-regular fa-star align-self-center"></i>
+              </button>
+            </div>
             <p class="pb-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit beatae dolore doloribus tempora blanditiis 
               facilis iure consequatur error amet voluptatem iste saepe dolorum ea ut ex quidem repellat, maxime molestias numquam 
               aperiam corrupti magnam! <a class="text-danger" href="">Mer...</a>
@@ -86,6 +91,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
-    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="src/main.js"></script>
+    <script type="module" src="src/favorite.js"></script>
   </body>
 </html>
