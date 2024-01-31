@@ -44,15 +44,20 @@
 
 
 // Kommentera in första apiKey för att att rendera ut från objektet i localStorage.
-// const apiKey = '';
+export const apiKey = '';
 // Kommentera in andra apiKey för att att göra en request och rendera ut färsk data.
-// const apiKey = 'Skriv in din api-nyckel'
+// export const apiKey = 'Skriv in din api-nyckel'
+
 
 
 import axios from 'axios';
 
-const storedData = localStorage.getItem('data');
+export const storedData = localStorage.getItem('data');
 
+
+// -----------------------------------------------------
+
+export function selectApiOrLocalStorage () {
 if (apiKey) {
   requestDataToFilter(apiKey); // API key is provided, fetch data from the API
 } else if (storedData) {
@@ -61,8 +66,13 @@ if (apiKey) {
 } else {
   console.log('No API key and no data available in localStorage');
 }
+}
 
-async function requestDataToFilter(apiKey) {
+// -----------------------------------------------------
+
+
+// -----------------------------------------------------
+export async function requestDataToFilter(apiKey) {
   const url = `https://newsapi.org/v2/everything?q=Apple&from=2024-01-25&sortBy=popularity&apiKey=${apiKey}`;
   try {
     const response = await axios.get(url);
@@ -74,8 +84,11 @@ async function requestDataToFilter(apiKey) {
     console.error('Error fetching data:', error);
   }
 }
+// -----------------------------------------------------
 
-function renderContent(articles) {
+
+// -----------------------------------------------------
+export function renderContent(articles) {
   const container = document.getElementById('news-container');
 
   // Check if there are articles
@@ -105,5 +118,6 @@ function renderContent(articles) {
     container.appendChild(articleDiv);
   });
 }
+// -----------------------------------------------------
 
 
