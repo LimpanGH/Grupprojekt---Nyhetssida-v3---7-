@@ -48,6 +48,7 @@
 // Kommentera in andra apiKey för att att göra en request och rendera ut färsk data.
 // const apiKey = 'Skriv in din api-nyckel'
 
+
 import axios from 'axios';
 
 const storedData = localStorage.getItem('data');
