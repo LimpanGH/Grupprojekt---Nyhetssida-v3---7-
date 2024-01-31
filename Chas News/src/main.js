@@ -6,12 +6,26 @@ import {
   selectApiOrLocalStorage,
   requestDataToFilter,
   renderContent,
+  filterArticlesByCategory,
 } from './filterByCategory';
 
 // Run function:
 selectApiOrLocalStorage();
 
+let searchWordFromInputField = document.querySelector('#filterForm');
+searchWordFromInputField.addEventListener('input', function () {
+  filterArticlesByCategory();
+  console.log('Filter input-field is taking input');
+});
+
+
+
+
 // Linus ⬆ ------------------------------------------------
+
+
+
+
 
 
 
