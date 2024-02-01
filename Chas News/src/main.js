@@ -23,6 +23,6 @@ selectApiOrLocalStorage();
 
 
 // Carolinne ⬇ --------------------------------------------
-document.addEventListener('DOMContentLoaded', () => {});
+// document.addEventListener('DOMContentLoaded', () => {});
 
 // Carolinne ⬆ ------------------------------------------------
