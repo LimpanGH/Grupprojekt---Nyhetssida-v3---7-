@@ -82,18 +82,18 @@ import axios from 'axios';
   }
 }
 
-function updateNews() {
-  const fromDate = document.getElementById('fromDate').value;
-  const toDate = document.getElementById('toDate').value;
-  const authorSearch = document.getElementById('authorSearch').value;
+// function updateNews() {
+//   const fromDate = document.getElementById('fromDate').value;
+//   const toDate = document.getElementById('toDate').value;
+//   const authorSearch = document.getElementById('authorSearch').value;
 
-  fetchNews(fromDate, toDate, authorSearch);
-}
+//   fetchNews(fromDate, toDate, authorSearch);
+// }
 
-document.addEventListener('DOMContentLoaded', function() {
-  document.getElementById('updateButton').addEventListener('click', updateNews);
-  fetchNews('2024-01-31', '2024-02-1');
-});
+// document.addEventListener('DOMContentLoaded', function() {
+//   document.getElementById('updateButton').addEventListener('click', updateNews);
+//   fetchNews('2024-01-31', '2024-02-1');
+// });
 
 
 // --------------------------------------------------------

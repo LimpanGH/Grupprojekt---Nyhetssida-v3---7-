@@ -44,9 +44,9 @@
 
 
 // Kommentera in första apiKey för att att rendera ut från objektet i localStorage.
-export const apiKey = '';
+// export const apiKey = '';
 // Kommentera in andra apiKey för att att göra en request och rendera ut färsk data.
-//export const apiKey = 'ca4dba689f8c457181c123c32552da4b'
+export const apiKey = 'ca4dba689f8c457181c123c32552da4b'
 
 
 import axios from 'axios';
@@ -71,8 +71,15 @@ if (apiKey) {
 
 
 // -----------------------------------------------------
+
 export async function requestDataToFilter(apiKey) {
-  const url = `https://newsapi.org/v2/everything?q=Apple&from=2024-01-25&sortBy=popularity&apiKey=${apiKey}`;
+  let searchKeyword = 'economy';
+  let language = 'en';
+  let from = '2024-01-17';
+  let to = '2024-02-01';
+  let sortBy = 'popularity';
+  // const url = `https://newsapi.org/v2/everything?q=Apple&from=2024-01-25&sortBy=popularity&apiKey=${apiKey}`;
+  const url = `https://newsapi.org/v2/everything?q=${searchKeyword}&language=${language}&from=${from}&to=${to}&apiKey=${apiKey}`;
   try {
     const response = await axios.get(url);
     const data = response.data.articles;
