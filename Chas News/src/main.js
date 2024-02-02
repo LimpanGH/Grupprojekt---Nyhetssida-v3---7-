@@ -37,6 +37,6 @@ searchWordFromInputField.addEventListener('input', function () {
 
 
 // Carolinne ⬇ --------------------------------------------
-document.addEventListener('DOMContentLoaded', () => {});
+// document.addEventListener('DOMContentLoaded', () => {});
 
 // Carolinne ⬆ ------------------------------------------------

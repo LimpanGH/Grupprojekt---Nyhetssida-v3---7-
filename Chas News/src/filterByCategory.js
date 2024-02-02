@@ -40,7 +40,7 @@
 // const url = `https://newsapi.org/v2/everything?q=${searchKeyword}&language=${language}&from=${from}&to=${to}&sortBy=${sortBy}&apiKey=${apiKey}`;
 
 // Kommentera in första apiKey för att att rendera ut från objektet i localStorage.
-export const apiKey = '';
+export const apiKey = 'ca4dba689f8c457181c123c32552da4b';
 // Kommentera in andra apiKey för att att göra en request och rendera ut färsk data.
 // export const apiKey = 'Skriv in din api-nyckel'
 
@@ -83,23 +83,50 @@ export function renderContent(articles) {
 
   // Iterate over the articles and create HTML elements
   articles.forEach((article) => {
-    const articleDiv = document.createElement('div');
-    articleDiv.classList.add('article');
+    const articlesContainer = document.querySelector('#articlesContainer');
+    const sourceArticle = document.querySelector(".sourceArticle");
+    const newArticle = sourceArticle.cloneNode(true);
 
-    const h2 = document.createElement('h2');
-    h2.textContent = article.title;
 
-    const p = document.createElement('p');
-    p.textContent = article.description;
 
-    const img = document.createElement('img');
-    img.src = article.urlToImage;
+    //needs category code for the category Name and the href to be displayed on top of the article as a button
+    const categoryAnchorTag = newArticle.querySelector('.categoryAnchorTag');
+    const categoryName = 'World';
+    const categoryNameH6 = newArticle.querySelector('.categoryName');
+    categoryNameH6.textContent = categoryName;
+    categoryAnchorTag.href = '#';
 
-    articleDiv.appendChild(h2);
-    articleDiv.appendChild(p);
-    articleDiv.appendChild(img);
+    
+    //article's content
+    const contentDiv = newArticle.querySelector('.contentDiv');
+    const imgTag = contentDiv.querySelector("img");
 
-    container.appendChild(articleDiv);
+    const newsTitle = contentDiv.querySelector('.newsTitle');
+    newsTitle.textContent = article.title;
+    const articleDescription = contentDiv.querySelector('.articleDescription')
+    articleDescription.textContent = article.description;
+
+    imgTag.src = article.urlToImage;
+    articlesContainer.appendChild(newArticle);
+
+  
+    // const articleDiv = document.createElement('div');
+    // articleDiv.classList.add('article');
+
+    // const h2 = document.createElement('h2');
+    // h2.textContent = article.title;
+
+    // const p = document.createElement('p');
+    // p.textContent = article.description;
+
+    // const img = document.createElement('img');
+    // img.src = article.urlToImage;
+
+    // articleDiv.appendChild(h2);
+    // articleDiv.appendChild(p);
+    // articleDiv.appendChild(img);
+
+    // container.appendChild(articleDiv);
   });
 }
 

@@ -59,44 +59,49 @@
       </div>
     </nav>
     
-    <main class="container d-grid bg-light p-0 pe-2 pt-2">
-      <div class="d-lg-flex">
-        <article class="w-75 border-start border-danger border-5">
-          <div class="category center p-0">
-            <button class="btn pt-0 pb-2 px-0 w-100">
-              <a href="#" class="btn rounded-0  bg-white d-flex justify-content-between w-100 align-content-center">
-                <h6 class="m-0 p-0 align-self-center">Sverige</h6>
-                <i class="fa-solid fa-arrow-right m-0"></i>
-              </a>
-            </button>
-          </div>
-          <div class="content bg-white">
-            
-            <!-- The div that contains all the articles -->
-            <div id="app">
-              <div id="news-container"></div>
+    <main class="container text-center bg-light p-0 pe-2 pt-2 d-lg-grid">
+      <div class="row align-items-start">
+
+        <div id="articlesContainer" class="col-12 col-lg-8">
+          <article class="border-start border-danger border-5 sourceArticle mb-4 text-start">
+            <div class="category center p-0">
+              <button class="btn pt-0 pb-2 px-0 w-100">
+                <a href="" class="categoryAnchorTag btn rounded-0  bg-white d-flex justify-content-between w-100 align-content-center">
+                  <h6 class="categoryName m-0 p-0 align-self-center">Sverige</h6>
+                  <i class="fa-solid fa-arrow-right m-0"></i>
+                </a>
+              </button>
             </div>
-            
-            <img class="w-100" src="src/font/vecteezy_wooden-news-sign-on-a-table-in-an-office_9585169.jpg" alt="">
-            <div class="text ps-2">
-              <h5 class="pt-3 text-primary">Sports</h5>
-              <div class="newsTitle d-flex pb-2 pt-1 align-content-center gap-2">
-                <h2 class="m-0 p-0">Ipsum dolor</h2>
-                <button id="favorite" class="m-0 p-0 bg-white border-0">
-                  <i id="starIcon" class="fa-regular fa-star align-self-center text-primary"></i>
-                </button>
+            <div class="contentDiv bg-white">
+              
+              <!-- The div that contains all the articles -->
+              <!-- <div id="app">
+                <div id="news-container"></div>
+              </div> -->
+              
+              <img class="w-100" src="src/font/vecteezy_wooden-news-sign-on-a-table-in-an-office_9585169.jpg" alt="">
+              <div class="text ps-2 pb-2">
+                <!-- <h5 class="pt-3 text-primary">Sports</h5> -->
+                <div class="d-flex pb-2 pt-1 align-content-center justify-content-between gap-2">
+                  <h3 class="newsTitle m-0 p-0">Ipsum dolor</h3>
+                  <button class="favorite m-0 p-0 pe-3 bg-white border-0">
+                    <i class="starIcon fa-regular fa-star align-self-center text-primary"></i>
+                  </button>
+                </div>
+                <p class="articleDescription pb-2 pe-2 m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit beatae dolore doloribus tempora blanditiis 
+                  facilis iure consequatur error amet voluptatem iste saepe dolorum ea ut ex quidem repellat, maxime molestias numquam 
+                  aperiam corrupti magnam! 
+                </p>
+                <a class="text-danger" href="">Mer...</a>
+              
+    
               </div>
-              <p class="pb-2 m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit beatae dolore doloribus tempora blanditiis 
-                facilis iure consequatur error amet voluptatem iste saepe dolorum ea ut ex quidem repellat, maxime molestias numquam 
-                aperiam corrupti magnam! <a class="text-danger" href="">Mer...</a>
-              </p>
-            
-  
             </div>
-          </div>
-        </article>
+          </article>
+          
+        </div>
   
-        <aside class="w-25 ms-2 bg-white p-2">
+        <aside class=" ms-0 me-3 bg-white p-2 col ">
           <h6>Senast</h6>
           <button type="button" class="source-aside w-100 border-0 border-bottom bg-white text-start p-0 mt-3" >
             <p class="mb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, iure?</p>
@@ -106,8 +111,8 @@
             </div>
           </button>
         </aside>
+        
       </div>
- 
     </main>
 
     <footer></footer>
