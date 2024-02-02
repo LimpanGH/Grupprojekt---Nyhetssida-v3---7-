@@ -1,27 +1,3 @@
-// Linus ⬇ --------------------------------------------
-// Importing variables and functions from filterByCategory.js
-import {
-  apiKey,
-  storedData,
-  selectApiOrLocalStorage,
-  requestDataToFilter,
-  renderContent,
-} from './filterByCategory';
-
-// Run function:
-selectApiOrLocalStorage();
-
-// Linus ⬆ ------------------------------------------------
-
-
-
-
-// Yaser ----------------------------------------------
-
-//   import{ fetchNews, 
-//       apiUrl } from './yaserfilter'
-// fetchNews()
-
 import axios from 'axios';
 
  let apiUrl;
@@ -39,7 +15,7 @@ import axios from 'axios';
 
   try {
     const response = await axios.get(apiUrl);
-    const articleListElement = document.getElementById('border-start');
+    const articleListElement = document.getElementById('articleList');
     
     // Rensa tidigare artiklar
     articleListElement.innerHTML = '';
@@ -94,12 +70,3 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('updateButton').addEventListener('click', updateNews);
   fetchNews('2024-01-31', '2024-02-1');
 });
-
-
-// --------------------------------------------------------
-
-
-// Carolinne ⬇ --------------------------------------------
-// document.addEventListener('DOMContentLoaded', () => {});
-
-// Carolinne ⬆ ------------------------------------------------
