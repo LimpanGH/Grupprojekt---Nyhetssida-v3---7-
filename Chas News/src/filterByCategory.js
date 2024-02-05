@@ -28,16 +28,6 @@
 // const url = `https://newsapi.org/v2/everything?q=Apple&from=2024-01-25&sortBy=popularity&apiKey=${apiKey}`;
 // URl för sökord: //const urlSearchForBitcoin = `https://newsapi.org/v2/everything?q=${searchKeyword}&apiKey=${apiKey}`;
 
-// Variables ----------------------------------------------------------------
-
-// let searchKeyword = 'bitcoin';
-// let language = 'sv';
-// let from = '2024-01-24';
-// let to = '2024-01-24';
-// let sortBy = 'popularity';
-
-// Url with variables ---------------------------------------------------------
-// const url = `https://newsapi.org/v2/everything?q=${searchKeyword}&language=${language}&from=${from}&to=${to}&sortBy=${sortBy}&apiKey=${apiKey}`;
 
 // Kommentera in första apiKey för att att rendera ut från objektet i localStorage.
 // export const apiKey = '';
@@ -74,7 +64,7 @@ export async function requestDataToFilter(searchKeyword = 'coding') {
     const response = await axios.get(url);
     const data = response.data.articles;
     console.log(data);
-    renderContent(data);
+    renderContent(data, searchKeyword);
     window.localStorage.setItem('data', JSON.stringify(data));
   } catch (error) {
     console.error('Error fetching data:', error);
@@ -82,7 +72,7 @@ export async function requestDataToFilter(searchKeyword = 'coding') {
 }
 
 // -----------------------------------------------------
-export function renderContent(articles) {
+export function renderContent(articles,searchKeyword) {
   const container = document.getElementById('news-container');
   // Check if there are articles -----------
   if (articles.length === 0) {
@@ -104,7 +94,7 @@ export function renderContent(articles) {
           class="categoryAnchorTag btn rounded-0 bg-white d-flex justify-content-between w-100 align-content-center"
         >
           <h6 class="categoryName m-0 p-0 align-self-center">
-            Sverige
+Sökord: ${searchKeyword}
           </h6>
           <i class="fa-solid fa-arrow-right m-0"></i>
         </a>
