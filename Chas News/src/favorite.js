@@ -1,44 +1,65 @@
 import axios from "axios";
+import { renderContent } from "./filterByCategory";
+
+//localStorage.clear();
 
 
-const favoritesArticles = [];
+const storedData = JSON.parse(localStorage.getItem('data')); // when I get from local storage it is usually a string, but I wat it
+//to be an array, json.parse makes it an array. 
+const articlesContainer = document.getElementById('articlesContainer');
 
 
+articlesContainer.addEventListener('click', function (event) {
+    const button = event.target.closest('.favorite');
+    const contentDiv = event.target.closest('.contentDiv')
 
-// Favorite it is not done
+    let favoritesArticles = JSON.parse(localStorage.getItem('favorites')) || []; 
 
-document.addEventListener('DOMContentLoaded', function () {
-    const articlesContainer = document.getElementById('articlesContainer');
 
-    articlesContainer.addEventListener('click', function (event) {
-        const button = event.target.closest('.favorite');
-        const contentDiv = event.target.closest('.contentDiv')
+    if (button) {
+        let starIcon = button.querySelector('.starIcon');
 
-        if (button) {
-            let starIcon = button.querySelector('.starIcon');
+        if (starIcon && starIcon.classList.contains('fa-solid')) {
+            starIcon.classList.remove('fa-solid');
 
-            if (starIcon && starIcon.classList.contains('fa-solid')) {
-                starIcon.classList.remove('fa-solid');
-                
-                
-            } else if (starIcon) {
-                starIcon.classList.add('fa-solid');
+            
 
-                const title = contentDiv.querySelector('.newsTitle').textContent;
-                const description = contentDiv.querySelector('.articleDescription').textContent;
-                const urlToImage = contentDiv.querySelector('img').src;
+            const title = contentDiv.querySelector('.newsTitle').textContent;
+            const articleToRemove = storedData.filter(article => article.title === title);
+            console.log('artigo a ser excluido:', articleToRemove);
+            
+            favoritesArticles = favoritesArticles.filter(article => article.title !== title);
 
-                
-                const newObj = {
-                    title,
-                    description,
-                    urlToImage,
-                }
+            localStorage.setItem('favorites', JSON.stringify(favoritesArticles));
 
-                console.log(newObj);
+            console.log('exclude favorite article' , favoritesArticles);
+            
+        } else if (starIcon) {
+            starIcon.classList.add('fa-solid');
+            
+            
+
+            const title = contentDiv.querySelector('.newsTitle').textContent;
+            const favoriteArticle = storedData.find(article => article.title === title);
+            
+            if (favoritesArticles.some(article => article.title === title)) {
+                console.log('It is favorite');
+            } else {
+                favoritesArticles.push(favoriteArticle)
+
             }
-        }
-    });
+            localStorage.setItem('favorites', JSON.stringify(favoritesArticles));
+            console.log('include favorite article' , favoritesArticles);
 
+
+        }
+    }
 
 });
+
+export function isArticleFavorite (articleTitle) {
+    let favoritesArticles = JSON.parse(localStorage.getItem('favorites')) || []; 
+    
+    return favoritesArticles.some(article => article.title === articleTitle);
+    
+}

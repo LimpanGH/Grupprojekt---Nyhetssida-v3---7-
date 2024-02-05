@@ -9,6 +9,9 @@ import {
 } from './filterByCategory';
 
 // Run function:
+
+
+
 selectApiOrLocalStorage();
 
 // Linus ⬆ ------------------------------------------------
@@ -23,6 +26,7 @@ selectApiOrLocalStorage();
 
 
 // Carolinne ⬇ --------------------------------------------
-// document.addEventListener('DOMContentLoaded', () => {});
+
+
 
 // Carolinne ⬆ ------------------------------------------------

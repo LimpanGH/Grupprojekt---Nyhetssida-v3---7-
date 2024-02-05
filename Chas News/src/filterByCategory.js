@@ -44,15 +44,14 @@
 
 
 // Kommentera in första apiKey för att att rendera ut från objektet i localStorage.
-export const apiKey = 'ca4dba689f8c457181c123c32552da4b';
+export const apiKey = null;
 // Kommentera in andra apiKey för att att göra en request och rendera ut färsk data.
-//export const apiKey = 'ca4dba689f8c457181c123c32552da4b'
+//export const apiKey = ''
 
 
 import axios from 'axios';
-
 export const storedData = localStorage.getItem('data');
-
+import { isArticleFavorite } from './favorite';
 
 // -----------------------------------------------------
 
@@ -70,15 +69,17 @@ if (apiKey) {
 // -----------------------------------------------------
 
 
+
 // -----------------------------------------------------
 export async function requestDataToFilter(apiKey) {
-  const url = `https://newsapi.org/v2/everything?q=Apple&from=2024-01-25&sortBy=popularity&apiKey=${apiKey}`;
+  const url = `https://newsapi.org/v2/everything?q=popularity&apiKey=${apiKey}`;
   try {
     const response = await axios.get(url);
     const data = response.data.articles;
     console.log(data);
     renderContent(data);
     window.localStorage.setItem('data', JSON.stringify(data));
+
   } catch (error) {
     console.error('Error fetching data:', error);
   }
@@ -89,20 +90,24 @@ export async function requestDataToFilter(apiKey) {
 // -----------------------------------------------------
 export function renderContent(articles) {
   const container = document.getElementById('news-container');
+  
 
   // Check if there are articles
   if (articles.length === 0) {
     container.innerHTML = 'No articles available';
     return;
   }
+  
 
   // Iterate over the articles and create HTML elements
   articles.forEach((article) => {
+    
+    
     const articlesContainer = document.querySelector('#articlesContainer');
     const sourceArticle = document.querySelector(".sourceArticle");
     const newArticle = sourceArticle.cloneNode(true);
-
-
+    newArticle.classList.remove('d-none');
+    
 
     //needs category code for the category Name and the href to be displayed on top of the article as a button
     const categoryAnchorTag = newArticle.querySelector('.categoryAnchorTag');
@@ -111,7 +116,15 @@ export function renderContent(articles) {
     categoryNameH6.textContent = categoryName;
     categoryAnchorTag.href = '#';
 
+
+    if (isArticleFavorite (article.title)) {
+      const starIcon = newArticle.querySelector('.starIcon');
+      starIcon.classList.add('fa-solid');
+
+      
+    }
     
+
     //article's content
     const contentDiv = newArticle.querySelector('.contentDiv');
     const imgTag = contentDiv.querySelector("img");
@@ -122,29 +135,21 @@ export function renderContent(articles) {
     articleDescription.textContent = article.description;
 
     imgTag.src = article.urlToImage;
+    
+    
+
     articlesContainer.appendChild(newArticle);
-
-  
-    // const articleDiv = document.createElement('div');
-    // articleDiv.classList.add('article');
-
-    // const h2 = document.createElement('h2');
-    // h2.textContent = article.title;
-
-    // const p = document.createElement('p');
-    // p.textContent = article.description;
-
-    // const img = document.createElement('img');
-    // img.src = article.urlToImage;
-
-    // articleDiv.appendChild(h2);
-    // articleDiv.appendChild(p);
-    // articleDiv.appendChild(img);
-
-    // container.appendChild(articleDiv);
+   
   });
+
+ 
+
+
 }
 // -----------------------------------------------------
 
 
 
+document.addEventListener('DOMContentLoaded', function () {
+ 
+});
