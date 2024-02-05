@@ -121,7 +121,7 @@ Sökord: ${searchKeyword}
         <p class="articleDescription pb-2 pe-2 m-0">
         ${article.description}
         </p>
-        <a class="text-danger" href="${article.url}">Mer...</a>
+        <a class="text-danger" href="${article.url}" target="_blank" >Mer...</a>
       </div>
     </div>
   </article>
