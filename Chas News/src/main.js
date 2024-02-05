@@ -6,81 +6,89 @@ import {
   selectApiOrLocalStorage,
   requestDataToFilter,
   renderContent,
+  getUserSearchInput,
 } from './filterByCategory';
 
 // Run function:
 selectApiOrLocalStorage();
 
+let searchForm = document.querySelector('form[role="search"]');
+searchForm.addEventListener('submit', function (e) {
+  e.preventDefault()
+  let searchKeyword = getUserSearchInput()
+  requestDataToFilter(searchKeyword)
+});
+
+
+
+
 // Linus ⬆ ------------------------------------------------
-
-
-
 
 // Yaser ----------------------------------------------
 
-//   import{ fetchNews, 
+//   import{ fetchNews,
 //       apiUrl } from './yaserfilter'
 // fetchNews()
 
-import axios from 'axios';
+// import axios from 'axios';
 
- let apiUrl;
+// let apiUrl;
 
- async function fetchNews(fromDate, toDate, authorSearch) {
-  const apiKey = '79a8a58ff85d47c7b1a75cc2b7e294ca';
-  let keyWord = "war";
+// async function fetchNews(fromDate, toDate, authorSearch) {
+//   const apiKey = '79a8a58ff85d47c7b1a75cc2b7e294ca';
+//   let keyWord = 'war';
 
-  // Lägg till författarsökning om det finns en inmatning
-  if (authorSearch) {
-    keyWord = `author:${authorSearch}`;
-  }
+//   // Lägg till författarsökning om det finns en inmatning
+//   if (authorSearch) {
+//     keyWord = `author:${authorSearch}`;
+//   }
 
-  apiUrl = `https://newsapi.org/v2/everything?q=${keyWord}&from=${fromDate}&to=${toDate}&sortBy=popularity&apiKey=${apiKey}`;
+//   apiUrl = `https://newsapi.org/v2/everything?q=${keyWord}&from=${fromDate}&to=${toDate}&sortBy=popularity&apiKey=${apiKey}`;
 
-  try {
-    const response = await axios.get(apiUrl);
-    const articleListElement = document.getElementById('border-start');
-    
-    // Rensa tidigare artiklar
-    articleListElement.innerHTML = '';
+//   try {
+//     const response = await axios.get(apiUrl);
+//     const articleListElement = document.getElementById('border-start');
 
-    response.data.articles.forEach(article => {
-      const articleElement = document.createElement('div');
-      articleElement.classList.add('article');
-      
-      const imgElement = document.createElement('img');
-      imgElement.src = article.urlToImage;
-      imgElement.alt = 'Article Image';
+//     // Rensa tidigare artiklar
+//     articleListElement.innerHTML = '';
 
-      const authorElement = document.createElement('p');
-      authorElement.textContent = `Author: ${article.author}`;
+//     response.data.articles.forEach((article) => {
+//       const articleElement = document.createElement('div');
+//       articleElement.classList.add('article');
 
-      const descriptionElement = document.createElement('p');
-      descriptionElement.textContent = `Description: ${article.description}`;
+//       const imgElement = document.createElement('img');
+//       imgElement.src = article.urlToImage;
+//       imgElement.alt = 'Article Image';
 
-      const titleElement = document.createElement('h2');
-      titleElement.textContent = article.title;
+//       const authorElement = document.createElement('p');
+//       authorElement.textContent = `Author: ${article.author}`;
 
-      const urlElement = document.createElement('a');
-      urlElement.href = article.url;
-      urlElement.textContent = 'Read more';
+//       const descriptionElement = document.createElement('p');
+//       descriptionElement.textContent = `Description: ${article.description}`;
 
-      const publishedAtElement = document.createElement('p');
-      publishedAtElement.textContent = `Published at: ${article.publishedAt}`;
+//       const titleElement = document.createElement('h2');
+//       titleElement.textContent = article.title;
 
-      articleElement.appendChild(imgElement);
-      articleElement.appendChild(authorElement);
-      articleElement.appendChild(descriptionElement);
-      articleElement.appendChild(titleElement);
-      articleElement.appendChild(urlElement);
-      articleElement.appendChild(publishedAtElement);
+//       const urlElement = document.createElement('a');
+//       urlElement.href = article.url;
+//       urlElement.textContent = 'Read more';
 
-      articleListElement.appendChild(articleElement);
-    });
-  } catch (error) {
-    console.error('Fel vid hämtning av nyheter:', error);
-  }
-}
+//       const publishedAtElement = document.createElement('p');
+//       publishedAtElement.textContent = `Published at: ${article.publishedAt}`;
+
+//       articleElement.appendChild(imgElement);
+//       articleElement.appendChild(authorElement);
+//       articleElement.appendChild(descriptionElement);
+//       articleElement.appendChild(titleElement);
+//       articleElement.appendChild(urlElement);
+//       articleElement.appendChild(publishedAtElement);
+
+//       articleListElement.appendChild(articleElement);
+//     });
+//   } catch (error) {
+//     console.error('Fel vid hämtning av nyheter:', error);
+//   }
+// }
 
 // function updateNews() {
 //   const fromDate = document.getElementById('fromDate').value;
@@ -95,9 +103,7 @@ import axios from 'axios';
 //   fetchNews('2024-01-31', '2024-02-1');
 // });
 
-
 // --------------------------------------------------------
-
 
 // Carolinne ⬇ --------------------------------------------
 // document.addEventListener('DOMContentLoaded', () => {});
