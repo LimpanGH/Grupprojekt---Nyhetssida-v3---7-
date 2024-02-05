@@ -69,7 +69,6 @@ export async function requestDataToFilter(searchKeyword = 'coding') {
   let from = '2024-01-17';
   let to = '2024-02-01';
   let sortBy = 'popularity';
-  // const url = `https://newsapi.org/v2/everything?q=Apple&from=2024-01-25&sortBy=popularity&apiKey=${apiKey}`;
   const url = `https://newsapi.org/v2/everything?q=${searchKeyword}&language=${language}&from=${from}&to=${to}&apiKey=${apiKey}`;
   try {
     const response = await axios.get(url);
@@ -91,7 +90,6 @@ export function renderContent(articles) {
     return;
   }
 
-  // articlesContainer.innerHTML = '';
   // Iterate over the articles and create HTML elements -----------
   const html = articles
     .map(
@@ -143,33 +141,6 @@ export function renderContent(articles) {
 
   const articlesContainer = document.querySelector('#articlesContainer');
   articlesContainer.innerHTML = html;
-
-  // https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template
-
-  
-  // articles.forEach((article) => {
-  //   const sourceArticle = document.querySelector('.sourceArticle');
-  //   const newArticle = sourceArticle.cloneNode(true);
-
-  //   //needs category code for the category Name and the href to be displayed on top of the article as a button
-  //   const categoryAnchorTag = newArticle.querySelector('.categoryAnchorTag');
-  //   const categoryName = 'World';
-  //   const categoryNameH6 = newArticle.querySelector('.categoryName');
-  //   categoryNameH6.textContent = categoryName;
-  //   categoryAnchorTag.href = '#';
-
-  //   //article's content
-  //   const contentDiv = newArticle.querySelector('.contentDiv');
-  //   const imgTag = contentDiv.querySelector('img');
-
-  //   const newsTitle = contentDiv.querySelector('.newsTitle');
-  //   newsTitle.textContent = article.title;
-  //   const articleDescription = contentDiv.querySelector('.articleDescription');
-  //   articleDescription.textContent = article.description;
-
-  //   imgTag.src = article.urlToImage;
-  //   articlesContainer.appendChild(newArticle);
-  // });
 }
 
 // Get value from search-input --------------
