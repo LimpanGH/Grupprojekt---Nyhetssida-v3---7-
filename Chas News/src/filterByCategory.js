@@ -119,9 +119,9 @@ Sökord: ${searchKeyword}
           </button>
         </div>
         <p class="articleDescription pb-2 pe-2 m-0">
-        ${article.urlToImage}
+        ${article.description}
         </p>
-        <a class="text-danger" href="">Mer...</a>
+        <a class="text-danger" href="${article.url}">Mer...</a>
       </div>
     </div>
   </article>
