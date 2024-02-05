@@ -37,7 +37,7 @@
 // let sortBy = 'popularity';
 
 // Url with variables ---------------------------------------------------------
-// const url = `https://newsapi.org/v2/everything?q=${searchKeyword}&language=${language}&from=${from}&to=${to}&sortBy=${sortBy}&apiKey=${apiKey}`;
+//const url = `https://newsapi.org/v2/everything?q=${searchKeyword}&language=${language}&from=${from}&to=${to}&sortBy=${sortBy}&apiKey=${apiKey}`;
 
 
 
@@ -145,4 +145,6 @@ export function renderContent(articles) {
   });
 }
 // -----------------------------------------------------
+
+
 
