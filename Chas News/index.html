@@ -7,15 +7,7 @@
     <link rel="stylesheet" href="/src/style.css">
     <link rel="stylesheet" href="src/main.css">
     <script src="https://kit.fontawesome.com/14fab5134a.js" crossorigin="anonymous"></script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3RD4VJ9FW9"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-3RD4VJ9FW9');
-</script>
+  
     <title>Chas News</title>
   </head>
  
@@ -25,7 +17,8 @@
       <h1 class="display-1 text-left">Chas News</h1>
       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
         <button class="btn btn-success me-md-2" type="button">Prenumera</button>
-        <button class="btn btn-light text-green" type="button"><a href="src/sign up.html">Logga in</a></button>
+          <!-- Place where you want to display login/logout -->
+        <div id="userDisplay"></div>
         
       </div>
     </header>
@@ -59,35 +52,6 @@
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
           <!-- ****************Dark and white home page *********************  -->
-          <!-- <li class="nav-item dropdown">
-            <button class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show" id="bd-theme" type="button" aria-expanded="true" data-bs-toggle="dropdown" data-bs-display="static" aria-label="Toggle theme (dark)">
-              <svg class="bi my-1 theme-icon-active"><use href="#moon-stars-fill"></use></svg>
-              <span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
-            </button>
-            <ul class="dropdown-menu dropdown-menu-end show" aria-labelledby="bd-theme-text" data-bs-popper="static">
-              <li>
-                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
-                  <svg class="bi me-2 opacity-50 theme-icon"><use href="#sun-fill"></use></svg>
-                  Light
-                  <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
-                </button>
-              </li>
-              <li>
-                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="dark" aria-pressed="true">
-                  <svg class="bi me-2 opacity-50 theme-icon"><use href="#moon-stars-fill"></use></svg>
-                  Dark
-                  <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
-                </button>
-              </li>
-              <li>
-                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="false">
-                  <svg class="bi me-2 opacity-50 theme-icon"><use href="#circle-half"></use></svg>
-                  Auto
-                  <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
-                </button>
-              </li>
-            </ul>
-          </li> -->
          
         </div>
       </div>
@@ -150,6 +114,43 @@
     </main>
 
     <footer></footer>
+    <script>
+            // Function to update the login/logout display
+      function updateLoginDisplay() {
+        const userDisplay = document.getElementById('userDisplay');
+        const loggedInUser = JSON.parse(sessionStorage.getItem('loggedInUser'));
+
+        if (loggedInUser) {
+          // User is logged in, display user information
+          userDisplay.innerHTML = `
+          <div style="background-color: #f0f0f0; padding: 10px; border-radius: 10px;">
+            Welcome, ${loggedInUser.displayName}! 
+            <button id="logoutBtn" style="background-color:#DE667B; color: #fff; border: none; padding: 5px; border-radius: 5px;">Logout</button>
+          </div>`
+
+          // Add click event listener for logout
+          document.getElementById('logoutBtn').addEventListener('click', () => {
+            // Clear session storage on logout
+            sessionStorage.removeItem('loggedInUser');
+            // Reload the page after logout
+            location.reload();
+          });
+        } else {
+          // User is not logged in, display login button
+          userDisplay.innerHTML = ' <button class="btn btn-light text-green" type="button" id="loginBtn" ><a href="src/sign up.html"  >Logga in</a></button>';
+
+          // Add click event listener for login
+          document.getElementById('loginBtn').addEventListener('click', () => {
+            // Redirect to the login page
+            window.location.href = 'login.html';
+          });
+        }
+      }
+
+      // Check login status on page load
+      updateLoginDisplay();
+
+    </script>
 
     <!-- src/App.vue -->
 

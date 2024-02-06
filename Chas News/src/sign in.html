@@ -19,8 +19,8 @@
         <p>Don't have an account? <a href="sign up.html">Sign up.</a></p>
         <input type="email" id="email" name="email" placeholder="Email address">
         <input type="password" id="password" name="password" placeholder="Password">
-        <input type="submit" id="login" name="login" class="btn btn-light " type="button" value="Login">
-        <input type="submit" id="logout" name="login" class="btn btn-light " type="button" value="Logout">
+        <input type="submit" id="signIn" name="login" class="btn btn-light " type="button" value="Login">
+
         
     </div>
     <div class="or"><h1 id="or">OR</h1></div>
@@ -37,7 +37,7 @@
 
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
     import { getDatabase,set,ref,update } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
-    import { getAuth,  createUserWithEmailAndPassword, signInWithEmailAndPassword,onAuthStateChanged,signOut, signInWithPopup} from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+    import { getAuth,  createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithPopup} from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
     import { GoogleAuthProvider } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
     import { FacebookAuthProvider } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
     import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
@@ -65,55 +65,36 @@
     const provider = new GoogleAuthProvider();
     const providerF = new FacebookAuthProvider();
 
+   // Function to redirect to another page
+   function redirectToPage(user) {
+    // Redirect to another HTML page (replace 'dashboard.html' with the actual file name)
+    window.location.href = 'http://localhost:5173/';
+  
+    // Optionally, you can pass user information to the new page
+    // For example, you can use sessionStorage to store user information temporarily
+    sessionStorage.setItem('loggedInUser', JSON.stringify(user));
+  }
 
-
-    login.addEventListener('click',(e)=>{
-        var email =document.getElementById('email').value;
-        var password =document.getElementById('password').value;
-
-        createUserWithEmailAndPassword(auth, email, password)
+      // Sign In
+    signIn.addEventListener('click', (e) => {
+        var email = document.getElementById('email').value;
+        var password = document.getElementById('password').value;
+    
+        signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
-          // Signed up 
-          const user = userCredential.user;
-          // ...
+            const user = userCredential.user;
+    
+            // Redirect to the dashboard page after successful sign-in
+            redirectToDashboard(user);
+    
         })
-        .catch((error) => {
-          const errorCode = error.code;
-          const errorMessage = error.message;
-          
-          alert(errorMessage);
-          
-        });
+    .catch((error) => {
+        const errorMessage = error.message;
+        alert(errorMessage);
+      });
+  });
+
    
-
-    });
-    const user = auth.currentUser;
-    onAuthStateChanged(auth, (user) => {
-        if (user) {
-          // User is signed in, see docs for a list of available properties
-          // https://firebase.google.com/docs/reference/js/auth.user
-          const uid = user.uid;
-          // ...
-        } else {
-          // User is signed out
-          // ...
-        }
-      });
-      logout.addEventListener('click',(e)=>{
-        
-        signOut(auth).then(() => {
-            alert('user loged out');
-        // Sign-out successful.
-        }).catch((error) => {
-            const errorCode = error.code;
-            const errorMessage = error.message;
-            
-            alert(errorMessage);
-        // An error happened.
-        });
-
-      });
-
 google.addEventListener('click',(e)=>{
     signInWithPopup(auth, provider)
     .then((result) => {
@@ -122,8 +103,10 @@ google.addEventListener('click',(e)=>{
         const token = credential.accessToken;
         // The signed-in user info.
         const user = result.user;
-        // IdP data available using getAdditionalUserInfo(result)
-        // ...
+        // Redirect to another HTML page after successful sign-in
+        redirectToPage(user);
+       
+       
     }).catch((error) => {
         // Handle Errors here.
         const errorCode = error.code;
@@ -144,9 +127,10 @@ facebook.addEventListener('click',(e)=>{
     // This gives you a Facebook Access Token. You can use it to access the Facebook API.
     const credential = FacebookAuthProvider.credentialFromResult(result);
     const accessToken = credential.accessToken;
+    // Redirect to another HTML page after successful sign-in
+    redirectToPage(user);
 
-    // IdP data available using getAdditionalUserInfo(result)
-    // ...
+    
   })
   .catch((error) => {
     // Handle Errors here.

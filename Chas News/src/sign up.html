@@ -26,8 +26,8 @@
     <div class="or"><h1 id="or">OR</h1></div>
     <div class="right">
         <h3 id="socialmedia">Sign in with</h3>
-        <button class="btn btn-primary facebook" id="facebook">Log in with facebook</button>
-        <button class="btn btn-primary google" id="google">Log in with Google</button>
+        <button class="btn btn-primary facebook" id="facebook">Sign Up  with facebook</button>
+        <button class="btn btn-primary google" id="google">Sign Up with Google</button>
     
     </div>
     
@@ -68,109 +68,77 @@
 
 
 
-      
-  signUp.addEventListener('click',(e)=>{
-    var username =document.getElementById('username').value;
-    var email =document.getElementById('email').value;
-    var password =document.getElementById('password').value;
-    createUserWithEmailAndPassword(auth, email, password)
-    .then((userCredential) => {
-        // Signed up 
-        const user = userCredential.user;
-
-        set(ref(database, 'users/'+ user.uid),{
-          username:username,
-          email:email
-        })
-        alert('user craeted!')
-        
-    })
-    .catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
-
-        alert(errorMessage);
-       
-    });
-
-});
-
-google.addEventListener('click',(e)=>{
-    signInWithPopup(auth, provider)
-    .then((result) => {
-        // This gives you a Google Access Token. You can use it to access the Google API.
-        const credential = GoogleAuthProvider.credentialFromResult(result);
-        const token = credential.accessToken;
-        // The signed-in user info.
-        const user = result.user;
-        // IdP data available using getAdditionalUserInfo(result)
-        // ...
-    }).catch((error) => {
-        // Handle Errors here.
-        const errorCode = error.code;
-        const errorMessage = error.message;
-        // The email of the user's account used.
-        const email = error.customData.email;
-        // The AuthCredential type that was used.
-        const credential = GoogleAuthProvider.credentialFromError(error);
-        // ...
-    });
-});
-
-facebook.addEventListener('click',(e)=>{
-    signInWithPopup(auth, providerF)
-  .then((result) => {
-    // The signed-in user info.
-    const user = result.user;
-
-    // This gives you a Facebook Access Token. You can use it to access the Facebook API.
-    const credential = FacebookAuthProvider.credentialFromResult(result);
-    const accessToken = credential.accessToken;
-
-    // IdP data available using getAdditionalUserInfo(result)
-    // ...
-  })
-  .catch((error) => {
-    // Handle Errors here.
-    const errorCode = error.code;
-    const errorMessage = error.message;
-    // The email of the user's account used.
-    const email = error.customData.email;
-    // The AuthCredential type that was used.
-    const credential = FacebookAuthProvider.credentialFromError(error);
-
-    // ...
-  });
-
-});
-
-
-
-
+   // Function to redirect to another page
+function redirectToPage(user) {
+    // Redirect to another HTML page (replace 'dashboard.html' with the actual file name)
+    window.location.href = 'http://localhost:5173/';
   
-
-
-
-
-
-
-   
-
-
-
-      
-
-
+    // Optionally, you can pass user information to the new page
+    // For example, you can use sessionStorage to store user information temporarily
+    sessionStorage.setItem('loggedInUser', JSON.stringify(user));
+  }
+  
+  // Sign Up
+  signUp.addEventListener('click', (e) => {
+    var username = document.getElementById('username').value;
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+  
+    createUserWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        const user = userCredential.user;
+  
+        set(ref(database, 'users/' + user.uid), {
+          username: username,
+          email: email
+        });
+        alert("Sign up successfuled! ")
+  
+        // Redirect to another HTML page after successful sign-up
+        redirectToPage(user);
+  
+      })
+      .catch((error) => {
+        const errorMessage = error.message;
+        alert(errorMessage);
+      });
+  });
+  
+  // Google Sign In
+  google.addEventListener('click', (e) => {
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        const user = result.user;
+       
+        // Redirect to another HTML page after successful sign-in
+        redirectToPage(user);
+        
+      })
+      .catch((error) => {
+        const errorMessage = error.message;
+        alert(errorMessage);
+      });
+  });
+  
+  // Facebook Sign In
+  facebook.addEventListener('click', (e) => {
+    signInWithPopup(auth, providerF)
+      .then((result) => {
+        const user = result.user;
+        
+        // Redirect to another HTML page after successful sign-in
+        redirectToPage(user);
+      })
+      .catch((error) => {
+        const errorMessage = error.message;
+        alert(errorMessage);
+      });
+  });
+  
 
 
 
   </script>
-
-  
-
-
-   
-
 
 
     

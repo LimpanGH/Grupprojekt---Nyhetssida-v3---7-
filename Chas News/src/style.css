@@ -7,7 +7,8 @@
 
 header {
   border-top: solid 4px #DE667B;
-  border-bottom:solid 2px #DE667B; ;
+  border-bottom:solid 2px #DE667B; 
+ 
 
 }
 button.btn.btn-light.text-green a {
@@ -22,6 +23,15 @@ button.btn.btn-light.text-green {
   border: 1px solid #5bc7a5;
   color: #5bc7a5;
 }
+/* for logIn and Logout button */
+button#logoutBtn {
+  border: 1px solid #5bc7a5;
+  color: black;
+  border: 10%;
+  margin-left: 2rem;
+  padding: 0.5rem;
+}
+
 h1.display-1.text-left {
   margin-left: 1rem;
 }
