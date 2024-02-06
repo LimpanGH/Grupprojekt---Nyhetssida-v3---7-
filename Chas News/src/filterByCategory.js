@@ -112,7 +112,7 @@ export function renderContent(articles,searchKeyword) {
 
     //needs category code for the category Name and the href to be displayed on top of the article as a button
     const categoryAnchorTag = newArticle.querySelector('.categoryAnchorTag');
-    const categoryName = searchKeyword;
+    const categoryName = searchKeyword || 'World';
     const categoryNameH6 = newArticle.querySelector('.categoryName');
     categoryNameH6.textContent = categoryName;
     categoryAnchorTag.href = '#';

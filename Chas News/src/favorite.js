@@ -7,6 +7,9 @@ import { renderContent } from "./filterByCategory";
 const storedData = JSON.parse(localStorage.getItem('data')); // when I get from local storage it is usually a string, but I wat it
 //to be an array, json.parse makes it an array. 
 const articlesContainer = document.getElementById('articlesContainer');
+const favorites = document.querySelector('#favorites');
+
+
 
 
 articlesContainer.addEventListener('click', function (event) {
@@ -51,12 +54,6 @@ articlesContainer.addEventListener('click', function (event) {
             localStorage.setItem('favorites', JSON.stringify(favoritesArticles));
             console.log('include favorite article' , favoritesArticles);
 
-        const newObj = {
-          title,
-          description,
-          urlToImage,
-        };
-
         }
     }
 
@@ -69,4 +66,61 @@ export function isArticleFavorite (articleTitle) {
     
 }
 
+favorites.addEventListener('click', () => {
+    let favoritesArticles = JSON.parse(localStorage.getItem('favorites')) || []; 
+    console.log(favoritesArticles);
 
+    const container = document.getElementById('news-container');
+
+    // Check if there are articles -----------
+    if (favoritesArticles.length === 0) {
+        container.innerHTML = 'No articles available';
+        return;
+    }
+    
+    
+    // Iterate over the articles and create HTML elements
+    favoritesArticles.forEach((article) => {
+        
+        
+        const articlesContainer = document.querySelector('#articlesContainer');
+        const sourceArticle = document.querySelector(".sourceArticle");
+        articlesContainer.innerHTML = '';
+        const newArticle = sourceArticle.cloneNode(true);
+        newArticle.classList.remove('d-none');
+        
+    
+        //needs category code for the category Name and the href to be displayed on top of the article as a button
+        const categoryAnchorTag = newArticle.querySelector('.categoryAnchorTag');
+        const categoryName = 'Favorite';
+        const categoryNameH6 = newArticle.querySelector('.categoryName');
+        categoryNameH6.textContent = categoryName;
+        categoryAnchorTag.href = '#';
+    
+    
+        if (isArticleFavorite (article.title)) {
+        const starIcon = newArticle.querySelector('.starIcon');
+        starIcon.classList.add('fa-solid');
+    
+        
+        }
+        
+    
+        //article's content
+        const contentDiv = newArticle.querySelector('.contentDiv');
+        const imgTag = contentDiv.querySelector("img");
+    
+        const newsTitle = contentDiv.querySelector('.newsTitle');
+        newsTitle.textContent = article.title;
+        const articleDescription = contentDiv.querySelector('.articleDescription')
+        articleDescription.textContent = article.description;
+    
+        imgTag.src = article.urlToImage;
+        
+        
+    
+        articlesContainer.appendChild(newArticle);
+        
+    });
+    
+});
