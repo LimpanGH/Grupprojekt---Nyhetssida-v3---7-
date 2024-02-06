@@ -66,11 +66,17 @@ export function isArticleFavorite (articleTitle) {
     
 }
 
+
+// Click on Favorite button
+
 favorites.addEventListener('click', () => {
     let favoritesArticles = JSON.parse(localStorage.getItem('favorites')) || []; 
-    console.log(favoritesArticles);
-
     const container = document.getElementById('news-container');
+    const articlesContainer = document.querySelector('#articlesContainer');
+    const sourceArticle = document.querySelector(".sourceArticle");
+
+
+    articlesContainer.innerHTML = '';
 
     // Check if there are articles -----------
     if (favoritesArticles.length === 0) {
@@ -78,14 +84,11 @@ favorites.addEventListener('click', () => {
         return;
     }
     
-    
-    // Iterate over the articles and create HTML elements
+    console.log(favoritesArticles.length);
+    // Iterate over the favorites articles and create HTML elements
     favoritesArticles.forEach((article) => {
         
         
-        const articlesContainer = document.querySelector('#articlesContainer');
-        const sourceArticle = document.querySelector(".sourceArticle");
-        articlesContainer.innerHTML = '';
         const newArticle = sourceArticle.cloneNode(true);
         newArticle.classList.remove('d-none');
         
@@ -98,12 +101,10 @@ favorites.addEventListener('click', () => {
         categoryAnchorTag.href = '#';
     
     
-        if (isArticleFavorite (article.title)) {
+
         const starIcon = newArticle.querySelector('.starIcon');
         starIcon.classList.add('fa-solid');
     
-        
-        }
         
     
         //article's content
