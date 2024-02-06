@@ -6,6 +6,7 @@ import {
   selectApiOrLocalStorage,
   requestDataToFilter,
   renderContent,
+  getUserSearchInput,
 } from './filterByCategory';
 
 // Run function:
@@ -14,16 +15,14 @@ import {
 
 selectApiOrLocalStorage();
 
+let searchForm = document.querySelector('form[role="search"]');
+searchForm.addEventListener('submit', function (e) {
+  e.preventDefault()
+  let searchKeyword = getUserSearchInput()
+  requestDataToFilter(searchKeyword)
+});
+
 // Linus ⬆ ------------------------------------------------
-
-
-
-
-
-
-
-
-
 
 // Carolinne ⬇ --------------------------------------------
 

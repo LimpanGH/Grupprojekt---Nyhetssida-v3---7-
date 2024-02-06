@@ -45,6 +45,9 @@
 
 // Kommentera in första apiKey för att att rendera ut från objektet i localStorage.
 export const apiKey = null;
+//export const apiKey = '2188e2d736464810a9de1bf9a5a70713';
+
+
 // Kommentera in andra apiKey för att att göra en request och rendera ut färsk data.
 //export const apiKey = ''
 
@@ -55,44 +58,42 @@ import { isArticleFavorite } from './favorite';
 
 // -----------------------------------------------------
 
-export function selectApiOrLocalStorage () {
-if (apiKey) {
-  requestDataToFilter(apiKey); // API key is provided, fetch data from the API
-} else if (storedData) {
-  const articles = JSON.parse(storedData); // No API key, but data found in localStorage, render it directly
-  renderContent(articles);
-} else {
-  console.log('No API key and no data available in localStorage');
-}
+export function selectApiOrLocalStorage() {
+  if (apiKey) {
+    requestDataToFilter(); // API key is provided, fetch data from the API
+  } else if (storedData) {
+    const articles = JSON.parse(storedData); // No API key, but data found in localStorage, render it directly
+    renderContent(articles);
+  } else {
+    console.log('No API key and no data available in localStorage');
+  }
 }
 
 // -----------------------------------------------------
 
-
-
-// -----------------------------------------------------
-export async function requestDataToFilter(apiKey) {
-  const url = `https://newsapi.org/v2/everything?q=popularity&apiKey=${apiKey}`;
+export async function requestDataToFilter(searchKeyword = 'coding') {
+  // let searchKeyword = 'economy';
+  let language = 'en';
+  let from = '2024-01-17';
+  let to = '2024-02-01';
+  let sortBy = 'popularity';
+  const url = `https://newsapi.org/v2/everything?q=${searchKeyword}&language=${language}&from=${from}&to=${to}&apiKey=${apiKey}`;
   try {
     const response = await axios.get(url);
     const data = response.data.articles;
     console.log(data);
-    renderContent(data);
+    renderContent(data, searchKeyword);
     window.localStorage.setItem('data', JSON.stringify(data));
 
   } catch (error) {
     console.error('Error fetching data:', error);
   }
 }
-// -----------------------------------------------------
-
 
 // -----------------------------------------------------
-export function renderContent(articles) {
+export function renderContent(articles,searchKeyword) {
   const container = document.getElementById('news-container');
-  
-
-  // Check if there are articles
+  // Check if there are articles -----------
   if (articles.length === 0) {
     container.innerHTML = 'No articles available';
     return;
@@ -111,7 +112,7 @@ export function renderContent(articles) {
 
     //needs category code for the category Name and the href to be displayed on top of the article as a button
     const categoryAnchorTag = newArticle.querySelector('.categoryAnchorTag');
-    const categoryName = 'World';
+    const categoryName = searchKeyword;
     const categoryNameH6 = newArticle.querySelector('.categoryName');
     categoryNameH6.textContent = categoryName;
     categoryAnchorTag.href = '#';
@@ -146,10 +147,12 @@ export function renderContent(articles) {
 
 
 }
-// -----------------------------------------------------
 
-
-
-document.addEventListener('DOMContentLoaded', function () {
- 
-});
+// Get value from search-input --------------
+export let getUserSearchInput = () => {
+  let searchInput = document.querySelector('#search-input');
+  console.log(searchInput.value);
+  const searchKeyword = searchInput.value;
+  console.log(searchKeyword); // Log the value to verify
+  return searchKeyword;
+};

@@ -51,6 +51,11 @@ articlesContainer.addEventListener('click', function (event) {
             localStorage.setItem('favorites', JSON.stringify(favoritesArticles));
             console.log('include favorite article' , favoritesArticles);
 
+        const newObj = {
+          title,
+          description,
+          urlToImage,
+        };
 
         }
     }
@@ -63,3 +68,5 @@ export function isArticleFavorite (articleTitle) {
     return favoritesArticles.some(article => article.title === articleTitle);
     
 }
+
+
