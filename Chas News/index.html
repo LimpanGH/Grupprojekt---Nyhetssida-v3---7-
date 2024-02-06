@@ -7,14 +7,26 @@
     <link rel="stylesheet" href="/src/style.css">
     <link rel="stylesheet" href="src/main.css">
     <script src="https://kit.fontawesome.com/14fab5134a.js" crossorigin="anonymous"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3RD4VJ9FW9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-3RD4VJ9FW9');
+</script>
     <title>Chas News</title>
   </head>
+ 
+ 
   <body>
     <header class="d-md-flex justify-content-between align-items-center">
       <h1 class="display-1 text-left">Chas News</h1>
       <div class="d-grid gap-2 d-md-flex justify-content-md-end">
         <button class="btn btn-success me-md-2" type="button">Prenumera</button>
-        <button class="btn btn-light text-green" type="button">Logga in</button>
+        <button class="btn btn-light text-green" type="button"><a href="src/sign up.html">Logga in</a></button>
+        
       </div>
     </header>
 
@@ -46,6 +58,37 @@
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
+          <!-- ****************Dark and white home page *********************  -->
+          <!-- <li class="nav-item dropdown">
+            <button class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show" id="bd-theme" type="button" aria-expanded="true" data-bs-toggle="dropdown" data-bs-display="static" aria-label="Toggle theme (dark)">
+              <svg class="bi my-1 theme-icon-active"><use href="#moon-stars-fill"></use></svg>
+              <span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end show" aria-labelledby="bd-theme-text" data-bs-popper="static">
+              <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+                  <svg class="bi me-2 opacity-50 theme-icon"><use href="#sun-fill"></use></svg>
+                  Light
+                  <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="dark" aria-pressed="true">
+                  <svg class="bi me-2 opacity-50 theme-icon"><use href="#moon-stars-fill"></use></svg>
+                  Dark
+                  <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="false">
+                  <svg class="bi me-2 opacity-50 theme-icon"><use href="#circle-half"></use></svg>
+                  Auto
+                  <svg class="bi ms-auto d-none"><use href="#check2"></use></svg>
+                </button>
+              </li>
+            </ul>
+          </li> -->
+         
         </div>
       </div>
     </nav>
@@ -116,6 +159,8 @@
     
     <script type="module" src="src/main.js"></script>
     <script type="module" src="src/favorite.js"></script>
+    <!-- Google tag (gtag.js) -->
+
 
   </body>
 </html>
