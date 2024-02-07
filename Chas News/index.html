@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/style.css" />
     <link rel="stylesheet" href="src/main.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+
+    <!-- Bootstrap JS (Popper.js and Bootstrap JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
+
     <script
       src="https://kit.fontawesome.com/14fab5134a.js"
       crossorigin="anonymous"
@@ -122,9 +129,22 @@
           // User is logged in, display user information
           userDisplay.innerHTML = `
           <div style="background-color: #f0f0f0; padding: 10px; border-radius: 10px;">
-            Welcome, ${loggedInUser.displayName}! 
-            <button id="logoutBtn" style="background-color:#DE667B; color: #fff; border: none; padding: 5px; border-radius: 5px;">Logout</button>
+            <div id="welcomeMessage" style="cursor: pointer;">
+              Welcome,  ${loggedInUser.displayName}! ▼
+            </div>
+            <div id="titleList" style="display: flex; flex-direction: column; background-color: #fff; border: 1px solid #ccc; position: absolute; z-index: 1;">
+              <p style="margin:1rem;font-style: bold; font-weight: 600;"> <i class="fa-regular fa-star"style="padding-right:2rem;"></i>Sparade artiklar</p>
+              <p style="margin: 1rem;font-style: bold; font-weight: 600;"><i class="fa-regular fa-clock" style="padding-right:2rem;"></i>Läs historik</p>
+              <p style="margin:1rem;font-style: bold;font-weight: 600;"> <i class="fa-regular fa-bell" style="padding-right:2rem;"></i>Push noticer</p>
+              <button id="logoutBtn" style="margin-bottom:0.8rem; margin-right:2rem; background-color:#DE667B; color: #fff; border: none; width:150px;padding-left:6px; border-radius: 5px;"> <i class="fa-solid fa-arrow-right-from-bracket" style="padding-right:2rem;"></i>Logout</button>
+              
+            </div>
+           
           </div>`
+          document.getElementById('welcomeMessage').addEventListener('click', function() {
+            var titleList = document.getElementById('titleList');
+            titleList.style.display = (titleList.style.display === 'block') ? 'none' : 'block';
+          });
 
           // Add click event listener for logout
           document.getElementById('logoutBtn').addEventListener('click', () => {
@@ -135,7 +155,7 @@
           });
         } else {
           // User is not logged in, display login button
-          userDisplay.innerHTML = ' <button class="btn btn-light text-green" type="button" id="loginBtn" ><a href="src/sign up.html"  >Logga in</a></button>';
+          userDisplay.innerHTML = ' <button class="btn btn-light text-green" type="button" id="loginBtn" ><a style="color: black;"href="src/sign up.html"  >Logga in</a></button>';
 
           // Add click event listener for login
           document.getElementById('loginBtn').addEventListener('click', () => {
