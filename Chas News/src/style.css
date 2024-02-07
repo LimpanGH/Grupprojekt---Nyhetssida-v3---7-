@@ -106,7 +106,8 @@ h1#or {
 }
 .right  {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
   width: 50%;
@@ -115,7 +116,7 @@ h1#or {
   text-align: center;
   margin: auto;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 2rem;
 }
 h4#socialmedia {
@@ -132,4 +133,7 @@ button.btn.btn-primary.google {
   background-color: #dd4b39;
   border: none;
   padding: 10px;
+}
+button#facebook , #google{
+  font-size: medium;
 }
