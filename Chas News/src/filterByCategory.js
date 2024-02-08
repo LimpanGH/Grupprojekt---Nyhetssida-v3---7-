@@ -34,6 +34,7 @@
 export const apiKey = 'fc5acecd5e83495683e4a1ba90ab9806';
 
 import axios from 'axios';
+import mockData from './mockData.json';
 
 export const storedData = localStorage.getItem('data');
 
@@ -49,6 +50,8 @@ export function selectApiOrLocalStorage() {
     const articles = JSON.parse(storedData); // No API key, but data found in localStorage, render it directly
     renderContent(articles);
   } else {
+    window.localStorage.setItem('data', JSON.stringify(mockData));
+    renderContent(mockData);
     console.log('No API key and no data available in localStorage');
   }
 }

@@ -1,15 +1,11 @@
 import axios from 'axios';
 import { renderContent } from './filterByCategory';
 
-//localStorage.clear();
-
-//to be an array, json.parse makes it an array.
 const articlesContainer = document.getElementById('articlesContainer');
-// href menu item
 const favorites = document.querySelector('#favorites');
 
 export function setFavoriteLocalStorage(event) {
-  const storedData = JSON.parse(localStorage.getItem('data')); // when I get from local storage it is usually a string, but I wat it
+  const storedData = JSON.parse(localStorage.getItem('data'));
   const button = event.target.closest('.favorite');
   const contentDiv = event.target.closest('.contentDiv');
   let favoritesArticles = localStorage.getItem('favorites')
@@ -18,15 +14,12 @@ export function setFavoriteLocalStorage(event) {
 
   if (button) {
     let starIcon = button.querySelector('.starIcon');
+
     // is favorite
     if (starIcon && starIcon.classList.contains('fa-solid')) {
       console.log('add favorite');
       starIcon.classList.remove('fa-solid');
       const title = contentDiv.querySelector('.newsTitle').textContent;
-      //   const articleToRemove = storedData.filter(
-      //     (article) => article.title === title
-      //   );
-      //   console.log('artigo a ser excluido:', articleToRemove);
 
       favoritesArticles = favoritesArticles.filter(
         (article) => article.title !== title
@@ -34,8 +27,9 @@ export function setFavoriteLocalStorage(event) {
 
       localStorage.setItem('favorites', JSON.stringify(favoritesArticles));
       console.log('exclude favorite article', favoritesArticles);
+      renderFavorites();
 
-      //   is not favorite
+      // is not favorite
     } else {
       console.log('remove favorite');
       starIcon.classList.add('fa-solid');
@@ -61,7 +55,6 @@ export function isArticleFavorite(articleTitle) {
 }
 
 // Click on Favorite button
-
 export const renderFavorites = () => {
   let favoritesArticles = localStorage.getItem('favorites')
     ? JSON.parse(localStorage.getItem('favorites'))
@@ -77,11 +70,10 @@ export const renderFavorites = () => {
   }
   console.log(favoritesArticles.length);
   // Iterate over the favorites articles and create HTML elements
+  const fragment = document.createDocumentFragment();
   favoritesArticles.forEach((article) => {
     const newArticle = articleTemplate.content.cloneNode(true);
-    // newArticle.classList.remove('d-none');
 
-    //needs category code for the category Name and the href to be displayed on top of the article as a button
     const categoryAnchorTag = newArticle.querySelector('.categoryAnchorTag');
     const categoryName = 'Favorite';
     const categoryNameH6 = newArticle.querySelector('.categoryName');
@@ -102,6 +94,7 @@ export const renderFavorites = () => {
 
     imgTag.src = article.urlToImage;
 
-    articlesContainer.appendChild(newArticle);
+    fragment.appendChild(newArticle);
   });
+  articlesContainer.appendChild(fragment);
 };
