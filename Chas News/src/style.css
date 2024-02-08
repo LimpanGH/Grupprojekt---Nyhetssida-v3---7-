@@ -76,7 +76,7 @@ input#password {
   
 }
 input#signUp, #login {
-  width: 20%;
+  width: 50%;
   height: 40%;
   margin-bottom: 1rem;
   background-color: #5bc7a5;
@@ -95,7 +95,7 @@ h1#or {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 80%;
   height: 50%;
   background-color: white;
   text-align: center;
@@ -106,12 +106,12 @@ h1#or {
 }
 .right  {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 2rem;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 50%;
+  width: 80%;
+  height: 60%;
   background-color: white;
   text-align: center;
   margin: auto;
@@ -124,6 +124,7 @@ h4#socialmedia {
 }
 button.btn.btn-primary.facebook{
   margin-bottom: 1rem;
+  margin-top: 1rem;
   background-color: #3b5998;
   border: none;
   padding: 10px;
@@ -135,5 +136,11 @@ button.btn.btn-primary.google {
   padding: 10px;
 }
 button#facebook , #google{
-  font-size: medium;
+  font-size: 18px;
+}
+i.fa-brands.fa-facebook-f {
+  padding-right: 10px;
+}
+i.fa-brands.fa-google {
+  padding-right: 10px;
 }

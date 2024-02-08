@@ -32,7 +32,7 @@
 // Kommentera in första apiKey för att att rendera ut från objektet i localStorage.
 // export const apiKey = '';
 // Kommentera in andra apiKey för att att göra en request och rendera ut färsk data.
-export const apiKey = 'ca4dba689f8c457181c123c32552da4b';
+export const apiKey = '24b5031ec0774cdfbca8b3741c2a102f';
 
 import axios from 'axios';
 

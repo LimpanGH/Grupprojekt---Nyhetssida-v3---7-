@@ -120,10 +120,25 @@
 
     <footer></footer>
     <script>
+    
             // Function to update the login/logout display
       function updateLoginDisplay() {
         const userDisplay = document.getElementById('userDisplay');
-        const loggedInUser = JSON.parse(sessionStorage.getItem('loggedInUser'));
+        const loggedInUser = JSON.parse(sessionStorage.getItem('loggedInUser')); 
+       
+       
+
+
+      
+        //const userToStore = {
+         
+         //displayName: `${loggedInUser.displayName.u}`
+         
+     // };
+      // sessionStorage.setItem('loggedInUser', JSON.stringify(userToStore));
+         
+         
+        console.log(loggedInUser);
 
         if (loggedInUser) {
           // User is logged in, display user information
