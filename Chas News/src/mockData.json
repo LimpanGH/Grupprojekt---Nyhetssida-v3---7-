@@ -1,0 +1,1302 @@
+[
+    {
+        "source": {
+            "id": "the-verge",
+            "name": "The Verge"
+        },
+        "author": "Emilia David",
+        "title": "Meta’s free Code Llama AI programming tool closes the gap with GPT-4",
+        "description": "Meta announced a new AI code generator, Code Llama 70B. This large language model performs better and handles more data, and it’s available for free.",
+        "url": "https://www.theverge.com/2024/1/29/24055011/meta-llama2-code-generator-generative-ai",
+        "urlToImage": "https://cdn.vox-cdn.com/thumbor/waP9E94tG8X54qXNaL-CvH6FzBo=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/22977155/acastro_211101_1777_meta_0001.jpg",
+        "publishedAt": "2024-01-29T23:35:19Z",
+        "content": "Metas free Code Llama AI programming tool closes the gap with GPT-4\r\nMetas free Code Llama AI programming tool closes the gap with GPT-4\r\n / Code Llama 70B can generate and debug larger programming s… [+1645 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "VentureBeat"
+        },
+        "author": "Sharon Goldman",
+        "title": "New open source AI coding tool surpasses its inspiration: Google DeepMind’s AlphaCode",
+        "description": "A new open source AI code generation tool, AlphaCodium, has surpassed DeepMind's AlphaCode, which had Twitter/X all aflutter this week.",
+        "url": "https://venturebeat.com/ai/new-open-source-ai-coding-tool-surpasses-its-inspiration-google-deepminds-alphacode/",
+        "urlToImage": "https://venturebeat.com/wp-content/uploads/2024/01/DALL·E-2024-01-26-11.45.04-Generate-a-minimalist-abstract-illustration-that-represents-AI-code-generation-ensuring-it-contains-no-human-elements-or-facial-features.-The-design-.png?w=1200&strip=all",
+        "publishedAt": "2024-01-26T19:11:01Z",
+        "content": "A new open source AI code generation tool, AlphaCodium, was inspired by Google DeepMinds AlphaCode (and AlphaCode 2, which launched last month powered by Gemini) but has now surpassed it, setting X/T… [+3901 chars]"
+    },
+    {
+        "source": {
+            "id": "wired",
+            "name": "Wired"
+        },
+        "author": "Will Knight",
+        "title": "Etching AI Controls Into Silicon Could Keep Doomsday at Bay",
+        "description": "As the US and other countries ponder how to prevent dangerous uses of AI, some researchers suggest building limitations into crucial chips like GPUs to cap the power of algorithms.",
+        "url": "https://www.wired.com/story/fast-forward-ai-silicon-doomsday/",
+        "urlToImage": "https://media.wired.com/photos/65b1ba4b72d610707cc3c3f1/191:100/w_1280,c_limit/AI-Etching-Silicon-Chips-Business-Alamy-2JB9N3W.jpg",
+        "publishedAt": "2024-01-25T17:00:00Z",
+        "content": "Even the cleverest, most cunning artificial intelligence algorithm will presumably have to obey the laws of silicon. Its capabilities will be constrained by the hardware that its running on.\r\nSome re… [+3567 chars]"
+    },
+    {
+        "source": {
+            "id": "wired",
+            "name": "Wired"
+        },
+        "author": "Ryan Roslansky",
+        "title": "The AI-Fueled Future of Work Needs Humans More Than Ever",
+        "description": "AI is elbowing its way into ever more jobs, but while how we work will change, people skills will still be the most important factor.",
+        "url": "https://www.wired.com/story/the-ai-fueled-future-of-work-needs-humans-more-than-ever/",
+        "urlToImage": "https://media.wired.com/photos/65b1785b72d610707cc3c3eb/191:100/w_1280,c_limit/WW2024_1407293739_BIZ_Ryan-Roslansky-final.jpg",
+        "publishedAt": "2024-01-26T12:00:00Z",
+        "content": "Much like the internet did in the 1990s, AI is going to change the very definition of work. While change can be scary, if the last three years taught us anything, it can also be an opportunity to rei… [+3500 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Ted.com"
+        },
+        "author": "Sofia Ongele, contact@ted.com (TED)",
+        "title": "Your creative superpowers can help protect democracy | Sofia Ongele",
+        "description": "\"Democracy is more fun and inviting when you take it into your own hands,\" says creator and activist Sofia Ongele. Sharing how she's using coding and social media to defend democracy, Ongele invites us to identify our own creative superpowers — whether it's c…",
+        "url": "https://www.ted.com/talks/sofia_ongele_your_creative_superpowers_can_help_protect_democracy",
+        "urlToImage": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/5cb9562e-c2a5-497f-b470-e2bb4c9239bc/SofiaOngele_2023S-embed.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=82c=1050%2C550&w=1050",
+        "publishedAt": "2024-01-23T15:45:34Z",
+        "content": "\"Democracy is more fun and inviting when you take it into your own hands,\" says creator and activist Sofia Ongele. Sharing how she's using coding and social media to defend democracy, Ongele invites … [+2282 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "ReadWrite"
+        },
+        "author": "Deanna Ritchie",
+        "title": "Can AI solve the Boomer-aged programming language on Legacy systems?",
+        "description": "Business IT leaders are beginning to receive assistance from generative AI in updating their Legacy IT systems — some of […]\nThe post Can AI solve the Boomer-aged programming language on Legacy systems? appeared first on ReadWrite.",
+        "url": "https://readwrite.com/can-ai-solve-the-boomer-aged-programming-language-on-legacy-systems/",
+        "urlToImage": "https://readwrite.com/wp-content/uploads/2024/01/AI-solve-Legacy-systems.jpg",
+        "publishedAt": "2024-01-26T23:15:44Z",
+        "content": "Business IT leaders are beginning to receive assistance from generative AI in updating their Legacy IT systems — some of which are heavily loaded with code from the Cobal programming language. As the… [+1967 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Blobstreaming.org"
+        },
+        "author": "Mohamed",
+        "title": "Poor code quality due to AI assistants GitHub Copilot and ChatGPT",
+        "description": "A study analyzes that code quality is decreasing due to the increasing use of AI assistants and technical debt is increasing as a result.\n\nThe study “Coding on Copilot” by GitClear suggests that code quality decreases when using GitHub Copilot or ChatGPT beca…",
+        "url": "https://blobstreaming.org/poor-code-quality-due-to-ai-assistants-github-copilot-and-chatgpt/",
+        "urlToImage": "https://images.unsplash.com/photo-1489257900339-13e688fb85fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDI0fHxxdWFsaXR5fGVufDB8fHx8MTcwNjI4MjY2OHww&ixlib=rb-4.0.3&q=80&w=2000",
+        "publishedAt": "2024-01-26T16:20:04Z",
+        "content": "A study analyzes that code quality is decreasing due to the increasing use of AI assistants and technical debt is increasing as a result.\r\nThe study Coding on Copilot by GitClear suggests that code q… [+3494 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "MacRumors"
+        },
+        "author": "Juli Clover",
+        "title": "Apple Launching 2024 Swift Student Challenge on February 5",
+        "description": "Apple will begin accepting submissions for its next Swift Student Challenge on Monday, February 5, Apple said today in news provided to developers. Apple first announced plans for an early 2024 launch in November, giving students plenty of time to prepare.\n\n\n…",
+        "url": "https://www.macrumors.com/2024/01/23/apple-swift-student-challenge-february-5/",
+        "urlToImage": "https://images.macrumors.com/t/yTqIu9Nnru9LpjnFv99FcOfB-9g=/2048x/article-new/2024/01/swift-student-challenge-2024.jpeg",
+        "publishedAt": "2024-01-23T18:14:28Z",
+        "content": "Apple will begin accepting submissions for its next Swift Student Challenge on Monday, February 5, Apple said today in news provided to developers. Apple first announced plans for an early 2024 launc… [+1159 chars]"
+    },
+    {
+        "source": {
+            "id": "ars-technica",
+            "name": "Ars Technica"
+        },
+        "author": "Kyle Orland",
+        "title": "Convicted console hacker says he paid Nintendo $25 a month from prison",
+        "description": "As Gary Bowser rebuilds his life, fellow Team Xecuter indictees have yet to face trial.",
+        "url": "https://arstechnica.com/gaming/2024/02/after-14-5m-judgments-console-hacker-paid-nintendo-25-a-month-from-prison/",
+        "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2020/10/mario-handcuffs-760x380.jpg",
+        "publishedAt": "2024-02-01T23:57:23Z",
+        "content": "Enlarge/ It's-a me, the long arm of the law.\r\n24\r\nWhen 54-year-old Gary Bowser pleaded guilty to his role in helping Team Xecuter with their piracy-enabling line of console accessories, he realized h… [+3669 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Slashdot.org"
+        },
+        "author": "msmash",
+        "title": "Meta's Free Code Llama AI Programming Tool Closes the Gap With GPT-4",
+        "description": "Meta's latest update to its code generation AI model, Code Llama 70B, is \"the largest and best-performing model\" yet. From a report: Code Llama tools launched in August and are free for both research and commercial use. According to a post on Meta's AI blog, …",
+        "url": "https://tech.slashdot.org/story/24/01/30/1911243/metas-free-code-llama-ai-programming-tool-closes-the-gap-with-gpt-4",
+        "urlToImage": "https://a.fsdn.com/sd/topics/facebook_64.png",
+        "publishedAt": "2024-01-30T21:20:00Z",
+        "content": "Sign up for the Slashdot newsletter! OR check out the new Slashdot job board to browse remote jobs or jobs in your areaDo you develop on GitHub? You can keep using GitHub but automatically sync your … [+268 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Android Central"
+        },
+        "author": "techkritiko@gmail.com (Jay Bonggolto)",
+        "title": "Forget AI chatbots, Meta is aiming for something way bigger.",
+        "description": "Everyone's doing AI chatbots, but Meta seems to have bigger goals in the pipeline.",
+        "url": "https://www.androidcentral.com/apps-software/meta-working-on-open-source-artificial-general-intelligence",
+        "urlToImage": "https://cdn.mos.cms.futurecdn.net/PmNVwScjKJoNPHxsC8pzUi-1200-80.jpg",
+        "publishedAt": "2024-01-19T06:54:57Z",
+        "content": "<ul><li>Meta is merging its AI research teams, FAIR and GenAI, as part of an effort to build an artificial general intelligence (AGI), described as human-level AI.</li><li>CEO Mark Zuckerberg provide… [+2472 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "ReadWrite"
+        },
+        "author": "Maxwell William",
+        "title": "Microsoft unveils Mesh, blending virtual and physical workspaces",
+        "description": "Microsoft has announced the launch of Microsoft Mesh, a new feature intended to enhance hybrid working, responding to the changing […]\nThe post Microsoft unveils Mesh, blending virtual and physical workspaces appeared first on ReadWrite.",
+        "url": "https://readwrite.com/microsoft-unveils-mesh-blending-virtual-and-physical-workspaces/",
+        "urlToImage": "https://readwrite.com/wp-content/uploads/2024/01/DALL·E-2024-01-25-15.08.43-Create-a-1200x800-pixel-image-depicting-a-modern-high-tech-virtual-meeting-room-showcasing-avatars-of-diverse-professionals-interacting-around-a-hol.png",
+        "publishedAt": "2024-01-25T14:13:29Z",
+        "content": "Microsoft has announced the launch of Microsoft Mesh, a new feature intended to enhance hybrid working, responding to the changing dynamics of workplace environments. According to Engadget, Mesh, int… [+2012 chars]"
+    },
+    {
+        "source": {
+            "id": "business-insider",
+            "name": "Business Insider"
+        },
+        "author": "Sawdah Bhaimiya",
+        "title": "DeepMind's cofounder Mustafa Suleyman warns that AI is a 'fundamentally labor replacing' tool",
+        "description": "Mustafa Suleyman said AI will make us smarter and more productive, but in the long term, it could replace us.",
+        "url": "https://www.businessinsider.com/deepmind-mustafa-suleyman-warns-ai-is-a-labor-replacing-tool-2024-1",
+        "urlToImage": "https://i.insider.com/65a90e936979d737182439db?width=1200&format=jpeg",
+        "publishedAt": "2024-01-18T12:51:46Z",
+        "content": "Mustafa Suleyman, Google DeepMind's cofounder and CEO of Inflection AI. Inflection\r\n<ul><li>Mustafa Suleyman said the issue of AI replacing workers is an \"open question\" in the long term. </li><li>Th… [+2305 chars]"
+    },
+    {
+        "source": {
+            "id": "ars-technica",
+            "name": "Ars Technica"
+        },
+        "author": "Kyle Orland",
+        "title": "Game developer survey: 50% work at a studio already using generative AI tools",
+        "description": "But 84% of devs are at least somewhat concerned about ethical use of those tools.",
+        "url": "https://arstechnica.com/gaming/2024/01/game-developer-survey-50-work-at-a-studio-already-using-generative-ai-tools/",
+        "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/01/GettyImages-1418934535-760x380.jpg",
+        "publishedAt": "2024-01-18T19:10:53Z",
+        "content": "Enlarge/ The future of game development?\r\n5\r\nA new survey of thousands of game development professionals finds a near-majority saying generative AI tools are already in use at their workplace. But a … [+3583 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "VentureBeat"
+        },
+        "author": "Sharon Goldman",
+        "title": "Meta is developing open source AGI, says Zuckerberg",
+        "description": "In a surprise Instagram Reel today, Meta CEO Mark Zuckerberg said the company is bringing its FAIR and GenAI research teams closer together with the goal of building open sourced AGI.",
+        "url": "https://venturebeat.com/ai/meta-is-all-in-on-open-source-agi-says-zuckerberg/",
+        "urlToImage": "https://venturebeat.com/wp-content/uploads/2024/01/DALL·E-2024-01-18-13.13.16-An-abstract-representation-of-artificial-general-intelligence.-The-image-depicts-a-complex-network-of-interconnected-digital-nodes-symbolizing-a-vast.png?w=1200&strip=all",
+        "publishedAt": "2024-01-18T18:15:20Z",
+        "content": "In a surprise Instagram Reel today, Meta CEO Mark Zuckerberg said that the company is developing open source artificial general intelligence (AGI). \r\nIt is bringing two of of its AI research teams FA… [+2281 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Phys.Org"
+        },
+        "author": "Bill Schulz",
+        "title": "Bar-coding bacteriophages: New method could unleash powerful biotechnology applications",
+        "description": "Barcodes at the supermarket allow fast and easy product identification, often including such valuable information as location, quantity, and tracking.",
+        "url": "https://phys.org/news/2024-01-bar-coding-bacteriophages-method-unleash.html",
+        "urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2024/barcoding-bacteriophag.jpg",
+        "publishedAt": "2024-01-18T17:41:04Z",
+        "content": "Barcodes at the supermarket allow fast and easy product identification, often including such valuable information as location, quantity, and tracking.\r\nNow, a rapid gene labeling or characterization … [+6018 chars]"
+    },
+    {
+        "source": {
+            "id": "business-insider",
+            "name": "Business Insider"
+        },
+        "author": "Sawdah Bhaimiya",
+        "title": "Remote workers and middle managers are most likely to get let go during layoff season, experts say",
+        "description": "Major US companies have laid off thousands of workers in recent weeks in a bid to improve efficiency and cut costs.",
+        "url": "https://www.businessinsider.com/remote-workers-middle-managers-most-affected-by-layoffs-experts-2024-2",
+        "urlToImage": "https://i.insider.com/65ba35f8ac2de4f17ee617c9?width=1200&format=jpeg",
+        "publishedAt": "2024-02-01T11:51:58Z",
+        "content": "US companies have cut thousands of jobs since the beginning of the year. JGI/Tom Grill/Blend Images\r\n<ul><li>Major US companies have laid off thousands of workers in a bid to improve efficiency and c… [+2627 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Android Police"
+        },
+        "author": "Jay Bonggolto",
+        "title": "OpenAI says ChatGPT-4 can stop slacking off now with new update",
+        "description": "Guess ChatGPT-4 finally learned to finish its homework",
+        "url": "https://www.androidpolice.com/maybe-chatgpt-is-out-of-its-holiday-rut/",
+        "urlToImage": "https://static1.anpoimages.com/wordpress/wp-content/uploads/2023/05/image-1-4.jpg",
+        "publishedAt": "2024-01-29T11:46:53Z",
+        "content": "Summary\r\n<ul><li> OpenAI releases an update, GPT-4 Turbo, to fix ChatGPT's \"laziness\" issue, particularly in handling coding tasks. </li><li> ChatGPT has gained 1.7 billion users since its launch, en… [+3035 chars]"
+    },
+    {
+        "source": {
+            "id": "bbc-news",
+            "name": "BBC News"
+        },
+        "author": "https://www.facebook.com/bbcnews",
+        "title": "Could AI 'trading bots' transform the world of investing?",
+        "description": "Artificial intelligence is increasing being used to guide investments but risks remain.",
+        "url": "https://www.bbc.co.uk/news/business-68092814",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/DE44/production/_132500965_gettyimages-1917867951.jpg",
+        "publishedAt": "2024-02-01T00:13:05Z",
+        "content": "Search for \"AI investing\" online, and you'll be flooded with endless offers to let artificial intelligence manage your money.\r\nI recently spent half an hour finding out what so-called AI \"trading bot… [+5847 chars]"
+    },
+    {
+        "source": {
+            "id": "ars-technica",
+            "name": "Ars Technica"
+        },
+        "author": "Benj Edwards",
+        "title": "Zuckerberg’s AGI remarks follow trend of downplaying AI dangers",
+        "description": "Zuckeberg and Altman both tamp down fear and hype with casual statements about AGI.",
+        "url": "https://arstechnica.com/information-technology/2024/01/zuckerberg-says-meta-is-working-on-open-source-general-intelligence-for-ai/",
+        "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/01/zuckerberg_front_1-760x380.jpg",
+        "publishedAt": "2024-01-18T23:19:01Z",
+        "content": "Enlarge/ Mark Zuckerberg, chief executive officer of Meta Platforms Inc., during the Meta Connect event in Menlo Park, California, on September 27, 2023.\r\n18\r\nOn Thursday, Meta CEO Mark Zuckerberg an… [+5209 chars]"
+    },
+    {
+        "source": {
+            "id": "ars-technica",
+            "name": "Ars Technica"
+        },
+        "author": "Benj Edwards",
+        "title": "OpenAI announces ChatGPT-4 Turbo and ChatGPT 3.5 Turbo model updates",
+        "description": "GPT-4 wasn't putting in the work. Also, lower prices for GPT 3.5 Turbo, other model updates.",
+        "url": "https://arstechnica.com/information-technology/2024/01/openai-updates-chatgpt-model-with-potential-fix-for-ai-laziness-problem/",
+        "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/01/lazy_robot_hero_2-760x380.jpg",
+        "publishedAt": "2024-01-26T17:26:51Z",
+        "content": "13\r\nOn Thursday, OpenAI announced updates to the AI models that power its ChatGPT assistant. Amid less noteworthy updates, OpenAI tucked in a mention of a potential fix to a widely reported \"laziness… [+3783 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Psymon.com"
+        },
+        "author": "Ron Koster",
+        "title": "Colophon for Psymon.com (1998-2021)",
+        "description": "Contact & Other Info",
+        "url": "https://www.psymon.com/colophon/index.html",
+        "urlToImage": "https://www.psymon.com/images/og-image-main.jpg",
+        "publishedAt": "2024-01-31T07:25:07Z",
+        "content": "Pſymon\r\n☙ Colophon ❧\r\nQuestions? Comments? Bug report?Contact Psymon\r\nThis entire website is the sole creation, and “home base” for all the creative pursuits, of Ron Koster — yep, that’s me. The desi… [+1166 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Jamesg.blog"
+        },
+        "author": null,
+        "title": "The indie web",
+        "description": "I went twenty-two years not knowing how to cook an egg. Cooking classes were a rough time for an anxious student like I was. I did not know I was suffering from anxiety at the time; that is a recent realisation. Being open about anxiety is a challenge. How yo…",
+        "url": "https://jamesg.blog/2024/01/27/the-indie-web/",
+        "urlToImage": "https://screenshots.jamesg.blog/?url=https://jamesg.blog/2024/01/27/the-indie-web/",
+        "publishedAt": "2024-01-27T21:53:55Z",
+        "content": "I went twenty-two years not knowing how to cook an egg. Cooking classes were a rough time for an anxious student like I was. I did not know I was suffering from anxiety at the time; that is a recent … [+3392 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Thepythoncodingbook.com"
+        },
+        "author": "Stephen Gruppetta",
+        "title": "The Python Coding Blog: The Python Coding Place",
+        "description": "I have now completed the final phase of The Python Coding Place launch. The members’ area is now live with: And members also get access to the full archive at The Python Coding Stack where I published articles about various Python topics weekly. Read more abo…",
+        "url": "https://thepythoncodingbook.com/2024/01/18/the-python-coding-place-2/",
+        "urlToImage": "https://thepythoncodingbook.com/wp-content/uploads/2023/11/The-Place-Twitter-banner-1024x341.png",
+        "publishedAt": "2024-01-18T12:09:08Z",
+        "content": "I have now completed the final phase of The Python Coding Place launch. The members’ area is now live with:\r\n<ul><li>Video courses across all levels (some live and more to come over coming weeks and … [+626 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Flowingdata.com"
+        },
+        "author": "Nathan Yau",
+        "title": "Catalog of AI data tools",
+        "description": "Meant to be comprehensive more than a curated collection, the Journalist’s Toolbox AI provides many links to tools that might help you data more efficiently. Or at least use more AI-ish thing…",
+        "url": "https://flowingdata.com/2024/01/24/catalog-of-ai-data-tools/",
+        "urlToImage": "https://flowingdata.com/wp-content/uploads/2014/10/logo-lone-square-600-5451c585_site_icon.png",
+        "publishedAt": "2024-01-24T08:20:07Z",
+        "content": "Meant to be comprehensive more than a curated collection, the Journalist’s Toolbox AI provides many links to tools that might help you data more efficiently. Or at least use more AI-ish things.\r\nTher… [+298 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "CNET"
+        },
+        "author": "Stephen Shankland",
+        "title": "Be Patient: Zuckerberg's Big New AI Bet Won't Revolutionize Your Life Anytime Soon - CNET",
+        "description": "Meta is the newest company to pursue artificial general intelligence, a technology that's variously exciting, scary and very much unproven.",
+        "url": "https://www.cnet.com/tech/computing/be-patient-zuckerbergs-big-new-ai-bet-wont-revolutionize-your-life-anytime-soon/",
+        "urlToImage": "https://www.cnet.com/a/img/resize/fecc2bb9e2e139b2cce93c7576ede915e11f519f/hub/2024/01/20/d5e7368f-4385-4ec2-9f24-6b810954c687/ai-head-color-by-getty.jpg?auto=webp&fit=crop&height=675&width=1200",
+        "publishedAt": "2024-01-20T13:00:22Z",
+        "content": "Meta Chief Executive Mark Zuckerberg, who runs one of the biggest AI research efforts around, wants to run one that's even bigger.\r\nOn Thursday, he said Meta is leveling up its work to tackle not jus… [+5948 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Digital Trends"
+        },
+        "author": "Jon Martindale",
+        "title": "The best custom GPTs to make ChatGPT even more powerful",
+        "description": "ChatGPT gets a lot more impressive when you use Custom GPTs. Here are some of the best ones right now.",
+        "url": "https://www.digitaltrends.com/computing/best-custom-gpt-chatgpt/",
+        "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2023/05/ChatGPT-AI-Pexels-Matheus-Bertelli.jpg?resize=1200%2C630&p=1",
+        "publishedAt": "2024-01-31T19:18:06Z",
+        "content": "The introduction of Custom GPTs was one of the most exciting additions to ChatGPT in recent months. These allow you to craft custom chatbots with their own instructions and data by feeding them docum… [+5841 chars]"
+    },
+    {
+        "source": {
+            "id": "business-insider",
+            "name": "Business Insider"
+        },
+        "author": "Darius Rafieyan",
+        "title": "Researchers at Anthropic taught AI chat bots how to lie, and they were way too good at it",
+        "description": "designed to answer the question: if an AI model was trained to lie and deceive, would we be able to fix it? Would we even know?",
+        "url": "https://www.businessinsider.com/researchers-at-anthropic-taught-these-ai-chatbots-how-to-lie-2024-1",
+        "urlToImage": "https://i.insider.com/65b05c8243bb77284b9ffe80?width=1200&format=jpeg",
+        "publishedAt": "2024-01-25T11:00:01Z",
+        "content": "\"The Terminator.\"Orion Pictures\r\n<ul><li>The scientists built LLMs with nefarious hidden motives and trained them to use lies and deception. </li><li>The bots were designed to appear honest and harml… [+5035 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Forbes"
+        },
+        "author": "John Werner, Contributor, \n John Werner, Contributor\n https://www.forbes.com/sites/johnwerner/",
+        "title": "AI And The Future Of Coding",
+        "description": "It makes sense, because writing code is a technical process as opposed to one that is more intuitive, like writing poetry.",
+        "url": "https://www.forbes.com/sites/johnwerner/2024/01/24/ai-and-the-future-of-coding/",
+        "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/65b177efa844ab4b23d7579a/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+        "publishedAt": "2024-01-24T20:52:23Z",
+        "content": "What is AI going to do to the traditional practice of writing software code?\r\nWhat were already finding is that AI can do more and more types of coding as well, or almost as well, as human beings.\r\nD… [+3132 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Deadline"
+        },
+        "author": "Caroline Frost",
+        "title": "The X Factor “Used Secret Coding System For Contestants, Including E and PKO”",
+        "description": "The former British reality TV juggernaut The X Factor is under fire, with former staff revealing that producers used a secret coding system to highlight contestants with the “potential to kick off.” During the BBC podcast, Offstage: Inside the X Factor, one f…",
+        "url": "http://deadline.com/2024/01/the-x-factor-secret-coding-system-contestants-1235806706/",
+        "urlToImage": "https://deadline.com/wp-content/uploads/2024/01/GettyImages-158147096.jpg?w=1024",
+        "publishedAt": "2024-01-27T10:53:58Z",
+        "content": "The former British reality TV juggernaut The X Factor is under fire, with former staff revealing that producers used a secret coding system to highlight contestants with the “potential to kick off.”\r… [+1206 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Visualstudiomagazine.com"
+        },
+        "author": null,
+        "title": "New GitHub Copilot Research Finds 'Downward Pressure on Code Quality'",
+        "description": "'We find disconcerting trends for maintainability.'",
+        "url": "https://visualstudiomagazine.com/articles/2024/01/25/copilot-research.aspx",
+        "urlToImage": "https://visualstudiomagazine.com/-/media/ECG/visualstudiomagazine/Images/introimages/GitHubCopilot2.jpg",
+        "publishedAt": "2024-01-28T18:02:42Z",
+        "content": "News\r\nNew GitHub Copilot Research Finds 'Downward Pressure on Code Quality'\r\nNew research on the effect of AI-powered GitHub Copilot on software development cites some adverse results.\r\nThe \"Coding o… [+2467 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Interviewing.io"
+        },
+        "author": "Michael Mroczka",
+        "title": "How hard is it to cheat with ChatGPT in interviews?",
+        "description": "As an experiment, we asked interviewees to cheat with ChatGPT during their interviews and share who got away with it.",
+        "url": "https://interviewing.io/blog/how-hard-is-it-to-cheat-with-chatgpt-in-technical-interviews",
+        "urlToImage": "https://strapi-iio.s3.us-west-2.amazonaws.com/Pass_rate_by_question_type_when_trying_to_cheat_with_Chat_GPT_c20c87712e.png",
+        "publishedAt": "2024-01-31T17:35:09Z",
+        "content": "ChatGPT has revolutionized work as we know it. From helping small businesses automate their administrative tasks to coding entire React components for web developers, its usefulness is hard to overst… [+22717 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "VentureBeat"
+        },
+        "author": "Dean Takahashi",
+        "title": "Roblox opens new Creator Store to speed game creation",
+        "description": "Roblox launched its Creator Store, a new digital store for creators that replaces the previous Creator Marketplace. The user-generated content platform said the goal of the Creator Store is to foster an ecosystem where creators can safely exchange high-qualit…",
+        "url": "https://venturebeat.com/games/roblox-opens-new-creator-store-to-speed-game-creation/",
+        "urlToImage": "https://venturebeat.com/wp-content/uploads/2023/11/Roblox-Banner.jpg?w=1200&strip=all",
+        "publishedAt": "2024-01-24T01:45:00Z",
+        "content": "Do you want to get the latest gaming industry news straight to your inbox? Sign up for our daily and weekly newsletters here. \r\nRoblox launched its Creator Store, a new digital store for creators tha… [+4029 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "VentureBeat"
+        },
+        "author": "Michael Nuñez",
+        "title": "Meta releases ‘Code Llama 70B’, an open-source behemoth to rival private AI development",
+        "description": "Code Llama 70B is a new and improved version of Meta AI’s code generation model that can write code in various programming languages from natural language prompts or existing code snippets.",
+        "url": "https://venturebeat.com/ai/meta-releases-code-llama-70b-an-open-source-behemoth-to-rival-private-ai-development/",
+        "urlToImage": "https://venturebeat.com/wp-content/uploads/2024/01/nuneybits_Code_llama_be1422ea-d027-46ed-9491-c3b76df94971-transformed.webp?w=1200&strip=all",
+        "publishedAt": "2024-01-29T20:46:23Z",
+        "content": "Meta AI, the company that brought you Llama 2, the gargantuan language model that can generate anything from tweets to essays, has just released a new and improved version of its code generation mode… [+5713 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Github.blog"
+        },
+        "author": "Gwen Davis",
+        "title": "How to get in the flow while coding (and why it’s important)",
+        "description": "Explore what flow state entails, its benefits, and three tips for reaching it the next time you code.\nThe post How to get in the flow while coding (and why it’s important) appeared first on The GitHub Blog.",
+        "url": "https://github.blog/2024-01-22-how-to-get-in-the-flow-while-coding-and-why-its-important/",
+        "urlToImage": "https://github.blog/wp-content/uploads/2024/01/Productivity-LightMode-3.png",
+        "publishedAt": "2024-01-22T19:46:30Z",
+        "content": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">\nIt’s the dream: your ideas are flowing, time and space fade away, the path ahead of you is c… [+8887 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Creativeapplications.net"
+        },
+        "author": "khmkoeln",
+        "title": "IIOANA – AQUA PARK (underground demo music video)",
+        "description": "Live code-able video synth and coding environment that runs directly in the browser, created by Naoto Hieda in collaboration with Pițipunk singer and artist IIOANA.\nCategory: Javascript / Member Submissions / Sound\nTags: choo.io / generative / hydra / javascr…",
+        "url": "https://www.creativeapplications.net/sound/iioana-aqua-park-underground-demo-music-video/",
+        "urlToImage": "https://www.creativeapplications.net/wp-content/uploads/2024/01/IIOANA-AQUA-PARK.jpg",
+        "publishedAt": "2024-01-22T13:55:48Z",
+        "content": "As a (low-key) collaboration with Piipunk singer and artist IIOANA, an alternative demo music video is created by Naoto Hieda using Hydra, a live code-able video synth and coding environment that run… [+3737 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Googleblog.com"
+        },
+        "author": "Google Developers",
+        "title": "How it's Made - Exploring AI x Learning through ShiffBot, an AI experiment powered by the Gemini API",
+        "description": "This Lab Session gives you a glimpse of what’s possible using the Gemini API. Use Google’s AI offerings to bring your own ideas to life.",
+        "url": "https://developers.googleblog.com/2024/01/how-its-made-learning-through-shiffbot-powered-by-gemini-api.html",
+        "urlToImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsHoZN-BcIB_5PkK9W6vxg0VdGbvuxxjvX9QJD9zUmEHrD1l9n1pBaDHW6YewMrMVJowrhLkhOLPUoz1OMuwF3bFKE7dejpEHPXsGppIHtC_9bLacdO045gm839nlon65oHD3LMjSCuWbmfkIx25zLe5ixHKIj8pet4EF4G5-8-2kn31j57k3LhJU6tCM/w1200-h630-p-k-no-nu/meta.png",
+        "publishedAt": "2024-01-24T17:30:00Z",
+        "content": "Posted by Jasmin Rubinovitz, AI Researcher\n\n\n\n\n\nGoogle Lab Sessions is a series of experimental collaborations with innovators. In this session, we partnered with beloved creative coding educator and… [+18781 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Theregister.com"
+        },
+        "author": "Katyanna Quach",
+        "title": "If you use AI to teach you how to code, remember you still need to think for yourself",
+        "description": "Computer science teachers, software experts share their advice on ML assistants\nFeature Learning how to program is perhaps now easier than ever with AI, though the tools that suggest or generate source code for you have to be used wisely. …",
+        "url": "https://www.theregister.com/2024/01/27/ai_coding_automatic/",
+        "urlToImage": "https://regmedia.co.uk/2020/06/18/ab_java_code.jpg",
+        "publishedAt": "2024-01-27T14:40:12Z",
+        "content": "Feature Learning how to program is perhaps now easier than ever with AI, though the tools that suggest or generate source code for you have to be used wisely. \r\nProgramming requires patience and pers… [+7717 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "The Indian Express"
+        },
+        "author": "Tech Desk",
+        "title": "Meta releases powerful ‘Code Llama 70B’, an open-source coding tool to rival GitHub Copilot",
+        "description": "Code Llama is derived from Llama 2 and is fine-tuned for generating computer code.",
+        "url": "https://indianexpress.com/article/technology/artificial-intelligence/meta-code-llama-70b-generative-ai-model-launch-download-9133992/",
+        "urlToImage": "https://images.indianexpress.com/2024/01/meta-code-llama.jpg",
+        "publishedAt": "2024-01-30T04:23:21Z",
+        "content": "Meta’s most advanced and free-to-use large language model, Code Llama, is now available for download for researchers and developers. This generative AI model boasts 70 billion parameters and was orig… [+2156 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Phys.Org"
+        },
+        "author": "Science X",
+        "title": "Unveiling the high-quality MicroTom genome and its impact on developmental biology",
+        "description": "Tomato (Solanum lycopersicum) has marked its global significance with annual production of approximately 186 million tons in 2020. In addition to its edible and economic value, tomato has become a vital model in developmental biology research, surpassing Arab…",
+        "url": "https://phys.org/news/2024-01-unveiling-high-quality-microtom-genome.html",
+        "urlToImage": "https://scx2.b-cdn.net/gfx/news/2024/comprehensive-regulato.jpg",
+        "publishedAt": "2024-01-24T17:25:20Z",
+        "content": "Tomato (Solanum lycopersicum) has marked its global significance with annual production of approximately 186 million tons in 2020. In addition to its edible and economic value, tomato has become a vi… [+4287 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Thedailywtf.com"
+        },
+        "author": "Remy Porter",
+        "title": "CodeSOD: Replacing a City",
+        "description": "Mateus inherited some code where half the variables were named things like strAux1 and strAux2. It was a data driven application, and the data had some conventions that weren't always ideal; for example, every city also had an associated abbreviation stored i…",
+        "url": "https://thedailywtf.com/articles/replacing-a-city",
+        "urlToImage": "https://thedailywtf.com/images/remy/Remy203-300x300.png",
+        "publishedAt": "2024-01-24T06:30:00Z",
+        "content": "Mateus inherited some code where half the variables were named things like strAux1 and strAux2. It was a data driven application, and the data had some conventions that weren't always ideal; for exam… [+1329 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Adafruit.com"
+        },
+        "author": "Angelica",
+        "title": "NEW PRODUCT – CircuitPython 9 Poster",
+        "description": "NEW PRODUCT – CircuitPython 9 PosterCan you believe CircuitPython is now in its ninth iteration? That’s right! NINE, arguably the most rock and roll number, from “Revolution 9” to Nine Inch Nails to “If 6 Was 9”, “Public Animal #9”, “Karn Evil 9″– listen, we …",
+        "url": "https://blog.adafruit.com/2024/01/19/new-product-circuitpython-9-poster/",
+        "urlToImage": "https://cdn-blog.adafruit.com/uploads/2024/01/Poster_Glass_shadow.jpg",
+        "publishedAt": "2024-01-19T19:05:02Z",
+        "content": "January 19, 2024 AT 2:05 pm\r\nNEW PRODUCT – CircuitPython 9 Poster\r\nCan you believe CircuitPython is now in its ninth iteration? That’s right! NINE, arguably the most rock and roll number, from “Revol… [+4333 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Android Authority"
+        },
+        "author": "Adamya Sharma",
+        "title": "Google Bard’s latest update turns your words into AI images",
+        "description": "Bard can now generate images using text prompts from its users. The feature is available worldwide for free.",
+        "url": "https://www.androidauthority.com/google-bard-update-image-generation-3409958/",
+        "urlToImage": "https://www.androidauthority.com/wp-content/uploads/2023/03/Stock-photo-of-Google-Bard-website-on-phone-7.jpg",
+        "publishedAt": "2024-02-01T15:00:21Z",
+        "content": "<ul><li>Google Bard can now generate AI images for free.</li><li>Bard-generated images will be digitally watermarked to help differentiate them from human artwork.</li><li>The latest update to Bard a… [+1308 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Forbes"
+        },
+        "author": "Kevin Bocek, Forbes Councils Member, \n Kevin Bocek, Forbes Councils Member\n https://www.forbes.com/sites/forbestechcouncil/people/kevinbocek/",
+        "title": "Safeguarding Organizations In The Era Of AI Code Creation",
+        "description": "The dizzying pace of AI innovation is bringing about an unexpected new change: the democratization of coding.",
+        "url": "https://www.forbes.com/sites/forbestechcouncil/2024/01/22/safeguarding-organizations-in-the-era-of-ai-code-creation/",
+        "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/5fbbc3ed6379c6ef3bc9a97d/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+        "publishedAt": "2024-01-22T13:45:00Z",
+        "content": "Kevin Bocek is Vice President of Security Strategy and Threat Intelligence at Venafi.\r\ngetty\r\nLast year, Gartner projected that businesses will increase spending for cybersecurity products and servic… [+4460 chars]"
+    },
+    {
+        "source": {
+            "id": "time",
+            "name": "Time"
+        },
+        "author": "Solcyre Burga",
+        "title": "Taylor Swift Deepfakes Highlight the Need for New Legal Protections",
+        "description": "Deepfake pornographic images of Taylor Swift have been shared across the social media platform X, highlighting the lack of digital privacy protections for victims across the globe.",
+        "url": "https://time.com/6589263/taylor-swift-deepfakes-legal-protections/",
+        "urlToImage": "https://api.time.com/wp-content/uploads/2024/01/Swift.jpg?quality=85",
+        "publishedAt": "2024-01-26T22:31:44Z",
+        "content": "Deepfake pornographic images of Taylor Swift have been shared across the social media platform X, highlighting the lack of digital privacy protections for victims across the globe. \r\nIt isnt known wh… [+5467 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "TalkAndroid"
+        },
+        "author": "Peter Holden",
+        "title": "Leaked Pixel 9 Renders Reveal A Flatter Design",
+        "description": "These Pixel 9 renders reveal a refreshed design with the addition of a third sensor module on the rear camera housing. Flatter sides and extensive color-coding are also on show.",
+        "url": "https://www.talkandroid.com/385348-google-pixel-9-renders/",
+        "urlToImage": "https://www.talkandroid.com/wp-content/uploads/2023/10/Pixel-8-Pro_Bay1-847x620.png",
+        "publishedAt": "2024-01-25T15:14:55Z",
+        "content": "We may be nine months away from when it will be unveiled, but thanks to a serial leaker, we may already know what Google’s Pixel 9 looks like. The refreshed design isn’t reinventing the wheel in term… [+2534 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Phys.Org"
+        },
+        "author": "André Julião",
+        "title": "Study of gigantism in whales provides clues to genomic mechanism involved in tumor suppression",
+        "description": "The functioning of certain regions of a few genes in cetaceans (whales, porpoises and dolphins) may explain why the Blue whale (Balaenoptera musculus) can reach lengths of up to 30 meters—almost 10 m more than a bus—while the Bottlenose dolphin (Tursiops trun…",
+        "url": "https://phys.org/news/2024-01-gigantism-whales-clues-genomic-mechanism.html",
+        "urlToImage": "https://scx2.b-cdn.net/gfx/news/2024/study-of-gigantism-in.jpg",
+        "publishedAt": "2024-01-22T18:04:04Z",
+        "content": "The functioning of certain regions of a few genes in cetaceans (whales, porpoises and dolphins) may explain why the Blue whale (Balaenoptera musculus) can reach lengths of up to 30 metersalmost 10 m … [+4683 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Arxiv.org"
+        },
+        "author": null,
+        "title": "Is the Emergence of Life an Expected Phase Transition in the Evolving Universe?",
+        "description": "We propose a novel definition of life in terms of which its emergence in the universe is expected, and its ever-creative open-ended evolution is entailed by no law. Living organisms are Kantian Wholes that achieve Catalytic Closure, Constraint Closure, and Sp…",
+        "url": "https://arxiv.org/abs/2401.09514",
+        "urlToImage": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png",
+        "publishedAt": "2024-01-23T14:06:03Z",
+        "content": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.\r\nBoth individuals and organizations that work with arXivLabs have embraced and acce… [+257 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Small Business Trends"
+        },
+        "author": "Samson Haileyesus",
+        "title": "Computer Programmer Job Description: Templates for Hiring for Your Business",
+        "description": "Explore the multifaceted role of a computer programmer - key responsibilities, essential skills, and career prospects for this in-demand job.",
+        "url": "https://smallbiztrends.com/2024/01/computer-programmer-job-description.html",
+        "urlToImage": "https://media.smallbiztrends.com/2023/09/Computer-Programmer.png",
+        "publishedAt": "2024-01-30T15:36:12Z",
+        "content": "Computer programmers play an indispensable role in the swiftly evolving realm of the digital world. They are the driving force behind the applications and platforms that permeate our daily lives. In … [+32337 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Javacodegeeks.com"
+        },
+        "author": "Eleftheria Drosopoulou",
+        "title": "Mastering String Templates for Readable, Efficient Code",
+        "description": "Hey there, fellow coders! Today, we’re diving into a cool topic that can make your coding life a bit easier: string templates. They might not sound like superheroes, but they’re like the quiet helpers in the coding world. So, what’s the deal with string templ…",
+        "url": "https://www.javacodegeeks.com/2024/01/mastering-string-templates-for-readable-efficient-code.html",
+        "urlToImage": "https://www.javacodegeeks.com/wp-content/uploads/2012/10/java-logo.jpg",
+        "publishedAt": "2024-01-23T05:00:00Z",
+        "content": "Hey there, fellow coders! Today, we’re diving into a cool topic that can make your coding life a bit easier: string templates. They might not sound like superheroes, but they’re like the quiet helper… [+17290 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Thepythoncodingbook.com"
+        },
+        "author": "Stephen Gruppetta",
+        "title": "The Python Coding Blog: Why Should Only The Grown-Ups Have Fun With Python?",
+        "description": "Coding in Pythonn for teenagers and preteens has just got an upgrade. And it's a big one. Self-led video courses by Stephen Gruppetta",
+        "url": "https://thepythoncodingbook.com/2024/01/31/codetoday-unlimited-coding-in-python-for-teenagers-children/",
+        "urlToImage": "https://thepythoncodingbook.com/wp-content/uploads/2024/01/boycoding-1024x341.png",
+        "publishedAt": "2024-01-31T23:29:23Z",
+        "content": "If you’re reading this, you’re possibly familiar with my Python work for adults. What you may not know is that most of my time over the past 8 years has been devoted to teaching Python to children an… [+1457 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Theregister.com"
+        },
+        "author": "Iain Thomson",
+        "title": "40 years since Elite became the most fun you could have with 22 kilobytes",
+        "description": "The Reg talks to co-creator Ian Bell and coder Mark Moxon about what's under the cobra's hood\nRetro Tech Week In 1984 the launch of a computer game was reported on British national news. The purported reason? The news editor apparently walked in after lunch a…",
+        "url": "https://www.theregister.com/2024/01/18/elite_game_retro/",
+        "urlToImage": "https://regmedia.co.uk/2019/11/17/bbc_b.jpg",
+        "publishedAt": "2024-01-18T09:30:06Z",
+        "content": "Retro Tech Week In 1984 the launch of a computer game was reported on British national news. The purported reason? The news editor apparently walked in after lunch and found all the staff were playin… [+11847 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Davidwalsh.name"
+        },
+        "author": "David Walsh",
+        "title": "Date.now()",
+        "description": "Ask any software engineer and they’ll tell you that coding date logic can be a nightmare. Developers need to consider timezones, weird date defaults, and platform-specific date formats. The easiest way to work with dates is to reduce the date to the most simp…",
+        "url": "https://davidwalsh.name/date-now",
+        "urlToImage": "https://davidwalsh.name/wp-content/themes/punky/images/logo.png",
+        "publishedAt": "2024-01-17T12:06:16Z",
+        "content": "Ask any software engineer and they'll tell you that coding date logic can be a nightmare. Developers need to consider timezones, weird date defaults, and platform-specific date formats. The easiest w… [+434 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Codingthepast.com"
+        },
+        "author": null,
+        "title": "Bruno Ponne / Coding The Past: Explore art with SQL and pd.read_sql_query",
+        "description": "Learn to integrate Python with SQL for art data analysis using pd.read_sql_query in this insightful lesson on managing large datasets efficiently.",
+        "url": "https://www.codingthepast.com/2024/01/25/SQL-with-Python.html",
+        "urlToImage": "https://www.codingthepast.com/",
+        "publishedAt": "2024-01-25T00:00:00Z",
+        "content": "Bruno Ponne ● 25 Jan 2024\r\nWhat you will learn\r\n<ul><li> Be able to create a SQL database from csv files;</li><li> Use the psycopg2 library to connect Python and your SQL database;</li><li> Be comfor… [+11401 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Theregister.com"
+        },
+        "author": "Richard Speed",
+        "title": "Lukewarm reception for Microsoft's Copilot Pro amid performance, cost grumbles",
+        "description": "Pricey AI assistant met with enthusiasm and indifference\nJust over a week after Microsoft unveiled Copilot Pro and rolled the service out to more customers, users are complaining about performance, and the platform is being met with a shrug by administrators.…",
+        "url": "https://www.theregister.com/2024/01/23/microsoft_copilot_pro/",
+        "urlToImage": "https://regmedia.co.uk/2024/01/23/shutterstock_copilot.jpg",
+        "publishedAt": "2024-01-23T14:05:09Z",
+        "content": "Just over a week after Microsoft unveiled Copilot Pro and rolled the service out to more customers, users are complaining about performance, and the platform is being met with a shrug by administrato… [+1971 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Hongkiat.com"
+        },
+        "author": "Hongkiat.com",
+        "title": "HitPaw Photo AI Photo Editor Review (2024)",
+        "description": "Artificial Intelligence (AI) is now a core part of our daily activities, from utilizing GitHub Copilot for coding assistance to employing tools like ChatGPT and Copy.AI for enhancing content creation and editing. In the world of photo editing, the use of AI t…",
+        "url": "https://www.hongkiat.com/blog/hitpaw-photo-ai-editor-review/",
+        "urlToImage": "https://assets.hongkiat.com/uploads/hitpaw-photo-ai-editor-review/hitpaw-photo-ai-interface.jpg",
+        "publishedAt": "2024-01-30T13:00:29Z",
+        "content": "Artificial Intelligence (AI) is now a core part of our daily activities, from utilizing GitHub Copilot for coding assistance to employing tools like ChatGPT and Copy.AI for enhancing content creation… [+5618 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Thewaltdisneycompany.com"
+        },
+        "author": "John Gruber",
+        "title": "Disney Has a Good Disney+ App for VisionOS",
+        "description": "Disney+ Environments Magically Transform Users’ Spaces into Landscapes from Disney, Pixar, Marvel, and Star Wars Enjoy an Unprecedented In-Home 3D Experience …Read More",
+        "url": "https://thewaltdisneycompany.com/disney-on-apple-vision-pro-ushers-in-a-new-era-of-storytelling-innovation-and-immersive-entertainment/",
+        "urlToImage": "https://thewaltdisneycompany.com/app/uploads/2024/01/DisneyPlus_Environments.gif",
+        "publishedAt": "2024-01-17T01:00:46Z",
+        "content": "Disney+ Environments Magically Transform Users’ Spaces into Landscapes from Disney, Pixar, Marvel, and Star Wars\r\nEnjoy an Unprecedented In-Home 3D Experience with Popular Films from The Walt Disney … [+6154 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Columbia.edu"
+        },
+        "author": "Andrew",
+        "title": "Michael Wiebe has several new replications written up on his site.",
+        "description": "Michael Wiebe writes: I have several new replications written up on my site. Moretti (2021) studies whether larger cities drive more innovation, but I find that the event study and instrumental variable results are due to coding errors. This means … Continue …",
+        "url": "https://statmodeling.stat.columbia.edu/2024/01/21/michael-wiebe-has-several-new-replications-written-up-on-his-site/",
+        "urlToImage": null,
+        "publishedAt": "2024-01-22T02:02:08Z",
+        "content": "Michael Wiebe writes:\r\nI have several new replications written up on my site.\r\nMoretti (2021) studies whether larger cities drive more innovation, but I find that the event study and instrumental var… [+666 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Raspberrypi.org"
+        },
+        "author": "Sophie Ashford",
+        "title": "Celebrating the community: Sahibjot",
+        "description": "In our series of community stories, we celebrate some of the wonderful things young people and educators around the world are achieving through the power of technology.  In our latest story, we’re heading to Vivek High School in Mohali, India, to meet Sahibjo…",
+        "url": "https://www.raspberrypi.org/blog/celebrating-the-community-sahibjot/",
+        "urlToImage": "https://www.raspberrypi.org/app/uploads/2024/01/Sahibjots-story-500x300.png",
+        "publishedAt": "2024-01-30T12:18:58Z",
+        "content": "In our series of community stories, we celebrate some of the wonderful things young people and educators around the world are achieving through the power of technology. \r\nIn our latest story, were he… [+3926 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Javacodegeeks.com"
+        },
+        "author": "Eleftheria Drosopoulou",
+        "title": "Java Projects for All: From Beginner to Expert Level Coding Fun!",
+        "description": "Embarking on a coding journey in the realm of Java? Exciting times await as you delve into the world of Java projects! This programming powerhouse provides a diverse array of Java projects to sharpen your skills. Unsure where to begin? Fear not! We’ve meticul…",
+        "url": "https://www.javacodegeeks.com/2024/01/java-projects-for-all-from-beginner-to-expert-level-coding-fun.html",
+        "urlToImage": "https://www.javacodegeeks.com/wp-content/uploads/2012/10/java-logo.jpg",
+        "publishedAt": "2024-01-31T06:00:00Z",
+        "content": "Embarking on a coding journey in the realm of Java? Exciting times await as you delve into the world of Java projects! This programming powerhouse provides a diverse array of Java projects to sharpen… [+22837 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Smashingapps.com"
+        },
+        "author": "Team",
+        "title": "How can You Really Level up Your Coding Faster than Thought? A Step-by-Step Guide",
+        "description": "How can You Really Level up Your Coding Faster than Thought? Let's unravel the secrets of accelerating your coding journey at an unprecedented speed.",
+        "url": "https://www.smashingapps.com/how-can-you-really-level-up-your-coding/",
+        "urlToImage": "https://www.smashingapps.com/wp-content/uploads/2024/01/Level-up-Your-Coding-Faster-than-Thought.jpg",
+        "publishedAt": "2024-01-29T14:54:47Z",
+        "content": "Ever wondered how some developers seem to effortlessly level up their coding skills, leaving you in the dust? How can You Really Level up Your Coding Faster than Thought? Well, buckle up, because in … [+7495 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Righto.com"
+        },
+        "author": null,
+        "title": "Using Arc to decode Venter's DNA watermark (2010)",
+        "description": "Recently Craig Venter (who decoded the human genome) created a synthetic bacterium .  The J. Craig Venter Institute (JCVI) took a bacterium...",
+        "url": "https://www.righto.com/2010/06/using-arc-to-decode-venters-secret-dna.html",
+        "urlToImage": "https://lh3.googleusercontent.com/blogger_img_proxy/AJ0KDdVaYCFmFMkLPcT_m_SNYxHeIINUQcIiFg_BZ8LFOhZbTQRPZ-iIHBsi0rDSTx_HshI2LnclZV9m3YeeD-B2f8ypao7p0n0G2asAJw=w1200-h630-p-k-no-nu",
+        "publishedAt": "2024-01-25T00:17:50Z",
+        "content": "Recently Craig Venter (who decoded the human genome) created a synthetic bacterium. The J. Craig Venter Institute (JCVI) took a bacterium's DNA sequence as a computer file, modified it, made physical… [+21009 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Raspberrypi.org"
+        },
+        "author": "Joanne Vincent",
+        "title": "An integrated learning experience for young people",
+        "description": "We’re currently trialling the full integration of our Code Editor in some of the projects on our Projects site, with the aim of providing a seamless experience for young learners. Our Projects site provides hundreds of free coding projects with step-by-step i…",
+        "url": "https://www.raspberrypi.org/blog/code-editor-integration/",
+        "urlToImage": "https://www.raspberrypi.org/app/uploads/2024/02/code-editor-500x389.png",
+        "publishedAt": "2024-02-01T12:00:27Z",
+        "content": "Were currently trialling the full integration of our Code Editor in some of the projects on our Projects site, with the aim of providing a seamless experience for young learners. Our Projects site pr… [+2088 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Digital Trends"
+        },
+        "author": "Jon Martindale",
+        "title": "How to build your own custom GPT with ChatGPT",
+        "description": "Building your own custom GPT is a great way to make a chatbot that works exactly how you want it to and knows what you need it to. Here's how to make one.",
+        "url": "https://www.digitaltrends.com/computing/how-to-build-custom-gpt-chatgpt/",
+        "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2023/06/ChatGPT-laptop-Viralyft-Unsplash.jpg?resize=1200%2C630&p=1",
+        "publishedAt": "2024-01-19T19:24:19Z",
+        "content": "Custom GPTs are one of the most exciting features OpenAI has introduced to ChatGPT in quite some time. They let you fully customize your own natural language AI chatbots with personalized information… [+5177 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "GSMArena.com"
+        },
+        "author": "Vlad",
+        "title": "Google's Bard AI can now generate images",
+        "description": "Today Google brought generative AI to Maps, but it also announced some new developments for Bard. The most important of those is that Bard can now use Gemini Pro, Google's latest multimodal AI model, in all the languages and territories where Bard is already …",
+        "url": "https://www.gsmarena.com/googles_bard_ai_can_now_generate_images-news-61442.php",
+        "urlToImage": "https://fdn.gsmarena.com/imgroot/news/24/02/google-bard-image-generation/-952x498w6/gsmarena_0000.jpg",
+        "publishedAt": "2024-02-01T23:52:02Z",
+        "content": "Today Google brought generative AI to Maps, but it also announced some new developments for Bard. The most important of those is that Bard can now use Gemini Pro, Google's latest multimodal AI model,… [+1715 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Digital Trends"
+        },
+        "author": "Jon Bitner",
+        "title": "Nest Hub Max vs. Skylight Cal Max: Which is best for your home?",
+        "description": "The Nest Hub Max is a versatile smart display, while the Skylight Cal Max is a massive smart calendar. But which is better for your home? Here's a look at both.",
+        "url": "https://www.digitaltrends.com/home/nest-hub-max-vs-skylight-cal-max/",
+        "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2024/01/Cal-Max-shelf-1.jpg?resize=1200%2C630&p=1",
+        "publishedAt": "2024-01-31T20:00:49Z",
+        "content": "The Nest Hub Max is one of the most premium smart displays available. Offering a vibrant screen, support for tons of apps, and the ability to sync with Google Home, it’s a well-rounded and versatile … [+3710 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Help Net Security"
+        },
+        "author": "Help Net Security",
+        "title": "Unlocking sustainable security practices with secure coding education",
+        "description": "Despite stringent regulations and calls for ‘security by design’, organizations are still failing to equip teams with the knowledge to secure code, according to Security Journey. In fact, only 20% of respondents were confident in their ability to detect a vul…",
+        "url": "https://www.helpnetsecurity.com/2024/01/30/secure-coding-education-importance/",
+        "urlToImage": "https://img.helpnetsecurity.com/wp-content/uploads/2023/08/19151905/software-dev.jpg",
+        "publishedAt": "2024-01-30T04:30:24Z",
+        "content": "Despite stringent regulations and calls for security by design, organizations are still failing to equip teams with the knowledge to secure code, according to Security Journey.\r\nIn fact, only 20% of … [+3947 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Christianheilmann.com"
+        },
+        "author": "Chris Heilmann",
+        "title": "Using details/summary and colour coding on GitHub pages",
+        "description": "As CODE100 is coming to Amsterdam, we needed an archive of all the code puzzles we had so far. As the challenges are all on GitHub, it made sense to use GitHub pages for that. So I needed to fix two issues: I wanted to have colour coding of code examples much…",
+        "url": "https://christianheilmann.com/2024/01/24/using-details-summary-and-colour-coding-on-github-pages/",
+        "urlToImage": null,
+        "publishedAt": "2024-01-24T20:35:33Z",
+        "content": "As CODE100 is coming to Amsterdam, we needed an archive of all the code puzzles we had so far. As the challenges are all on GitHub, it made sense to use GitHub pages for that. So I needed to fix two … [+4017 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Biztoc.com"
+        },
+        "author": "fortune.com",
+        "title": "Is coding difficult to learn? It isn’t a cakewalk, but it can open up a near-six-figure career",
+        "description": "Over the past decade or so, learning to code has been somewhat synonymous with paving the way to a well-paid and stable career. Coders, or programmers, have found jobs at numerous tech companies in Silicon Valley and beyond, working for the likes of Apple, Go…",
+        "url": "https://biztoc.com/x/1d11e5219c2ef958",
+        "urlToImage": "https://c.biztoc.com/p/1d11e5219c2ef958/s.webp",
+        "publishedAt": "2024-02-01T17:42:07Z",
+        "content": "Over the past decade or so, learning to code has been somewhat synonymous with paving the way to a well-paid and stable career. Coders, or programmers, have found jobs at numerous tech companies in S… [+308 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Andgravity.com"
+        },
+        "author": null,
+        "title": "death and gravity: This is not interview advice: building a priority-expiry LRU cache without heaps or trees in Python",
+        "description": "Today we're implementing a least recently used cache with priorities and expiry, using only the Python standard library.\nThis is a bIG TEch CoDINg InTerVIEW problem, so we'll work hard to stay away from the correct™ data structures – no heaps, no binary searc…",
+        "url": "https://death.andgravity.com/lru-cache",
+        "urlToImage": null,
+        "publishedAt": "2024-01-20T12:00:00Z",
+        "content": "It's not your fault I got nerdsniped,\r\nbut that doesn't matter.\r\nHi, I'm Adrian, and today we're implementing a\r\nleast recently used cache with priorities and expiry,\r\nusing only the Python standard … [+32648 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "R-bloggers.com"
+        },
+        "author": "Steven P. Sanderson II, MPH",
+        "title": "Mastering Date Calculations in R: A Guide to Calculating Months with Base R and lubridate",
+        "description": "Introduction\nGreetings fellow R enthusiasts! Today, let’s dive into the fascinating world of date calculations. Whether you’re a data scientist, analyst, or just someone who loves coding in R, understanding how to calculate the number of months ...\nContinue r…",
+        "url": "https://www.r-bloggers.com/2024/01/mastering-date-calculations-in-r-a-guide-to-calculating-months-with-base-r-and-lubridate/",
+        "urlToImage": "https://www.r-bloggers.com/wp-content/uploads/2016/04/R_02_2016-05-01.png",
+        "publishedAt": "2024-01-24T05:00:00Z",
+        "content": "Introduction\r\nGreetings fellow R enthusiasts! Today, lets dive into the fascinating world of date calculations. Whether youre a data scientist, analyst, or just someone who loves coding in R, underst… [+3942 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Quicksprout.com"
+        },
+        "author": "Lars Lofgren",
+        "title": "ToolJet Review",
+        "description": "These days, it seems like for every industry and business model out there, there’s a corresponding third-party software solution businesses can use to save time and simplify the collaboration process. But what if your business is unique and caters to a very s…",
+        "url": "https://www.quicksprout.com/tooljet-review/",
+        "urlToImage": "https://www.quicksprout.com/wp-content/uploads/2024/01/tooljet-logo.jpg",
+        "publishedAt": "2024-01-26T17:00:39Z",
+        "content": "These days, it seems like for every industry and business model out there, theres a corresponding third-party software solution businesses can use to save time and simplify the collaboration process.… [+7998 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "BetaNews"
+        },
+        "author": "Ian Barker",
+        "title": "87 percent of organizations likely to invest in Gen AI coding tools",
+        "description": "A new report from software engineering specialist LinearB looks at the effects of generative AI on code creation and delivery. Gen AI is predicted to generate one in five lines of code by the end of this year and the study of over 150 tech leaders sets out to…",
+        "url": "https://betanews.com/2024/01/29/87-percent-of-organizations-likely-to-invest-in-gen-ai-coding-tools/",
+        "urlToImage": "https://betanews.com/wp-content/uploads/2023/11/Artificial-intelligence-AI-business-50x50.jpg",
+        "publishedAt": "2024-01-29T13:57:09Z",
+        "content": "A new report from software engineering specialist LinearB looks at the effects of generative AI on code creation and delivery.\r\nGen AI is predicted to generate one in five lines of code by the end of… [+1491 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Ceph.io"
+        },
+        "author": null,
+        "title": "Ceph: A Journey to 1 TiB/s",
+        "description": "Ceph is an open source distributed storage system designed to evolve with data.",
+        "url": "https://ceph.io/en/news/blog/2024/ceph-a-journey-to-1tibps/",
+        "urlToImage": "https://ceph.ioimages/banner.png",
+        "publishedAt": "2024-01-19T20:02:55Z",
+        "content": "I can't believe they figured it out first. That was the thought going through my head back in mid-December after several weeks of 12-hour days debugging why this cluster was slow. This was probably t… [+35656 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Destructoid"
+        },
+        "author": "Jeff Scott",
+        "title": "Splatoon 3 Side Order DLC arrives near the end of February",
+        "description": "Splatoon 3 fans woke up to big news this morning. After initially being slated for Spring 2024, the second wave of the game's DLC is getting a bump up. It's now scheduled to be released toward the end of next month. \n\n\nSplatoon 3 Sider Order is now confirmed …",
+        "url": "https://www.destructoid.com/splatoon-3-side-order-dlc-arrives-late-february-release-date/",
+        "urlToImage": "https://www.destructoid.com/wp-content/uploads/2024/01/Splatoon-3-Side-Order-DLC-Release-Date.jpg",
+        "publishedAt": "2024-01-24T17:46:29Z",
+        "content": "Splatoon 3 fans woke up to big news this morning. After initially being slated for Spring 2024, the second wave of the game’s DLC is getting a bump up. It’s now scheduled to be released toward the en… [+1366 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Theregister.com"
+        },
+        "author": "Jessica Lyons Hardcastle",
+        "title": "Wait, security courses aren't a requirement to graduate with a computer science degree?",
+        "description": "And software makers seem to be OK with this, apparently\nThere's a line in the latest plea from CISA – the US government's cybersecurity agency – to software developers to do a better job of writing secure code that may make you spit out your coffee.…",
+        "url": "https://www.theregister.com/2024/01/26/security_courses_requirements/",
+        "urlToImage": "https://regmedia.co.uk/2024/01/26/shutterstock_f_grade.jpg",
+        "publishedAt": "2024-01-26T21:28:07Z",
+        "content": "There's a line in the latest plea from CISA the US government's cybersecurity agency to software developers to do a better job of writing secure code that may make you spit out your coffee.\r\nJack Cab… [+3159 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Kdnuggets.com"
+        },
+        "author": "Bala Priya C",
+        "title": "5 Free University Courses to Ace Coding Interviews",
+        "description": "For acing coding interviews, you need to have a rock solid foundation in data structures and algorithms. Check out these free university courses to help you in your journey.",
+        "url": "https://www.kdnuggets.com/5-free-university-courses-to-ace-coding-interviews",
+        "urlToImage": "https://www.kdnuggets.com/wp-content/uploads/c_5_free_university_courses_ace_coding_interviews_1.jpg",
+        "publishedAt": "2024-01-30T13:00:57Z",
+        "content": "Image generated with Segmind SSD-1B model\r\nGiven how competitive the tech job market is right now, you should constantly upskill and improve your technical chops. For any role in data and software en… [+6212 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "PCWorld"
+        },
+        "author": "DealPost Team",
+        "title": "Learn something new in 2024 with $60 extra off StackSkills Unlimited",
+        "description": "Whether you’re interested in professional or personal development, we all want to learn new things and grow. One of the easiest ways to do so is with StackSkills Unlimited, which is currently on sale for just $39.97 (reg. $600) during our January special.\r\n\n\n…",
+        "url": "https://www.pcworld.com/article/2217430/learn-something-new-in-2024-with-60-extra-off-stackskills-unlimited.html",
+        "urlToImage": "https://www.pcworld.com/wp-content/uploads/2024/01/PCWorld-StackSkills-Unlimited.jpeg?quality=50&strip=all&w=1024",
+        "publishedAt": "2024-01-25T10:00:00Z",
+        "content": "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nWhether you’re inter… [+1016 chars]"
+    },
+    {
+        "source": {
+            "id": "techradar",
+            "name": "TechRadar"
+        },
+        "author": "John Walsh",
+        "title": "ChatGPT: friend or foe for app developers?",
+        "description": "While ChatGPT helps developers save time and effort, using AI has important cybersecurity implications.",
+        "url": "https://www.techradar.com/pro/chatgpt-friend-or-foe-for-app-developers",
+        "urlToImage": "https://cdn.mos.cms.futurecdn.net/2UMvPDp3snEwaGbRuCivjE-1200-80.jpg",
+        "publishedAt": "2024-01-31T15:20:35Z",
+        "content": "Once considered a laborious, complex, and highly skill requisite task, the world of coding has changed a lot today. Where previously there was a time when everything had to be written from scratch, a… [+5929 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Raspberrypi.org"
+        },
+        "author": "Veronica Cucuiat",
+        "title": "Integrating computational thinking into primary teaching",
+        "description": "“Computational thinking is really about thinking, and sometimes about computing.” – Aman Yadav, Michigan State University Computational thinking is a vital skill if you want to use a computer to solve problems that matter to you. That’s why we consider comput…",
+        "url": "https://www.raspberrypi.org/blog/integrating-computational-thinking-into-primary-teaching/",
+        "urlToImage": "https://www.raspberrypi.org/app/uploads/2024/01/primary-ed-500x300.png",
+        "publishedAt": "2024-01-18T12:23:21Z",
+        "content": "Computational thinking is really about thinking, and sometimes about computing. Aman Yadav, Michigan State University\r\nComputational thinking is a vital skill if you want to use a computer to solve p… [+7411 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Tim.blog"
+        },
+        "author": "Tim Ferriss",
+        "title": "Noah Kagan — How to Launch a Million-Dollar Business This Weekend (#717)",
+        "description": "Interview with Noah Kagan on The Tim Ferriss Show podcast. \nThe post Noah Kagan — How to Launch a Million-Dollar Business This Weekend (#717) appeared first on The Blog of Author Tim Ferriss.",
+        "url": "https://tim.blog/2024/01/23/noah-kagan-million-dollar-weekend/",
+        "urlToImage": "https://149346886.v2.pressablecdn.com/wp-content/uploads/2024/01/Noah-Kagan-Final-Illustration-scaled.jpeg",
+        "publishedAt": "2024-01-23T15:36:06Z",
+        "content": "Illustration via 99designs\r\nNoah Kagan (@noahkagan) was #30 at Facebook, #4 at Mint, and has since created seven million-dollar businesses (Kickflip/Gambit, AppSumo, KingSumo, SendFox, Sumo, TidyCal,… [+4069 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Atomicobject.com"
+        },
+        "author": "Dan Kelch",
+        "title": "Nobody Cares About Your Git History",
+        "description": "The topic of Git history, rebasing, squashing, and commit messaging often ignites debates as fiery as those over pineapple on pizza.",
+        "url": "https://spin.atomicobject.com/git-history/",
+        "urlToImage": "https://spin.atomicobject.com/wp-content/uploads/JDP-AO2023-310-scaled.jpg",
+        "publishedAt": "2024-01-26T06:53:14Z",
+        "content": "The topic of Git history, rebasing, squashing, and commit messaging often surfaces, igniting debates as fiery as those over Vim vs. Emacs, tabs vs. spaces, or pineapple on pizza. For some, Git histor… [+14248 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Search Engine Journal"
+        },
+        "author": "Matt G. Southern",
+        "title": "Google’s SEO Starter Guide Set For A Major Update via @sejournal, @MattGSouthern",
+        "description": "Google is revamping its official SEO Starter Guide, streamlining advice for modern website owners, and simplifying complex topics.\nThe post Google’s SEO Starter Guide Set For A Major Update appeared first on Search Engine Journal.",
+        "url": "https://www.searchenginejournal.com/googles-seo-starter-guide-set-for-a-major-update/506437/",
+        "urlToImage": "https://www.searchenginejournal.com/wp-content/uploads/2024/01/img_2024-01-25-141945-65b2b4869f3d9-sej.jpeg",
+        "publishedAt": "2024-01-25T19:21:56Z",
+        "content": "Google’s SEO Starter Guide, a critical resource for search engine optimization professionals, is undergoing a significant revision.\r\nThe impending update was announced on the latest episode of “Searc… [+3441 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Javacodegeeks.com"
+        },
+        "author": "Eleftheria Drosopoulou",
+        "title": "Explore These 20 Cool Python Scripts for Fun and Productivity!",
+        "description": "Ready to dive into some Cool Python scripts? In this list, we’ve rounded up 20 interesting ones that are not only fun but also practical. Whether you’re a coding enthusiast or just looking for useful tools, these scripts have got you covered. Let’s check them…",
+        "url": "https://www.javacodegeeks.com/2024/01/explore-these-20-cool-python-scripts-for-fun-and-productivity.html",
+        "urlToImage": "https://www.javacodegeeks.com/wp-content/uploads/2012/10/python-logo.jpg",
+        "publishedAt": "2024-01-17T17:00:00Z",
+        "content": "Ready to dive into some Cool Python scripts? In this list, we’ve rounded up 20 interesting ones that are not only fun but also practical. Whether you’re a coding enthusiast or just looking for useful… [+20161 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "R-bloggers.com"
+        },
+        "author": "Stat's What It's All About",
+        "title": "Centering in Moderation Analysis: A Guide",
+        "description": "This blog post will cover what centering is, what a sum-to-zero contrast is, why and when you should use them, and how you can do them in R. Specifically, we will focus on their use and how they affect coefficient interpretation in regression tab...\r\n\n\n\nConti…",
+        "url": "https://www.r-bloggers.com/2024/01/centering-in-moderation-analysis-a-guide/",
+        "urlToImage": "https://latex.codecogs.com/png.latex?x_i=%5Cbar%7BX%7D",
+        "publishedAt": "2024-01-20T22:00:00Z",
+        "content": "We will start with not centering anything.Continuous Predictor\r\nmodel1 &lt;- lm(Y ~ X, \r\n data = data)\r\nSomething that is always true - the (Intercept) represents the predicted values when all the pr… [+10919 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Javacodegeeks.com"
+        },
+        "author": "Eleftheria Drosopoulou",
+        "title": "SOLID Principles: Crafting Code for Scalability and Maintainability",
+        "description": "Welcome to the world of SOLID principles – the not-so-secret recipe for writing code that’s not just functional, but scalable and easy to maintain. In this journey, we’ll explore how these principles become your coding compass, guiding you towards building so…",
+        "url": "https://www.javacodegeeks.com/2024/01/solid-principles-crafting-code-for-scalability-and-maintainability.html",
+        "urlToImage": "https://www.javacodegeeks.com/wp-content/uploads/2012/10/java-logo.jpg",
+        "publishedAt": "2024-01-17T05:00:00Z",
+        "content": "Welcome to the world of SOLID principles the not-so-secret recipe for writing code that’s not just functional, but scalable and easy to maintain. In this journey, we’ll explore how these principles b… [+4355 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Javacodegeeks.com"
+        },
+        "author": "Eleftheria Drosopoulou",
+        "title": "Essential Java Tips and Best Practices for Beginner Programmers",
+        "description": "Embark on your Java programming journey with confidence! For beginners seeking Essential Java Tips and Best Practices, this guide simplifies the learning curve. We’re here to provide invaluable insights and straightforward advice to help you navigate the exci…",
+        "url": "https://www.javacodegeeks.com/2024/01/essential-java-tips-and-best-practices-for-beginner-programmers.html",
+        "urlToImage": "https://www.javacodegeeks.com/wp-content/uploads/2012/10/java-logo.jpg",
+        "publishedAt": "2024-01-24T17:36:00Z",
+        "content": "Embark on your Java programming journey with confidence! For beginners seeking Essential Java Tips and Best Practices, this guide simplifies the learning curve. We’re here to provide invaluable insig… [+20153 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Geeky Gadgets"
+        },
+        "author": "Julian Horsey",
+        "title": "Code Llama 70B beats ChatGPT-4 at coding and programming",
+        "description": "Developers, coders and those of you learning to program might be interested to know that the latest Code Llama 70B large language model released by Meta and specifically designed to help you improve your coding. Has apparently beaten OpenAI’s ChatGPT  when as…",
+        "url": "https://www.geeky-gadgets.com/code-llama-beats-chatgpt-at-coding/",
+        "urlToImage": "https://www.geeky-gadgets.com/wp-content/uploads/2024/01/Code-Llama-beats-ChatGPT-4-at-coding.jpg",
+        "publishedAt": "2024-01-30T13:01:04Z",
+        "content": "Developers, coders and those of you learning to program might be interested to know that the latest Code Llama 70B large language model released by Meta and specifically designed to help you improve … [+4034 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "MacStories"
+        },
+        "author": "MacStories Team",
+        "title": "Textastic Code Editor [Sponsor]",
+        "description": "Textastic is the most comprehensive and versatile text and code editor for iPad and iPhone. This begins with support for syntax highlighting of more than 80 programming and markup languages: Textastic covers a wide range, including HTML, JavaScript, CSS, C, C…",
+        "url": "https://www.macstories.net/sponsored/textastic-code-editor-sponsor/",
+        "urlToImage": "https://cdn.macstories.net/textastic-code-editor-hero-1-1705535477687.jpg",
+        "publishedAt": "2024-01-22T11:00:00Z",
+        "content": "Textastic is the most comprehensive and versatile text and code editor for iPad and iPhone.\r\nThis begins with support for syntax highlighting of more than 80 programming and markup languages: Textast… [+1948 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Forbes"
+        },
+        "author": "Janakiram MSV, Senior Contributor, \n Janakiram MSV, Senior Contributor\n https://www.forbes.com/sites/janakirammsv/",
+        "title": "Meta Debuts Code Llama 70B: A Powerful Code Generation AI Model",
+        "description": "With Code Llama 70B, enterprises have a choice to host a capable code generation model in their private environment. This gives them control and confidence in protecting their intellectual property.",
+        "url": "https://www.forbes.com/sites/janakirammsv/2024/01/30/meta-debuts-code-llama-70b-a-powerful-code-generation-ai-model/",
+        "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/65b88090390e91395111f5d2/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+        "publishedAt": "2024-01-30T05:04:18Z",
+        "content": "Llama\r\npixabay\r\nMeta updated its foundation model, Code Llama, to support 70B, which makes it a viable alternative to closed AI code models.\r\nCode Llama 70B is described as the \"largest and best-perf… [+3306 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Biztoc.com"
+        },
+        "author": "tech.co",
+        "title": "OpenAI Slashes GPT Prices By Half, Makes ChatGPT Less Lazy",
+        "description": "Artificial intelligence startup OpenAI has made significant changes to its GPT pricing, slashing GPT-3.5 input tokens by 50% among a raft of other changes. The company has also gone to great efforts to address technical issues that led some users to claim tha…",
+        "url": "https://biztoc.com/x/ee9f259654fd7bd8",
+        "urlToImage": "https://c.biztoc.com/p/ee9f259654fd7bd8/s.webp",
+        "publishedAt": "2024-01-26T12:38:22Z",
+        "content": "Artificial intelligence startup OpenAI has made significant changes to its GPT pricing, slashing GPT-3.5 input tokens by 50% among a raft of other changes. The company has also gone to great efforts … [+267 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Psychology Today"
+        },
+        "author": "John Gottman, Ph.D., and Julie Schwartz Gottman Ph.D.",
+        "title": "There Is No Right Way to Fight",
+        "description": "You must have the right ratio of positive to negative interactions.",
+        "url": "https://www.psychologytoday.com/intl/blog/the-healthy-relationship/202401/there-is-no-right-way-to-fight",
+        "urlToImage": "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/teaser_image/blog_entry/2024-01/bike_Nina%20Lishchuk_Shutterstock_592659395_0.jpg?itok=Yc6dTqli",
+        "publishedAt": "2024-01-30T13:27:01Z",
+        "content": "Part III of III\r\nIn the 1960s, Harold Raush, a biologist who taught at the University of Massachusetts-Amherst, launched the first-ever study on the transition to parenthood.He recruited ninety-six c… [+6928 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Eschatonblog.com"
+        },
+        "author": "noreply@blogger.com (Atrios)",
+        "title": "Coding And Automated Bureaucracy",
+        "description": "Hardly the imminent arrival of the singularity.\nAnyone can ask ChatGPT to answer a question or perform a task. But the popular chatbot is particularly useful for workers in three specific industries, according to OpenAI CEO Sam Altman.\r\n\"Coding is probably th…",
+        "url": "https://www.eschatonblog.com/2024/01/coding-and-automated-bureaucracy.html",
+        "urlToImage": null,
+        "publishedAt": "2024-01-18T15:30:00Z",
+        "content": "Hardly the imminent arrival of the singularity.Anyone can ask ChatGPT to answer a question or perform a task. But the popular chatbot is particularly useful for workers in three specific industries, … [+936 chars]"
+    },
+    {
+        "source": {
+            "id": "bbc-news",
+            "name": "BBC News"
+        },
+        "author": "https://www.facebook.com/bbcnews",
+        "title": "Microsoft says AI is getting deployed 'at scale'",
+        "description": "The tech giant's AI success has caused shares to surge, after its market value passed $3tn.",
+        "url": "https://www.bbc.co.uk/news/business-68144741",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1278C/production/_132506657_whatsubject.jpg",
+        "publishedAt": "2024-01-30T22:56:10Z",
+        "content": "Microsoft sales accelerated in the final months of 2023, lifted by demand for its artificial intelligence tools.\r\nThe company said revenue in September to December rose 18% year-on-year to more than … [+2584 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Geeky Gadgets"
+        },
+        "author": "Roland Hutchinson",
+        "title": "Debugging and Conquering Coding Conundrums with Google Bard",
+        "description": "This guide is designed to show you how to use Google Bard to help with coding. If you happen to be a programmer, you’ve likely found yourself gazing at a monitor, your screen awash with baffling error messages that seem as inscrutable as ancient runes. This e…",
+        "url": "https://www.geeky-gadgets.com/?p=417430",
+        "urlToImage": "https://www.geeky-gadgets.com/wp-content/uploads/2024/01/google-bard-12.jpg",
+        "publishedAt": "2024-01-17T08:00:27Z",
+        "content": "This guide is designed to show you how to use Google Bard to help with coding. If you happen to be a programmer, you’ve likely found yourself gazing at a monitor, your screen awash with baffling erro… [+5085 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Geeky Gadgets"
+        },
+        "author": "Roland Hutchinson",
+        "title": "The Best AI Tools to Learn for Coding & Data Analysis",
+        "description": "In this guide, we will look at the best AI tools that you can use to learn coding and data analysis. In the dynamic and rapidly changing world of technology, a new class of tools known as generative AI has risen to prominence, significantly impacting the doma…",
+        "url": "https://www.geeky-gadgets.com/?p=418045",
+        "urlToImage": "https://www.geeky-gadgets.com/wp-content/uploads/2024/01/The-Best-AI-Tools-.jpg",
+        "publishedAt": "2024-01-24T13:00:37Z",
+        "content": "In this guide, we will look at the best AI tools that you can use to learn coding and data analysis. In the dynamic and rapidly changing world of technology, a new class of tools known as generative … [+5449 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Geeky Gadgets"
+        },
+        "author": "Julian Horsey",
+        "title": "Codeqai AI powered coding assistant designed for semantic code search",
+        "description": "Developers and programmers are always on the lookout for tools that can make their work easier and more efficient. Enter Codeqai, an artificial intelligence AI coding assistant that’s changing the way developers interact with their code. This AI assistant is …",
+        "url": "https://www.geeky-gadgets.com/?p=417539",
+        "urlToImage": null,
+        "publishedAt": "2024-01-17T12:47:01Z",
+        "content": "Developers and programmers are always on the lookout for tools that can make their work easier and more efficient. Enter Codeqai, an artificial intelligence AI coding assistant that’s changing the wa… [+2833 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Science Daily"
+        },
+        "author": null,
+        "title": "New tool improves the search for genes that cause diseases",
+        "description": "A new statistical tool improves the ability to find genetic variants that cause disease. The tool combines data from genome wide association studies (GWAS) and predictions of genetic expression to limit the number of false positives and more accurately identi…",
+        "url": "https://www.sciencedaily.com/releases/2024/01/240126140548.htm",
+        "urlToImage": "https://www.sciencedaily.com/images/scidaily-icon.png",
+        "publishedAt": "2024-01-26T19:05:48Z",
+        "content": "A new statistical tool developed by researchers at the University of Chicago improves the ability to find genetic variants that cause disease. The tool, described in a new paper published January 26,… [+4369 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "Geeky Gadgets"
+        },
+        "author": "Julian Horsey",
+        "title": "New open source AI coding assistant DeepSeek released",
+        "description": "Developers, coders and enthusiasts may be interested in a new open source AI coding assistant model in the form of the DeepSeek large language model (LLM).  DeepSeek, a company that’s been working under the radar, has recently released an open-source coding m…",
+        "url": "https://www.geeky-gadgets.com/?p=418385",
+        "urlToImage": "https://www.geeky-gadgets.com/wp-content/uploads/2024/01/DeepSeek-LLM-open-source-AI-coding-assistant.webp",
+        "publishedAt": "2024-01-28T08:51:26Z",
+        "content": "Developers, coders and enthusiasts may be interested in a new open source AI coding assistant model in the form of the DeepSeek large language model (LLM).  DeepSeek, a company that’s been working un… [+4722 chars]"
+    },
+    {
+        "source": {
+            "id": null,
+            "name": "PetaPixel"
+        },
+        "author": "Lisa Marie Segarra",
+        "title": "How a Photographer Built the Ultimate DIY Digital Clock Inside a Flash Unit",
+        "description": "Finnish photographer Petri Damstén crafted a digital clock within a flash unit using a Raspberry Pi Pico, and it looks like a delightful accessory that many photographers would pay good money for.\n[Read More]",
+        "url": "https://petapixel.com/2024/01/30/how-a-photographer-built-the-ultimate-diy-digital-clock-inside-a-flash-unit/",
+        "urlToImage": "https://petapixel.com/assets/uploads/2024/01/diy-raspberry-pi-pico-flash-unit-clock.jpg",
+        "publishedAt": "2024-01-30T21:15:54Z",
+        "content": "Finnish photographer Petri Damstén crafted a digital clock within a flash unit using a Raspberry Pi Pico, and it looks like a delightful accessory that many photographers would pay good money for.\r\nT… [+3118 chars]"
+    }
+]
