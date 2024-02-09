@@ -147,7 +147,6 @@ i.fa-brands.fa-google {
 }
 
 .search{
-  width: 50%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -164,8 +163,7 @@ i.fa-brands.fa-google {
   flex: 1;
   margin-right: -45px;
   font-size: 18px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  
 }
 .search button{
   border: 0;
@@ -231,12 +229,15 @@ i.fa-brands.fa-google {
   
 }
 h2.city {
-  margin-left: 4rem;
+  margin-left: 7rem;
+  margin-top: -5rem;
+  margin-bottom: 2rem;
 }
 h1.temp {
   font-size: 24px;
   font-weight: 600;
   margin-right: 2rem;
+  margin-top: -6rem;
 }
 .datum {
   font-size: 22px; 
@@ -255,4 +256,25 @@ div#datetime {
   margin-top: 2rem;
   background-color: #1d8755;
   color: white;
+}
+.card-header.row.align-items-start {
+  background-color: rgb(209, 208, 208);
+  border-radius: 20px;
+  margin: auto;
+}
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+img.weather-icon {
+  width: 120px;
+  margin: auto;
+  margin-right: 1rem;
+}
+h1.dagen {
+  text-align: center;
+  margin-bottom: 2rem;
 }

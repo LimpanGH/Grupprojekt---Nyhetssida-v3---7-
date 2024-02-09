@@ -54,15 +54,15 @@ async function checkWeather(city) {
 
      // Set weather icon based on weather condition
      if (data.weather[0].main == "Clouds") {
-         weatherIcon.src = "image/clouds.png";
+         weatherIcon.src = "./src/image/clouds.png";
      } else if (data.weather[0].main == "Clear") {
-         weatherIcon.src = "image/clear.png";
+         weatherIcon.src = "./src/image/clear.png";
      } else if (data.weather[0].main == "Rain") {
-         weatherIcon.src = "image/rain.png";
+         weatherIcon.src = "./src/image/rain.png";
      } else if (data.weather[0].main == "Drizzle") {
-         weatherIcon.src = "image/drizzle.png";
+         weatherIcon.src = "./src/mage/drizzle.png";
      } else if (data.weather[0].main == "Mist") {
-         weatherIcon.src = "image/mist.png";
+         weatherIcon.src = "./src/image/mist.png";
      }
 
      document.querySelector(".weather").style.display = "block";
