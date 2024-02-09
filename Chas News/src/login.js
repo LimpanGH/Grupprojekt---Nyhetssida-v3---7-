@@ -95,7 +95,6 @@ onAuthStateChanged(auth, (user) => {
 
 
 
-
 // Google Sign In
 google.addEventListener('click', (e) => {
     signInWithPopup(auth, provider)
@@ -132,3 +131,4 @@ document.getElementById("facebook").addEventListener('click', (e) => {
             alert(errorMessage);
         });
 });
+

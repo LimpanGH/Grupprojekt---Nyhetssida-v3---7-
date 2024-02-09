@@ -31,3 +31,11 @@ articlesContainer.addEventListener('click', setFavoriteLocalStorage);
 const favorites = document.querySelector('#favorites');
 favorites.addEventListener('click', renderFavorites);
 // Carolinne ⬆ ------------------------------------------------
+
+
+// Leila   ⬇ --------------------------------------------
+//importin from function from favorite.js
+import{ updateLoginDisplay} from './favorite';
+updateLoginDisplay();
+
+//Leila    ⬆ ------------------------------------------------

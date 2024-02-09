@@ -123,71 +123,7 @@
     </main>
 
     <footer></footer>
-    <script>
-    
-            // Function to update the login/logout display
-      function updateLoginDisplay() {
-        const userDisplay = document.getElementById('userDisplay');
-        const loggedInUser = JSON.parse(sessionStorage.getItem('loggedInUser')); 
-       
-       
-
-
-      
-        //const userToStore = {
-         
-         //displayName: `${loggedInUser.displayName.u}`
-         
-     // };
-      // sessionStorage.setItem('loggedInUser', JSON.stringify(userToStore));
-         
-         
-        console.log(loggedInUser);
-
-        if (loggedInUser) {
-          // User is logged in, display user information
-          userDisplay.innerHTML = `
-          <div style="background-color: #f0f0f0; padding: 10px; border-radius: 10px;">
-            <div id="welcomeMessage" style="cursor: pointer;">
-              Welcome,  ${loggedInUser.displayName}! ▼
-            </div>
-            <div id="titleList" style="display: flex; flex-direction: column; background-color: #fff; border: 1px solid #ccc; position: absolute; z-index: 1;">
-              <p style="margin:1rem;font-style: bold; font-weight: 600;"> <i class="fa-regular fa-star"style="padding-right:2rem;  cursor: pointer;" id="favorites" aria-current="page"></i>Sparade artiklar</p>
-              <p style="margin: 1rem;font-style: bold; font-weight: 600;"><i class="fa-regular fa-clock" style="padding-right:2rem;"></i>Läs historik</p>
-              <p style="margin:1rem;font-style: bold;font-weight: 600;"> <i class="fa-regular fa-bell" style="padding-right:2rem;"></i>Push noticer</p>
-              <button id="logoutBtn" style="margin-bottom:0.8rem; margin-right:2rem; background-color:#DE667B; color: #fff; border: none; width:150px;padding-left:6px; border-radius: 5px;"> <i class="fa-solid fa-arrow-right-from-bracket" style="padding-right:2rem;"></i>Logout</button>
-              
-            </div>
-           
-          </div>`
-          document.getElementById('welcomeMessage').addEventListener('click', function() {
-            var titleList = document.getElementById('titleList');
-            titleList.style.display = (titleList.style.display === 'block') ? 'none' : 'block';
-          });
-
-          // Add click event listener for logout
-          document.getElementById('logoutBtn').addEventListener('click', () => {
-            // Clear session storage on logout
-            sessionStorage.removeItem('loggedInUser');
-            // Reload the page after logout
-            location.reload();
-          });
-        } else {
-          // User is not logged in, display login button
-          userDisplay.innerHTML = ' <button class="btn btn-light text-green" type="button" id="loginBtn" ><a style="color: black;"href="src/sign up.html"  >Logga in</a></button>';
-
-          // Add click event listener for login
-          document.getElementById('loginBtn').addEventListener('click', () => {
-            // Redirect to the login page
-            window.location.href = 'login.html';
-          });
-        }
-      }
-
-      // Check login status on page load
-      updateLoginDisplay();
-
-    </script>
+   
 
     <!-- src/App.vue -->
 
