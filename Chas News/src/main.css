@@ -3360,6 +3360,13 @@ textarea.form-control-lg {
   position: relative;
 }
 
+#sortKnapp{
+  background-color: white;
+  color: black;
+  border: none;
+  margin-top: 1px;
+}
+
 .dropdown-toggle {
   white-space: nowrap;
 }

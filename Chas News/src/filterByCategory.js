@@ -32,7 +32,7 @@
 // Kommentera in första apiKey för att att rendera ut från objektet i localStorage.
 // export const apiKey = '';
 // Kommentera in andra apiKey för att att göra en request och rendera ut färsk data.
-export const apiKey = 'ca4dba689f8c457181c123c32552da4b';
+export const apiKey = '79a8a58ff85d47c7b1a75cc2b7e294ca';
 
 import axios from 'axios';
 
@@ -141,3 +141,4 @@ export let getUserSearchInput = () => {
   console.log(searchKeyword); // Log the value to verify
   return searchKeyword;
 };
+

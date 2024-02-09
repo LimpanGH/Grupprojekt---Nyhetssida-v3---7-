@@ -57,6 +57,16 @@
                 >Favoriter</a
               >
             </li>
+              <div class="dropdown-center">
+                <button class="btn btn-secondary dropdown-toggle" id="sortKnapp" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sortera
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a id="senast" class="dropdown-item" href="#">Senast</a></li>
+                  <li><a id="äldsta" class="dropdown-item" href="#">Äldsta</a></li>
+                </ul>
+              </div>
+            </li>
           </ul>
 
           <!-- Search input -->
@@ -82,9 +92,7 @@
 
     <main class="container text-center bg-light p-0 pe-2 pt-2 d-lg-grid">
       <div class="row align-items-start">
-        <div id="articlesContainer" class="col-12 col-lg-8">
-          
-        </div>
+        <div id="articlesContainer" class="col-12 col-lg-8"></div>
 
         <aside class="ms-0 me-3 bg-white p-2 col">
           <h6>Senast</h6>
@@ -104,7 +112,6 @@
         </aside>
       </div>
     </main>
-
     <footer></footer>
 
     <!-- src/App.vue -->
