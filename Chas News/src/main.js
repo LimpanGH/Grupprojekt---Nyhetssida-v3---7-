@@ -34,9 +34,16 @@ favorites.addEventListener('click', renderFavorites);
 
 
 // Leila   ⬇ --------------------------------------------
-//importin from function from favorite.js
+//import  function from favorite.js
 import{ updateLoginDisplay} from './favorite';
 updateLoginDisplay();
+
+// //import  function and variables  from väder.js för SideBar
+// import{apiKey,apiUrl,searchBox,searchBtn,weatherIcon,lastSearchedCity,checkWeather} from './väder'
+// searchBtn.addEventListener("click", () => {
+//   checkWeather(searchBox.value);
+// });
+
 
 //Leila    ⬆ ------------------------------------------------
         
