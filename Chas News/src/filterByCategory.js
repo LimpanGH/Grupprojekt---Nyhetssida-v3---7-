@@ -31,11 +31,10 @@
 // Kommentera in första apiKey för att att rendera ut från objektet i localStorage.
 // export const apiKey = '';
 // Kommentera in andra apiKey för att att göra en request och rendera ut färsk data.
-<<<<<<< HEAD
-export const apiKey = '79a8a58ff85d47c7b1a75cc2b7e294ca';
-=======
+
+
 export const apiKey = '24b5031ec0774cdfbca8b3741c2a102f';
->>>>>>> main
+
 
 import axios from 'axios';
 import mockData from './mockData.json';

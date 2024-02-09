@@ -1,6 +1,4 @@
 
-// Yaser ----------------------------------------------
-
 ///////////////////////////
 //SORTERING EFTER SENAST///
 ///////////////////////////
@@ -37,6 +35,12 @@ document.getElementById("senast").addEventListener("click", async function() {
 ////////SORTERING EFTER ÄLDSTA///
 ////////////////////////////////
 
+let eventlyssnare = () => {
+document.getElementById("senast").addEventListener("click", async function() {
+  await handleSearchForPublishedDate();
+});
+}
+
 export function sortArticlesByOldestDate(articles) {
   return articles.sort(function(a, b) {
     return new Date(a.publishedAt) - new Date(b.publishedAt);
@@ -60,6 +64,8 @@ export async function handleSearchForOldestDate() {
   }
 }
 
+export let oldest =  () => {
+
 document.getElementById("äldsta").addEventListener("click", async function() {
   let searchKeyword = getUserSearchInput();
   await requestDataToFilter(searchKeyword);
@@ -72,6 +78,4 @@ document.getElementById("äldsta").addEventListener("click", async function() {
     console.log('Ingen data tillgänglig i localStorage.');
   }
 });
-
-
-// --------------------------------------------------------
+}
