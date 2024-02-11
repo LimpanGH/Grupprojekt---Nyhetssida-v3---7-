@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/src/style.css" />
     <link rel="stylesheet" href="src/main.css" />
+    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
     <!-- Bootstrap för sortera knappen -->
@@ -21,6 +22,7 @@
       crossorigin="anonymous"
     ></script>
     <script type="module" src="src/main.js" defer></script>
+    <script type="module" src="./src/väder.js" defer></script>
     <title>Chas News</title>
   </head>
  
@@ -116,20 +118,45 @@
         <div id="articlesContainer" class="col-12 col-lg-8"></div>
 
         <aside class="ms-0 me-3 bg-white p-2 col">
-          <h6>Senast</h6>
-          <button
-            type="button"
-            class="source-aside w-100 border-0 border-bottom bg-white text-start p-0 mt-3"
-          >
-            <p class="mb-2">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque,
-              iure?
-            </p>
-            <div id="dateLocal" class="d-flex gap-1 text-primary pb-1">
-              <p id="date-aside" class="p-0 m-0">10:00</p>
-              <p id="local-aside" class="p-0 m-0">- Sverige</p>
+          <div class="datum" id="datetime"></div>
+          <div class="card-header" id="Väder">
+            <h1>Dagens Väder</h1>
+            <div class="search">
+                <input type="text" placeholder="Enter city name" spellcheck="false">
+                <button ><img src="./src/image/search.png" alt=""></button>
             </div>
-          </button>
+            <div class="error">
+                <p>Invalid city name</p>
+            </div>
+            <div class="weather" >
+              <img src="./src/image/rain.png" alt="" class="weather-icon">
+                
+                <div class="cityTemp">
+                    
+                    <h2 class="city"></h2>
+                    <h1 class="temp"></h1>
+                    
+                </div>
+                
+                <div class="details">
+                    <div class="col">
+                        <img src="./src//image/humidity.png" alt="">
+                        <div>
+                            <p class="humidity"></p>
+                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="./src/image/wind.png" alt="">
+                        <div>
+                            <p class="wind"></p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+         
         </aside>
       </div>
     </main>

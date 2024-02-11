@@ -38,6 +38,10 @@ favorites.addEventListener('click', renderFavorites);
 import{ updateLoginDisplay} from './favorite';
 updateLoginDisplay();
 
+
+
+
+
 //Leila    ⬆ ------------------------------------------------
         
 //Yaser 
