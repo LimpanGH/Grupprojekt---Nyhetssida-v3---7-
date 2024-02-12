@@ -121,6 +121,7 @@ export const renderFavorites = () => {
               <p style="margin: 1rem;font-style: bold; font-weight: 600; cursor: pointer;"><i class="fa-regular fa-clock" style="padding-right:2rem;"></i>Läs historik</p>
               <hr>
               <p style="margin:1rem;font-style: bold;font-weight: 600; cursor: pointer;"> <i class="fa-regular fa-bell" style="padding-right:2rem;"></i>Push noticer</p>
+              <hr>
               <button id="logoutBtn" style="margin-bottom:0.8rem; margin-right:2rem; background-color:#DE667B; color: #fff; border: none; width:150px;padding-left:6px; border-radius: 5px;"> <i class="fa-solid fa-arrow-right-from-bracket" style="padding-right:2rem;"></i>Logout</button>
               
             </div>

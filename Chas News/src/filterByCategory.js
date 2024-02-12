@@ -33,7 +33,7 @@
 // Kommentera in andra apiKey för att att göra en request och rendera ut färsk data.
 
 
-export const apiKey = '24b5031ec0774cdfbca8b3741c2a102f';
+export const apiKey = '24b5031ec0774cdfbca8b3741c2a102f ';
 
 
 import axios from 'axios';
@@ -75,7 +75,7 @@ export async function requestDataToFilter(searchKeyword = 'coding') {
     renderContent(data, searchKeyword);
     window.localStorage.setItem('data', JSON.stringify(data));
   } catch (error) {
-    console.error('Error fetching data:', error);
+    // console.error('Error fetching data:', error);
   }
 }
 
