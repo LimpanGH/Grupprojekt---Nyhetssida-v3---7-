@@ -76,7 +76,7 @@ input#password {
   height: 4rem;
   
 }
-input#signUp, #login {
+input#signUp, #signIn{
   width: 50%;
   height: 40%;
   margin-bottom: 1rem;
