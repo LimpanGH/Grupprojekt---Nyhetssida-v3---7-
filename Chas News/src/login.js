@@ -50,7 +50,10 @@ signUp.addEventListener('click', (e) => {
 
             set(ref(database, 'users/' + user.uid), {
                 username: username,
-                email: email
+                email: email,
+                
+                 
+
             });
             alert("Sign up successfuled! ")
 

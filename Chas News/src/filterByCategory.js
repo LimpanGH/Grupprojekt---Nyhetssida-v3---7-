@@ -33,7 +33,7 @@
 // Kommentera in andra apiKey för att att göra en request och rendera ut färsk data.
 
 
-export const apiKey = '24b5031ec0774cdfbca8b3741c2a102f ';
+export const apiKey = '24b5031ec0774cdfbca8b3741c2a102f';
 
 
 import axios from 'axios';
@@ -42,7 +42,7 @@ import mockData from './mockData.json';
 export const storedData = localStorage.getItem('data');
 
 //Nytt carro
-import { isArticleFavorite } from './favorite';
+import { isArticleFavorite, renderFavorites  } from './favorite';
 
 // -----------------------------------------------------
 
@@ -80,6 +80,8 @@ export async function requestDataToFilter(searchKeyword = 'coding') {
 }
 
 // -----------------------------------------------------
+
+export const articlesContainer = document.getElementById('articlesContainer');
 export function renderContent(articles, searchKeyword) {
   const articlesContainer = document.querySelector('#articlesContainer');
   // Check if there are articles -----------
@@ -92,6 +94,7 @@ export function renderContent(articles, searchKeyword) {
     : [];
   const favoriteIds = favorites.map((f) => f.url);
   // Iterate over the articles and create HTML elements -----------
+  
   const html = articles
     .map((article) => {
       const isFavorite = favoriteIds.includes(article.url);
@@ -106,7 +109,7 @@ export function renderContent(articles, searchKeyword) {
                 class="categoryAnchorTag btn rounded-0 bg-white d-flex justify-content-between w-100 align-content-center"
               >
                 <h6 class="categoryName m-0 p-0 align-self-center">
-                  Sökord: ${searchKeyword}
+                  ${searchKeyword}
                 </h6>
                 <i class="fa-solid fa-arrow-right m-0"></i>
               </a>
@@ -156,4 +159,45 @@ export let getUserSearchInput = () => {
   console.log(searchKeyword); // Log the value to verify
   return searchKeyword;
 };
+// Update search input value when a navigation link is clicked
+document.querySelectorAll('.nav-link').forEach(link => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
+    const searchKeyword = link.getAttribute('data-search-keyword');
+
+    if (searchKeyword === 'Favorites') {
+      renderFavorites();
+      // You might also want to set the input value to an empty string or something similar
+      document.querySelector('#search-input').value = '';
+    } else {
+      // Call the function to fetch and display articles based on the new search keyword
+      requestDataToFilter(searchKeyword);
+    }
+  });
+});
+
+
+// Modify fetchAndDisplayArticles to accept articles directly
+const fetchAndDisplayArticles = (articles, searchKeyword) => {
+  // Your existing code to display articles
+  renderContent(articles, searchKeyword);
+};
+
+// Remove the previous definition of fetchAndDisplayArticles
+
+// ...
+
+// Call selectApiOrLocalStorage to initiate the content based on the initial state
+selectApiOrLocalStorage();
+document.querySelector('#favorites').addEventListener('click', (event) => {
+  event.preventDefault();
+  renderFavorites();
+});
+console.log(localStorage.getItem('favorites'))
+
+
+
+
+
+
 

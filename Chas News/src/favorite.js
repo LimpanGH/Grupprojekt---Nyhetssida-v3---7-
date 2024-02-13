@@ -1,8 +1,9 @@
 import axios from 'axios';
-import { renderContent } from './filterByCategory';
+import { renderContent,articlesContainer  } from './filterByCategory';
 
-const articlesContainer = document.getElementById('articlesContainer');
+
 const favorites = document.querySelector('#favorites');
+
 
 export function setFavoriteLocalStorage(event) {
   const storedData = JSON.parse(localStorage.getItem('data'));
@@ -117,7 +118,7 @@ export const renderFavorites = () => {
               Welcome,  ${loggedInUser.displayName}! ▼
             </div>
             <div id="titleList" style="display: flex; flex-direction: column; background-color: #fff; border: 1px solid #ccc; position: absolute; z-index: 1;">
-              <p style="margin:1rem;font-style: bold; font-weight: 600; cursor: pointer;"> <i class="fa-regular fa-star"style="padding-right:2rem; " ></i>Sparade artiklar</p> 
+              <p style="margin:1rem;font-style: bold; font-weight: 600; cursor: pointer;"> <i class="fa-regular fa-star "style="padding-right:2rem; "  ></i>Sparade artiklar</p> 
               <p style="margin: 1rem;font-style: bold; font-weight: 600; cursor: pointer;"><i class="fa-regular fa-clock" style="padding-right:2rem;"></i>Läs historik</p>
               <hr>
               <p style="margin:1rem;font-style: bold;font-weight: 600; cursor: pointer;"> <i class="fa-regular fa-bell" style="padding-right:2rem;"></i>Push noticer</p>

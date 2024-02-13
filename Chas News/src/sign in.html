@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js"></script>
+
     <link rel="stylesheet" href="style.css">
     <title>Sign in</title>
 </head>
@@ -25,14 +27,18 @@
 
         
     </div>
-    <div class="or"><h1 id="or">OR</h1></div>
+ 
     <div class="right">
-        <button class="btn btn-primary facebook" id="facebook">Log in with <i class="fa-brands fa-facebook " ></i></button>
-        <button class="btn btn-primary google" id="google">Log in with <i class="fa-brands fa-google" ></i></button>
-    
+         
+      <button class="btn btn-primary facebook" id="facebook"><i class="fa-brands fa-facebook-f"></i> Sign Up with Fcebook</button>
+      <button class="btn btn-primary google" id="google"><i class="fa-brands fa-google " ></i> Sign Up with Google</i></button>
+  
     </div>
     
    </div>
+   <footer>
+    <p>©&nbsp;ChasNews 2024</p>
+   </footer>
 
    <script type="module">
 
@@ -66,7 +72,7 @@
     const provider = new GoogleAuthProvider();
     const providerF = new FacebookAuthProvider();
 
-    console.log(app);
+
 
 
 
@@ -88,18 +94,26 @@
         signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             const user = userCredential.user;
-            alert(user.email + "Login successfuly!!!")
-    
-            // Redirect to the dashboard page after successful sign-in
-            redirectToDashboard(user);
-    
-        })
-    .catch((error) => {
-        const errorCode=error.code;
-        const errorMessage = error.message;
-        alert(errorMessage);
+            var lgDate=new Date();
+            
+            update(ref(database, 'users/' + user.uid), {
+              last_login:lgDate,
+              
+
+          });
+          alert("Logga in successfuled! ")
+
+          // Redirect to another HTML page after successful sign-up
+          redirectToPage(user);
+
+      })
+      .catch((error) => {
+          const errorMessage = error.message;
+          alert(errorMessage);
       });
-  });
+});
+
+
 
    
  
