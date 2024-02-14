@@ -12,18 +12,18 @@ header {
  
 
 }
-button.btn.btn-light.text-green a {
+button.btn a {
   text-decoration: none;
+
 }
 
 h1 {
   font-family: "Chomsky";
 }
 
-button.btn.btn-light.text-green {
-  border: 1px solid #5bc7a5;
-  color: #5bc7a5;
-}
+/* button.btn.btn-success {
+} */
+
 /* for logIn and Logout button */
 button#logoutBtn {
   border: 1px solid #5bc7a5;
