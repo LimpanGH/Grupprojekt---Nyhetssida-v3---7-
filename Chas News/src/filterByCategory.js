@@ -1,32 +1,3 @@
-// API documentaion --*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*
-/**
- * 
-  sortBy
-  The order to sort the articles in. 
-  Possible options: 
-    relevancy, 
-    popularity, 
-    publishedAt.
-  relevancy = articles more closely related to q come first.
-  popularity = articles from popular sources and publishers come first.
-  publishedAt = newest articles come first.
-  Default: publishedAt
- */
-
-/**
- * A date and optional time for the oldest article allowed.
- * This should be in ISO 8601 format (e.g. 2024-01-26 or 2024-01-26T11:24:26
- */
-
-// Language The 2-letter ISO-639-1 code of the language you want to get headlines for,
-// possible options: ar de en es fr he it nl no pt ru sv ud zh,
-// default: all languages returned.
-
-// Code --*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*
-
-// Example endpoints: -------------------------------------------------------
-// const url = `https://newsapi.org/v2/everything?q=Apple&from=2024-01-25&sortBy=popularity&apiKey=${apiKey}`;
-// URl för sökord: //const urlSearchForBitcoin = `https://newsapi.org/v2/everything?q=${searchKeyword}&apiKey=${apiKey}`;
 
 // Kommentera in första apiKey för att att rendera ut från objektet i localStorage.
 // export const apiKey = '';
@@ -38,10 +9,7 @@ export const apiKey = '24b5031ec0774cdfbca8b3741c2a102f';
 
 import axios from 'axios';
 import mockData from './mockData.json';
-
 export const storedData = localStorage.getItem('data');
-
-//Nytt carro
 import { isArticleFavorite, renderFavorites  } from './favorite';
 
 // -----------------------------------------------------
