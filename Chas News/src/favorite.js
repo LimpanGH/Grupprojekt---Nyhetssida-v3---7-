@@ -32,7 +32,7 @@ export function setFavoriteLocalStorage(event) {
 
       // is not favorite
     } else {
-      console.log('remove favorite');
+      // console.log('remove favorite');
       starIcon.classList.add('fa-solid');
 
       const title = contentDiv.querySelector('.newsTitle').textContent;

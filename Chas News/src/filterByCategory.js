@@ -30,14 +30,13 @@
 // URl för sökord: //const urlSearchForBitcoin = `https://newsapi.org/v2/everything?q=${searchKeyword}&apiKey=${apiKey}`;
 
 // Kommentera in första apiKey för att att rendera ut från objektet i localStorage.
-export const apiKey = '';
+//export const apiKey = '';
 // Kommentera in andra apiKey för att att göra en request och rendera ut färsk data.
 
 
-//export const apiKey = '2188e2d736464810a9de1bf9a5a70713';
+export const apiKey = '2188e2d736464810a9de1bf9a5a70713';
 
-
-//import axios from 'axios';
+import axios from 'axios';
 import mockData from './mockData.json' assert { type: 'json' };
 
 export const storedData = localStorage.getItem('data');
