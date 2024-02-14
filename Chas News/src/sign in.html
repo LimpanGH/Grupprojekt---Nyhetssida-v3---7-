@@ -44,7 +44,7 @@
 
     import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
     import { getDatabase,set,ref,update } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js";
-    import { getAuth,  createUserWithEmailAndPassword, signInWithEmailAndPassword, signInWithPopup} from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
+    import { getAuth, signInWithEmailAndPassword, signInWithPopup} from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
     import { GoogleAuthProvider } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
     import { FacebookAuthProvider } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
     import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
@@ -103,7 +103,7 @@
           });
           alert("Logga in successfuled! ")
 
-          // Redirect to another HTML page after successful sign-up
+          // Redirect to another ChasNews page after successful sign-up
           redirectToPage(user);
 
       })
