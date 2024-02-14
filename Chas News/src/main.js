@@ -1,5 +1,6 @@
 // Linus ⬇ --------------------------------------------
 // Importing variables and functions from filterByCategory.js
+
 import {
   apiKey,
   storedData,
@@ -7,9 +8,9 @@ import {
   requestDataToFilter,
   renderContent,
   getUserSearchInput,
-} from './filterByCategory';
+} from './filterByCategory.js';
 
-import { setFavoriteLocalStorage, renderFavorites } from './favorite';
+import { setFavoriteLocalStorage, renderFavorites } from './favorite.js';
 
 // Run function:
 selectApiOrLocalStorage();

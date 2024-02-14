@@ -29,11 +29,11 @@
 // URl för sökord: //const urlSearchForBitcoin = `https://newsapi.org/v2/everything?q=${searchKeyword}&apiKey=${apiKey}`;
 
 // Kommentera in första apiKey för att att rendera ut från objektet i localStorage.
-// export const apiKey = '';
+export const apiKey = '';
 // Kommentera in andra apiKey för att att göra en request och rendera ut färsk data.
 
 
-export const apiKey = '24b5031ec0774cdfbca8b3741c2a102f';
+//export const apiKey = '2188e2d736464810a9de1bf9a5a70713';
 
 
 import axios from 'axios';
@@ -42,7 +42,7 @@ import mockData from './mockData.json';
 export const storedData = localStorage.getItem('data');
 
 //Nytt carro
-import { isArticleFavorite, renderFavorites  } from './favorite';
+import { isArticleFavorite, renderFavorites  } from './favorite.js';
 
 // -----------------------------------------------------
 
@@ -75,7 +75,7 @@ export async function requestDataToFilter(searchKeyword = 'coding') {
     renderContent(data, searchKeyword);
     window.localStorage.setItem('data', JSON.stringify(data));
   } catch (error) {
-    // console.error('Error fetching data:', error);
+    console.error('Error fetching data:', error);
   }
 }
 
@@ -83,7 +83,9 @@ export async function requestDataToFilter(searchKeyword = 'coding') {
 
 export const articlesContainer = document.getElementById('articlesContainer');
 export function renderContent(articles, searchKeyword) {
-  const articlesContainer = document.querySelector('#articlesContainer');
+
+  
+
   // Check if there are articles -----------
   if (articles.length === 0) {
     articlesContainer.innerHTML = 'No articles available';
@@ -147,7 +149,6 @@ export function renderContent(articles, searchKeyword) {
   `;
     })
     .join('');
-
   articlesContainer.innerHTML = html;
 }
 
@@ -193,7 +194,6 @@ document.querySelector('#favorites').addEventListener('click', (event) => {
   event.preventDefault();
   renderFavorites();
 });
-console.log(localStorage.getItem('favorites'))
 
 
 

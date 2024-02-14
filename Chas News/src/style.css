@@ -148,12 +148,12 @@ i.fa-brands.fa-google {
 }
 /*  Add dte and wather on sidebar */
 div#datetime {
-  background-color: rgb(185 185 160);
+  background-color: #67B0C7;
   padding: 1rem 0;
   font-size: x-large;
 }
 div#Väder {
-  background-color: rgb(185 185 160);
+  background-color: #67B0C7;
 }
 .search {
   margin-top: 1rem;
