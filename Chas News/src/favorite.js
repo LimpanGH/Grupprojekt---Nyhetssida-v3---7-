@@ -1,5 +1,5 @@
-import axios from 'axios';
-import { renderContent,articlesContainer  } from './filterByCategory';
+//import axios from 'axios';
+import { renderContent,articlesContainer  } from './filterByCategory.js';
 
 
 const favorites = document.querySelector('#favorites');
@@ -32,7 +32,7 @@ export function setFavoriteLocalStorage(event) {
 
       // is not favorite
     } else {
-      console.log('remove favorite');
+      // console.log('remove favorite');
       starIcon.classList.add('fa-solid');
 
       const title = contentDiv.querySelector('.newsTitle').textContent;

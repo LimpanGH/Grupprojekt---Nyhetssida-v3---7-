@@ -31,17 +31,18 @@ button#logoutBtn {
   border: 10%;
   margin-left: 2rem;
   padding: 0.5rem;
+  
 }
 
-h1.display-1.text-left {
-  margin-left: 1rem;
+/* h1.display-1.text-left {
+  margin-left: 0;
 }
 header.d-md-flex.justify-content-between.align-items-center {
-  margin: 0 3rem;
+  margin: 0;
 }
 nav.navbar.navbar-expand-lg.bg-body-tertiary {
-  margin: 0 3rem;
-}
+  margin: 0;
+} */
 
 /* ****************Register Form********************** */
 

@@ -1,3 +1,4 @@
+
 // API documentaion --*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*
 /**
  * 
@@ -37,7 +38,7 @@ export const apiKey = '24b5031ec0774cdfbca8b3741c2a102f';
 
 
 import axios from 'axios';
-import mockData from './mockData.json';
+import mockData from './mockData.json' assert { type: 'json' };
 
 export const storedData = localStorage.getItem('data');
 
