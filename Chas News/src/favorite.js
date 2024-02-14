@@ -142,7 +142,7 @@ export const renderFavorites = () => {
           });
         } else {
           // User is not logged in, display login button
-          userDisplay.innerHTML = ' <button class="btn btn-light text-green" type="button" id="loginBtn" ><a style="color: black;"href="src/sign up.html"  >Logga in</a></button>';
+          userDisplay.innerHTML = ' <button class="btn btn-light text-green my-2" type="button" id="loginBtn" ><a "href="src/sign up.html"  >Logga in</a></button>';
 
           // Add click event listener for login
           document.getElementById('loginBtn').addEventListener('click', () => {

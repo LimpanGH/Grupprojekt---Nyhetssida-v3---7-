@@ -36,7 +36,7 @@ favorites.addEventListener('click', renderFavorites);
 
 // Leila   ⬇ --------------------------------------------
 //importin from function from favorite.js
-import{ updateLoginDisplay} from './favorite';
+import{ updateLoginDisplay} from './favorite.js';
 updateLoginDisplay();
 
 

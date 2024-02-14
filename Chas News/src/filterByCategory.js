@@ -1,3 +1,4 @@
+
 // API documentaion --*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*
 /**
  * 
@@ -43,7 +44,6 @@ export const storedData = localStorage.getItem('data');
 
 //Nytt carro
 import { isArticleFavorite, renderFavorites  } from './favorite.js';
-
 // -----------------------------------------------------
 
 export function selectApiOrLocalStorage() {
