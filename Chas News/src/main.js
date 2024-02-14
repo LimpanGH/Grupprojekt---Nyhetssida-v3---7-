@@ -15,6 +15,7 @@ import { setFavoriteLocalStorage, renderFavorites } from './favorite.js';
 // Run function:
 selectApiOrLocalStorage();
 
+
 let searchForm = document.querySelector('form[role="search"]');
 searchForm.addEventListener('submit', function (e) {
   e.preventDefault();
@@ -36,7 +37,7 @@ favorites.addEventListener('click', renderFavorites);
 
 // Leila   ⬇ --------------------------------------------
 //importin from function from favorite.js
-import{ updateLoginDisplay} from './favorite';
+import{ updateLoginDisplay } from './favorite.js';
 updateLoginDisplay();
 
 
