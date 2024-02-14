@@ -1,3 +1,4 @@
+
 // API documentaion --*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*--*
 /**
  * 
@@ -36,14 +37,13 @@ export const apiKey = '';
 //export const apiKey = '2188e2d736464810a9de1bf9a5a70713';
 
 
-import axios from 'axios';
-import mockData from './mockData.json';
+//import axios from 'axios';
+import mockData from './mockData.json' assert { type: 'json' };
 
 export const storedData = localStorage.getItem('data');
 
 //Nytt carro
 import { isArticleFavorite, renderFavorites  } from './favorite.js';
-
 // -----------------------------------------------------
 
 export function selectApiOrLocalStorage() {
