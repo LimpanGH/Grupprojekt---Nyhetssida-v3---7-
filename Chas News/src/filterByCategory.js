@@ -38,11 +38,8 @@ export const apiKey = '';
 
 
 import axios from 'axios';
-import mockData from './mockData.json' assert { type: 'json' };
-
+import mockData from './mockData.json';
 export const storedData = localStorage.getItem('data');
-
-//Nytt carro
 import { isArticleFavorite, renderFavorites  } from './favorite';
 
 // -----------------------------------------------------
