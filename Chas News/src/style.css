@@ -12,18 +12,18 @@ header {
  
 
 }
-button.btn.btn-light.text-green a {
+button.btn a {
   text-decoration: none;
+
 }
 
 h1 {
   font-family: "Chomsky";
 }
 
-button.btn.btn-light.text-green {
-  border: 1px solid #5bc7a5;
-  color: #5bc7a5;
-}
+/* button.btn.btn-success {
+} */
+
 /* for logIn and Logout button */
 button#logoutBtn {
   border: 1px solid #5bc7a5;
@@ -31,17 +31,18 @@ button#logoutBtn {
   border: 10%;
   margin-left: 2rem;
   padding: 0.5rem;
+  
 }
 
-h1.display-1.text-left {
-  margin-left: 1rem;
+/* h1.display-1.text-left {
+  margin-left: 0;
 }
 header.d-md-flex.justify-content-between.align-items-center {
-  margin: 0 3rem;
+  margin: 0;
 }
 nav.navbar.navbar-expand-lg.bg-body-tertiary {
-  margin: 0 3rem;
-}
+  margin: 0;
+} */
 
 /* ****************Register Form********************** */
 
@@ -148,12 +149,12 @@ i.fa-brands.fa-google {
 }
 /*  Add dte and wather on sidebar */
 div#datetime {
-  background-color: #67B0C7;
+  background-color: rgb(120 150 195);
   padding: 1rem 0;
   font-size: x-large;
 }
 div#Väder {
-  background-color: #67B0C7;
+  background-color: rgb(120 150 195);
 }
 .search {
   margin-top: 1rem;

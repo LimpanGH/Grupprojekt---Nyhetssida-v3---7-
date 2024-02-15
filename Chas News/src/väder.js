@@ -1,4 +1,3 @@
-
 function updateDateTime() {
     // Get the current date and time
     const now = new Date();
@@ -31,14 +30,11 @@ const searchBtn = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
 
 // Load last searched city from local storage on page load
-let lastSearchedCity = localStorage.getItem('lastSearchedCity');
-// check if lastSearchCity is in local storage, if not the default is Stockholm
-if (!lastSearchedCity) {
-  lastSearchedCity = "Stockholm"; // Define a cidade padrão aqui
-  searchBox.value = lastSearchedCity; // Atualiza o valor do campo de pesquisa
+const lastSearchedCity = localStorage.getItem('lastSearchedCity');
+if (lastSearchedCity) {
+  searchBox.value = lastSearchedCity;
+  checkWeather(lastSearchedCity);
 }
-
-checkWeather(lastSearchedCity);
 
 async function checkWeather(city) {
   const response = await fetch(apiUrl + city + `&appid=${apiKey}`);

@@ -1,5 +1,5 @@
-import axios from 'axios';
-import { renderContent,articlesContainer  } from './filterByCategory';
+//import axios from 'axios';
+import { renderContent,articlesContainer  } from './filterByCategory.js';
 
 
 const favorites = document.querySelector('#favorites');
@@ -32,7 +32,7 @@ export function setFavoriteLocalStorage(event) {
 
       // is not favorite
     } else {
-      console.log('remove favorite');
+      // console.log('remove favorite');
       starIcon.classList.add('fa-solid');
 
       const title = contentDiv.querySelector('.newsTitle').textContent;
@@ -142,7 +142,7 @@ export const renderFavorites = () => {
           });
         } else {
           // User is not logged in, display login button
-          userDisplay.innerHTML = ' <button class="btn btn-light text-green" type="button" id="loginBtn" ><a style="color: black;"href="src/sign up.html"  >Logga in</a></button>';
+          userDisplay.innerHTML = ' <button class="btn btn-success me-md-2 mb-2" type="button" id="loginBtn" ><a class="w-100" style="color: white;"href="src/sign up.html"  >Logga in</a></button>';
 
           // Add click event listener for login
           document.getElementById('loginBtn').addEventListener('click', () => {

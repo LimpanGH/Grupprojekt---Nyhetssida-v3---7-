@@ -1,6 +1,5 @@
 // Linus ⬇ --------------------------------------------
 // Importing variables and functions from filterByCategory.js
-
 import {
   apiKey,
   storedData,
@@ -8,12 +7,13 @@ import {
   requestDataToFilter,
   renderContent,
   getUserSearchInput,
-} from './filterByCategory.js';
+} from './filterByCategory';
 
-import { setFavoriteLocalStorage, renderFavorites } from './favorite.js';
+import { setFavoriteLocalStorage, renderFavorites } from './favorite';
 
 // Run function:
 selectApiOrLocalStorage();
+
 
 let searchForm = document.querySelector('form[role="search"]');
 searchForm.addEventListener('submit', function (e) {
@@ -36,7 +36,7 @@ favorites.addEventListener('click', renderFavorites);
 
 // Leila   ⬇ --------------------------------------------
 //importin from function from favorite.js
-import{ updateLoginDisplay} from './favorite';
+import{ updateLoginDisplay } from './favorite.js';
 updateLoginDisplay();
 
 
