@@ -29,7 +29,7 @@
 // URl för sökord: //const urlSearchForBitcoin = `https://newsapi.org/v2/everything?q=${searchKeyword}&apiKey=${apiKey}`;
 
 // Kommentera in första apiKey för att att rendera ut från objektet i localStorage.
-export const apiKey = '';
+export const apiKey = 'bbbee6039a3b4675a2b400e1bbc6b8b4 ';
 // Kommentera in andra apiKey för att att göra en request och rendera ut färsk data.
 
 
